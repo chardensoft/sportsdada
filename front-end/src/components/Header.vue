@@ -70,8 +70,12 @@
   color: #4670B4;
 }
 
-.logo {
-  margin-right: -50px;
+/* Mobile Styles */
+@media only screen and (max-width: 750px) {
+  .logo {
+    width: 50%;
+  }
 }
+
 
 </style>

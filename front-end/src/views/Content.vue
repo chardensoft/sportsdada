@@ -126,4 +126,32 @@ a:active:hover {
   list-style: none;
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+  .content {
+    width: 100%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .list {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .links-list {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .articles-title,
+  .projects-title {
+    text-decoration: underline;
+  }
+
+}
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 700px) {
+
+}
+
+
 </style>
