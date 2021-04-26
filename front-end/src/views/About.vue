@@ -34,4 +34,12 @@ export default {
   margin-bottom: 300px;
 }
 
+@media only screen and (max-width: 450px) {
+  .comingsoon {
+    padding: 5px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
 </style>
