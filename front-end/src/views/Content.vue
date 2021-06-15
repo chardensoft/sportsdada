@@ -59,7 +59,7 @@
         <div class="list Dr. Sabin">
           <h4 class="sabin-title content-page-subtitle">Dr. Paul Sabin, ESPN</h4>
           <li class="links-list">
-            <a href="https://nbasalary.sportsdadas.net/"
+            <a href="https://nbasalary.sportsdada.net/"
               target="_blank">Research Project: Predicting NBA Success Using Salary Data</a>
           </li>
         </div>
