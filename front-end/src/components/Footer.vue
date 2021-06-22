@@ -2,7 +2,10 @@
   <div class="footer">
     <div class="footer-content bg-light">
       <h6 class ="header6">All content copyright © Sports Dada</h6>
-      <h6 class ="header6">@SportsDada on Twitter</h6>
+      <h6 class ="header6">Catch us on
+        <a href="https://twitter.com/SportsDada" target="_blank">Twitter</a> or
+        <a href="https://www.instagram.com/sports.dada/" target="_blank">Instagram</a>
+      </h6>
       <h6 class ="header6">Text me: 801.712.0713</h6>
     </div>
 
@@ -24,5 +27,6 @@
 .header6 {
   color: #CE663D;
 }
+
 
 </style>

@@ -46,6 +46,13 @@
               target="_blank">NBA: Less Than Five Percent</a>
           </li>
         </div>
+        <div class="list Dr. Sabin">
+          <h4 class="sabin-title content-page-subtitle">Dr. Paul Sabin, ESPN</h4>
+          <li class="links-list">
+            <a href="https://github.com/chardensoft/nbasalary/blob/main/Final%20Paper.pdf"
+              target="_blank">The Effect of Salary Allocation on Team Success in the NBA</a>
+          </li>
+        </div>
       </div>
       <div class="projects">
         <h3 class="projects-title content-page-title">Projects</h3>
@@ -53,14 +60,26 @@
           <h4 class="pottersports-title content-page-subtitle">Potter Sports Group</h4>
           <li class="links-list">
             <a href="https://christopher-harden.shinyapps.io/shiny1/"
-              target="_blank">Shiny App: Predicting NCAA players going to the NBA</a>
+              target="_blank">Shiny App: Predicting NCAA Players in the NBA</a>
+          </li>
+          <li class="links-list">
+            <a href="https://github.com/chardensoft/potter/blob/main/PotterProject.pdf"
+              target="_blank">Presentation: Predicting NCAA Players in the NBA</a>
           </li>
         </div>
         <div class="list Dr. Sabin">
           <h4 class="sabin-title content-page-subtitle">Dr. Paul Sabin, ESPN</h4>
           <li class="links-list">
-            <a href="https://nbasalary.sportsdada.net/">
-              Research Project: Predicting NBA Success Using Salary Data</a>
+            <a href="https://nbasalary.sportsdada.net/"
+              target="_blank">Research Project: Predicting NBA Success Using Salary Data</a>
+          </li>
+          <li class="links-list">
+            <a href="https://christopher-harden.shinyapps.io/NbaSalary/"
+              target="_blank">Shiny App: Exploring NBA Salary Data</a>
+          </li>
+          <li class="links-list">
+            <a href="https://github.com/chardensoft/nbasalary/blob/main/Presentation.pdf"
+              target="_blank">Presentation: Using NBA Salary Data to Improve Success</a>
           </li>
         </div>
       </div>

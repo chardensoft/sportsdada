@@ -24,6 +24,9 @@
           <li class="nav-item">
             <router-link class ="header-link" to="/Content">Content</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class ="header-link" to="/Powder">Powder League</router-link>
+          </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Products
