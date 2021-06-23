@@ -9,6 +9,6 @@ SportsDada contains the compilation of most of the work I've done in the sports 
 
 ### Future Additions:
 - Adding an about page
-- Tracking stats for the BPL (Powder League)
+- Tracking stats for the BPL
 - Subscription for newsletter
 - Requests
