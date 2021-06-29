@@ -8,6 +8,7 @@ SportsDada contains the compilation of most of the work I've done in the sports 
 - Contact info
 
 ### Future Additions:
+- Adding a home page
 - Adding an about page
 - Tracking stats for the BPL
 - Subscription for newsletter
