@@ -1,6 +1,6 @@
 <template>
-  <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="powder-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,18 +13,19 @@
             <a class="nav-link" href="html/apply.html">Apply</a>
           </li> -->
           <li class="nav-item">
-            <router-link class ="header-link" to="/">Home</router-link>
+            <router-link class ="powder-header-link powder-link" to="/PowderStats">
+                <img class = "powder-img" src="@/assets/powder.png" /><p>BPL</p></router-link>
           </li>
           <li class="nav-item">
-            <router-link class ="header-link" to="/Content">Content</router-link>
+            <router-link class ="powder-header-link powder-link" to="/Player">Players</router-link>
           </li>
           <li class="nav-item">
-            <router-link class ="header-link" to="/About">About</router-link>
+            <router-link class ="powder-header-link powder-link" to="/Team">Teams</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class ="header-link powder-link" to="/PowderStats">
-                <img class = "normal-powder-img" src="@/assets/powder.png" /><p>BPL</p></router-link>
-          </li>
+
+          <!-- <li class="nav-item">
+            <router-link class ="powder-header-link" to="/">Back to Sports Dada</router-link>
+          </li> -->
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Products
@@ -38,11 +39,13 @@
 
         </ul>
       </div>
-      <div class="header_buttons">
+      <div class="powder-header_buttons">
         <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
         <button class = "" onclick="location.href = 'https://linktr.ee/sportsdada'">Follow</button>
       </div>
-      <img class="normal-logo" src="../assets/logo.png" />
+      <router-link to="/">
+        <img class="alternate-logo" src="../assets/logo.png" />
+      </router-link>
 
     </nav>
   </div>
@@ -52,11 +55,15 @@
 p {
   margin: 0;
 }
-.normal-logo {
-  width: 400px;
+.navbar {
+  padding: 0 !important;
+  background-color: white;
 }
-.normal-powder-img {
-  width: 35px;
+.alternate-logo {
+  width: 200px;
+}
+.powder-img {
+  width: 100px;
 }
 .powder-link,
 .powder-link:active {
@@ -72,7 +79,7 @@ p {
   flex-direction: row;
   align-items: center;
 }
-.header_buttons {
+.powder-header_buttons {
   margin-right: 10px;
   display: flex;
   justify-content: space-around;
@@ -95,7 +102,7 @@ button:hover:active {
   background-color: #F8F9FA;
   color: #CE663D;
 }
-.header {
+.powder-header {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -111,25 +118,26 @@ button:hover:active {
   align-items: center;
 }
 
-.header-link,
-.header-link:active {
+.powder-header-link,
+.powder-header-link:active {
   padding: 7px;
   color: #CE663D;
 }
 
-.header-link:hover,
-.header-link:active:hover {
+.powder-header-link:hover,
+.powder-header-link:active:hover {
   color: #4670B4;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 991px) {
-  .normal-logo {
-    width: 200px;
+  .alternate-logo {
+    width: 150px;
   }
-  .normal-powder-img {
-    width: 35px;
+  .powder-img {
+    width: 50px;
   }
+
 }
 
 

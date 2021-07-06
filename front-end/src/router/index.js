@@ -4,6 +4,9 @@ import Home from '../views/Home.vue'
 import Content from '../views/Content.vue'
 import About from '../views/About.vue'
 import Powder from '../views/Powder.vue'
+import PowderStats from '../views/PowderStats.vue'
+import Player from '../views/Player.vue'
+import Team from '../views/Team.vue'
 
 Vue.use(VueRouter)
 
@@ -24,9 +27,19 @@ const routes = [
     component: Content
   },
   {
-    path: '/Powder',
-    name: 'Powder',
-    component: Powder
+    path: '/PowderStats',
+    name: 'PowderStats',
+    component: PowderStats
+  },
+  {
+    path: '/Player',
+    name: 'Player',
+    component: Player
+  },
+  {
+    path: '/Team',
+    name: 'Team',
+    component: Team
   },
 ]
 
