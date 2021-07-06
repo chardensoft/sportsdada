@@ -2,6 +2,7 @@
   <div class="player">
     <PowderHead />
     <div class="nonflex">
+      <h1>!Currently Under Construction!</h1>
       <h3>Basketball Powder League Players</h3>
       <p>First Last mp pts fga fgm</p>
       <tr v-for="stat in stats" :key="stat.id">
