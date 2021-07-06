@@ -2,7 +2,8 @@
   <div class="home">
     <Header />
     <div>
-      <h1>click</h1>
+      <h1>What is Sports Dada?</h1>
+
     </div>
     <Footer />
   </div>

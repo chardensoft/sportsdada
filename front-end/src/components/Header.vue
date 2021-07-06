@@ -37,7 +37,10 @@
 
         </ul>
       </div>
-
+      <div class="header_buttons">
+        <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
+        <button class = "" onclick="location.href = 'https://linktr.ee/sportsdada'">Follow</button>
+      </div>
       <img class="logo" src="../assets/logo.png" />
 
     </nav>
@@ -45,6 +48,29 @@
 </template>
 
 <style>
+.header_buttons {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+button:active, button {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  border: solid #83C4E7 1px;
+  background-color: #83C4E7;
+  color: black;
+}
+button:hover,
+button:hover:active {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  border: solid #83C4E7 1px;
+  background-color: #F8F9FA;
+  color: #CE663D;
+}
 .header {
   margin: 0;
   padding: 0;
