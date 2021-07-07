@@ -4,7 +4,7 @@
     <div class="nonflex">
       <h1>!Currently Under Construction!</h1>
       <h3>Basketball Powder League Players</h3>
-      <p>First Last mp pts fga fgm</p>
+      <th>First Last mp pts fga fgm</th>
       <tr v-for="stat in stats" :key="stat.id">
         {{stat.first}} {{stat.last}} {{stat.mp}} {{stat.pts}} {{stat.fga}} {{stat.fgm}}
       </tr>

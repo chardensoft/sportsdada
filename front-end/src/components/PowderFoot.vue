@@ -19,6 +19,7 @@
 .powder-footer {
   background-color: #F8F9FA;
   color: #F8F9FA;
+  text-align: center;
 }
 .powder-footer_buttons {
   display: flex;
