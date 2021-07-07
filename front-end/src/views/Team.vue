@@ -2,7 +2,7 @@
   <div class="team">
     <PowderHead />
     <div class="nonflex">
-      <h1>!Currently Under Construction!</h1>
+      <h1 class="construction">!Currently Under Construction!</h1>
       <h3>Basketball Powder League Teams</h3>
       <p>Team Win Loss Win% Home Away</p>
     </div>
@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style>
+.construction {
+  color: #CE663D;
+}
 h3 {
   padding-top: 20px;
   color: #4670B4;
