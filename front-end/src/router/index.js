@@ -41,6 +41,12 @@ const routes = [
     name: 'Team',
     component: Team
   },
+  {
+    path: '/Powder',
+    name: 'Powder',
+    component: Powder
+  },
+
 ]
 
 const router = new VueRouter({
