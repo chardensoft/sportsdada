@@ -12,9 +12,13 @@
           <!-- <li class="nav-item">
             <a class="nav-link" href="html/apply.html">Apply</a>
           </li> -->
+          <li class="nav-item"><img class = "powder-img" src="@/assets/powder.png" /></li>
           <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/PowderStats">
-                <img class = "powder-img" src="@/assets/powder.png" /><p>BPL</p></router-link>
+                <p>Leaderboards</p></router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class ="powder-header-link powder-link" to="/Game">Games</router-link>
           </li>
           <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/Player">Players</router-link>

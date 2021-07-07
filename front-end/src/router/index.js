@@ -7,6 +7,7 @@ import Powder from '../views/Powder.vue'
 import PowderStats from '../views/PowderStats.vue'
 import Player from '../views/Player.vue'
 import Team from '../views/Team.vue'
+import Game from '../views/Game.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/Powder',
     name: 'Powder',
     component: Powder
+  },
+  {
+    path: '/Game',
+    name: 'Game',
+    component: Game
   },
 
 ]
