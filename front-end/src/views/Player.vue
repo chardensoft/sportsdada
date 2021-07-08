@@ -10,26 +10,26 @@
           <tr>
             <th class="th-player" @click="sortFirst('first')"><h5 class="h5-player">First</h5></th>
             <th class="th-player" @click="sortFirst('last')"><h5 class="h5-player">Last</h5></th>
-            <th class="th-player" @click="sortFirst('g')"><h5 class="h5-player">gp</h5></th>
-            <th class="th-player" @click="sortFirst('mp')"><h5 class="h5-player">mp</h5></th>
-            <th class="th-player" @click="sortFirst('pts')"><h5 class="h5-player">pts</h5></th>
-            <th class="th-player" @click="sortFirst('treb')"><h5 class="h5-player">treb</h5></th>
-            <th class="th-player" @click="sortFirst('ast')"><h5 class="h5-player">ast</h5></th>
-            <th class="th-player" @click="sortFirst('fgp')"><h5 class="h5-player">fg%</h5></th>
-            <th class="th-player" @click="sortFirst('thpp')"><h5 class="h5-player">3p%</h5></th>
-            <th class="th-player" @click="sortFirst('oreb')"><h5 class="h5-player">oreb</h5></th>
-            <th class="th-player" @click="sortFirst('dreb')"><h5 class="h5-player">dreb</h5></th>
-            <th class="th-player" @click="sortFirst('stl')"><h5 class="h5-player">stl</h5></th>
-            <th class="th-player" @click="sortFirst('blk')"><h5 class="h5-player">blk</h5></th>
-            <th class="th-player" @click="sortFirst('fga')"><h5 class="h5-player">fga</h5></th>
-            <th class="th-player" @click="sortFirst('fgm')"><h5 class="h5-player">fgm</h5></th>
-            <th class="th-player" @click="sortFirst('thpa')"><h5 class="h5-player">3pa</h5></th>
-            <th class="th-player" @click="sortFirst('thpm')"><h5 class="h5-player">3pm</h5></th>
-            <th class="th-player" @click="sortFirst('tov')"><h5 class="h5-player">tov</h5></th>
-            <th class="th-player" @click="sortFirst('ftp')"><h5 class="h5-player">ft%</h5></th>
-            <th class="th-player" @click="sortFirst('fta')"><h5 class="h5-player">fta</h5></th>
-            <th class="th-player" @click="sortFirst('ftm')"><h5 class="h5-player">ftm</h5></th>
-            <th class="th-player" @click="sortFirst('pf')"><h5 class="h5-player">pf</h5></th>
+            <th class="th-player" @click="sortFirst('g')"><h5 class="h5-player">GP</h5></th>
+            <th class="th-player" @click="sortFirst('mp')"><h5 class="h5-player">MP</h5></th>
+            <th class="th-player" @click="sortFirst('pts')"><h5 class="h5-player">PTS</h5></th>
+            <th class="th-player" @click="sortFirst('treb')"><h5 class="h5-player">REB</h5></th>
+            <th class="th-player" @click="sortFirst('ast')"><h5 class="h5-player">AST</h5></th>
+            <th class="th-player" @click="sortFirst('fgp')"><h5 class="h5-player">FG%</h5></th>
+            <th class="th-player" @click="sortFirst('thpp')"><h5 class="h5-player">3P%</h5></th>
+            <th class="th-player" @click="sortFirst('oreb')"><h5 class="h5-player">OREB</h5></th>
+            <th class="th-player" @click="sortFirst('dreb')"><h5 class="h5-player">DREB</h5></th>
+            <th class="th-player" @click="sortFirst('stl')"><h5 class="h5-player">STL</h5></th>
+            <th class="th-player" @click="sortFirst('blk')"><h5 class="h5-player">BLK</h5></th>
+            <th class="th-player" @click="sortFirst('fga')"><h5 class="h5-player">FGA</h5></th>
+            <th class="th-player" @click="sortFirst('fgm')"><h5 class="h5-player">FGM</h5></th>
+            <th class="th-player" @click="sortFirst('thpa')"><h5 class="h5-player">3PA</h5></th>
+            <th class="th-player" @click="sortFirst('thpm')"><h5 class="h5-player">3PM</h5></th>
+            <th class="th-player" @click="sortFirst('tov')"><h5 class="h5-player">TOV</h5></th>
+            <th class="th-player" @click="sortFirst('ftp')"><h5 class="h5-player">FT%</h5></th>
+            <th class="th-player" @click="sortFirst('fta')"><h5 class="h5-player">FTA</h5></th>
+            <th class="th-player" @click="sortFirst('ftm')"><h5 class="h5-player">FTM</h5></th>
+            <th class="th-player" @click="sortFirst('pf')"><h5 class="h5-player">PF</h5></th>
           </tr>
         </thead>
         <tbody>
