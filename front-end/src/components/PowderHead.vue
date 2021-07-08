@@ -48,7 +48,7 @@
         <button class = "" onclick="location.href = 'https://linktr.ee/sportsdada'">Follow</button>
       </div>
       <router-link to="/">
-        <img class="alternate-logo" src="../assets/logo.png" />
+        <img class="alternate-logo" src="../assets/logo_alt.png" />
       </router-link>
 
     </nav>

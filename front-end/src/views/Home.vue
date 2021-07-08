@@ -15,6 +15,7 @@ import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'Home',
+  title: 'Sports Dada',
   components: {
     Header,
     Footer,

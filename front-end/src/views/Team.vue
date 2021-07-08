@@ -16,6 +16,7 @@ import PowderHead from '@/components/PowderHead.vue';
 
 export default {
   name: 'Team',
+  title: 'BPL: Teams',
   components: {
     PowderFoot,
     PowderHead,

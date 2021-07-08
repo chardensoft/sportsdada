@@ -117,6 +117,7 @@ import ft_json from '../../../back-end/ft.json';
 
 export default {
   name: 'PowderStats',
+  title: 'BPL: Leaderboards',
   components: {
     PowderFoot,
     PowderHead,
