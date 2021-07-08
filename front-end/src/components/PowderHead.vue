@@ -12,7 +12,9 @@
           <!-- <li class="nav-item">
             <a class="nav-link" href="html/apply.html">Apply</a>
           </li> -->
-          <li class="nav-item"><img class = "powder-img" src="@/assets/powder.png" /></li>
+          <li class="nav-item">
+            <img class = "powder-img" src="@/assets/powder.png" onclick="location.href = 'https://www.powderleague.com/'"/>
+          </li>
           <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/PowderStats">
                 <p>Leaderboards</p></router-link>
@@ -68,6 +70,7 @@ p {
 }
 .powder-img {
   width: 100px;
+  cursor: pointer;
 }
 .powder-link,
 .powder-link:active {
