@@ -17,16 +17,19 @@
           </li>
           <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/PowderStats">
-                <p>Leaderboards</p></router-link>
+                <p>Main</p></router-link>
           </li>
           <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/Game">Games</router-link>
+            <router-link class ="powder-header-link powder-link" to="/Game">Game</router-link>
           </li>
           <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/Player">Players</router-link>
+            <router-link class ="powder-header-link powder-link" to="/Player">Player</router-link>
           </li>
           <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/Team">Teams</router-link>
+            <router-link class ="powder-header-link powder-link" to="/Team">Team</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class ="powder-header-link powder-link" to="/The101">The 101</router-link>
           </li>
 
           <!-- <li class="nav-item">
