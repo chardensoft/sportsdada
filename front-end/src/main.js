@@ -2,15 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import titleMixin from './mixins/titleMixin'
-import VueAnalytics from 'vue-analytics'
+import VueGtag from "vue-gtag"
 
 
 Vue.config.productionTip = false
 Vue.mixin(titleMixin)
-Vue.use(VueAnalytics, {
-    id: 'UA-278706947-1',
-    router
+Vue.use(VueGtag, {
+  config: { id: "UA-278706947-1" },
+  router
 })
+
 
 new Vue({
   router,
