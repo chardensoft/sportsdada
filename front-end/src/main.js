@@ -7,10 +7,10 @@ import VueGtag from "vue-gtag"
 
 Vue.config.productionTip = false
 Vue.mixin(titleMixin)
-Vue.use(VueGtag, {
-  config: { id: "UA-278706947-1" },
-  router
-})
+// Vue.use(VueGtag, {
+//   config: { id: "UA-278706947-1" },
+//   router
+// })
 
 
 new Vue({
