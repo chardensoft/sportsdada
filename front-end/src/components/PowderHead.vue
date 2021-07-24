@@ -28,9 +28,9 @@
           <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/Team">Team</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/The101">The 101</router-link>
-          </li>
+          </li> -->
 
           <!-- <li class="nav-item">
             <router-link class ="powder-header-link" to="/">Back to Sports Dada</router-link>
