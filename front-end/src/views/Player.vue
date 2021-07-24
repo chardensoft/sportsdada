@@ -5,7 +5,7 @@
       <!-- <h1 class="construction">!Currently Under Construction!</h1> -->
       <h3>Basketball Powder League Player Rankings</h3>
       <p>Sort a column by clicking on its header</p>
-      <table class="player-table sortable" id="myTable2">
+      <table class="player-table" id="myTable2">
         <thead class="thead-player">
           <tr>
             <th class="th-player" @click="sortFirst('first')"><h5 class="h5-player">First</h5></th>
