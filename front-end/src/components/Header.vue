@@ -22,6 +22,10 @@
             <router-link class ="header-link" to="/About">About</router-link>
           </li>
           <li class="nav-item">
+            <a class ="header-link wreport-link" href="https://thewoodreportxc.com/">
+                <img class = "normal-wreport-img" src="@/assets/wreport.png" /><p>WR</p></a>
+          </li>
+          <li class="nav-item">
             <router-link class ="header-link powder-link" to="/PowderStats">
                 <img class = "normal-powder-img" src="@/assets/powder.png" /><p>BPL</p></router-link>
           </li>
@@ -58,6 +62,9 @@ p {
 .normal-powder-img {
   width: 35px;
 }
+.normal-wreport-img {
+  width: 35px;
+}
 .powder-link,
 .powder-link:active {
   color: #030303 !important;
@@ -65,9 +72,23 @@ p {
   flex-direction: row;
   align-items: center;
 }
+.wreport-link,
+.wreport-link:active {
+  color: #F3B23D !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .powder-link:hover,
 .powder-link:hover:active {
   color: #616161 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wreport-link:hover,
+.wreport-link:hover:active {
+  color: #0F4C75 !important;
   display: flex;
   flex-direction: row;
   align-items: center;
