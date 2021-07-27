@@ -22,7 +22,7 @@
             <router-link class ="header-link" to="/About">About</router-link>
           </li>
           <li class="nav-item">
-            <a class ="header-link wreport-link" href="https://thewoodreportxc.com/">
+            <a class ="header-link wreport-link" href="https://thewoodreportxc.com/" target="_blank">
                 <img class = "normal-wreport-img" src="@/assets/wreport.png" /><p>WR</p></a>
           </li>
           <li class="nav-item">
@@ -44,7 +44,7 @@
       </div>
       <div class="header_buttons">
         <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
-        <button class = "" onclick="location.href = 'https://linktr.ee/sportsdada'">Follow</button>
+        <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
       </div>
       <img class="normal-logo" src="../assets/logo.png" />
 

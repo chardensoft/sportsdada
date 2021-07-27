@@ -13,7 +13,7 @@
             <a class="nav-link" href="html/apply.html">Apply</a>
           </li> -->
           <li class="nav-item">
-            <img class = "powder-img" src="@/assets/powder.png" onclick="location.href = 'https://www.powderleague.com/'"/>
+            <a href="https://www.powderleague.com/" target="_blank"><img class = "powder-img" src="@/assets/powder.png"/></a>
           </li>
           <li class="nav-item">
             <router-link class ="powder-header-link powder-link" to="/PowderStats">
@@ -53,7 +53,7 @@
       </div>
       <div class="powder-header_buttons">
         <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
-        <button class = "" onclick="location.href = 'https://linktr.ee/sportsdada'">Follow</button>
+        <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
       </div>
       <router-link to="/">
         <img class="alternate-logo" src="../assets/logo_alt.png" />

@@ -7,7 +7,7 @@
       </h6> -->
       <div class="powder-footer_buttons">
         <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
-        <button class = "" onclick="location.href = 'https://linktr.ee/sportsdada'">Follow</button>
+        <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
       </div>
       <h6 class ="header6">Text me: 801.712.0713</h6>
     </div>
