@@ -6,9 +6,10 @@ import About from '../views/About.vue'
 import Powder from '../views/Powder.vue'
 import PowderStats from '../views/PowderStats.vue'
 import Player from '../views/Player.vue'
-import Team from '../views/Team.vue'
+import Standings from '../views/Standings.vue'
 import Game from '../views/Game.vue'
 import The101 from '../views/The101.vue'
+import TeamStat from '../views/TeamStat.vue'
 
 Vue.use(VueRouter)
 
@@ -39,9 +40,9 @@ const routes = [
     component: Player
   },
   {
-    path: '/Team',
-    name: 'Team',
-    component: Team
+    path: '/Standings',
+    name: 'Standings',
+    component: Standings
   },
   {
     path: '/Powder',
@@ -58,7 +59,11 @@ const routes = [
     name: 'The101',
     component: The101
   },
-
+  {
+    path: '/TeamStat',
+    name: 'TeamStat',
+    component: TeamStat
+  },
 ]
 
 const router = new VueRouter({

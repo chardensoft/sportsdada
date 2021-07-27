@@ -1,11 +1,11 @@
 <template>
-  <div class="team">
+  <div class="standings">
     <PowderHead />
     <div class="nonflex">
-      <h3>Basketball Powder League Teams</h3>
+      <h3>Basketball Powder League Standings</h3>
       <p>Sort a column by clicking on its header</p>
       <table class="team-table" id="myTable1">
-        <thead class="thead-player">
+        <thead class="thead-team">
           <tr>
             <th class="th-team" @click="sortFirst('team')"><h5 class="h5-team">Team</h5></th>
             <th class="th-team" @click="sortFirst('w')"><h5 class="h5-team">W</h5></th>
@@ -45,8 +45,8 @@ import PowderHead from '@/components/PowderHead.vue';
 import team_stats from '../../../back-end/teams.json';
 
 export default {
-  name: 'Team',
-  title: 'BPL: Teams',
+  name: 'Standings',
+  title: 'BPL: Standings',
   components: {
     PowderFoot,
     PowderHead,
