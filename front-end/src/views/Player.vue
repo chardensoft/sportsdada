@@ -10,6 +10,7 @@
           <tr>
             <th class="th-player" @click="sortFirst('first')"><h5 class="h5-player">First</h5></th>
             <th class="th-player" @click="sortFirst('last')"><h5 class="h5-player">Last</h5></th>
+            <th class="th-player" @click="sortFirst('team')"><h5 class="h5-player">Team</h5></th>
             <th class="th-player" @click="sortFirst('g')"><h5 class="h5-player">GP</h5></th>
             <th class="th-player" @click="sortFirst('mp')"><h5 class="h5-player">MP</h5></th>
             <th class="th-player" @click="sortFirst('pts')"><h5 class="h5-player">PTS</h5></th>
@@ -36,6 +37,7 @@
           <tr v-for="stat in stats" :key="stat.id">
             <td class="td-player">{{stat.first}}</td>
             <td class="td-player">{{stat.last}}</td>
+            <td class="td-player">{{stat.team}}</td>
             <td class="td-player">{{stat.g}}</td>
             <td class="td-player">{{stat.mp}}</td>
             <td class="td-player">{{stat.pts}}</td>
@@ -115,7 +117,7 @@ export default {
     },
     async mySort(col, order) {
       col = col.toLowerCase();
-      if((col != 'first') && (col != 'last')) {
+      if((col != 'first') && (col != 'last') && (col != 'team')) {
         if (order) {
           this.stats.sort(function (a, b) {
             return b[col] - a[col];

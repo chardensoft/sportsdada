@@ -4,7 +4,7 @@
     <div class="content">
       <div class="content-header">
         <h1 class="content-title">All Content</h1>
-        <h5 class="content-subtitle">This page contains all the articles and projects I have worked on</h5>
+        <h5 class="content-subtitle">Check out all the articles and projects I have worked on!</h5>
       </div>
       <div class="articles">
         <h2 class="articles-title content-page-title">Articles</h2>
@@ -46,11 +46,22 @@
               target="_blank">NBA: Less Than Five Percent</a>
           </li>
         </div>
-        <div class="list Dr. Sabin">
+        <div class="list DrSabin">
           <h4 class="sabin-title content-page-subtitle">Dr. Paul Sabin, ESPN</h4>
           <li class="links-list">
             <a href="https://github.com/chardensoft/nbasalary/blob/main/Final%20Paper.pdf"
               target="_blank">The Effect of Salary Allocation on Team Success in the NBA</a>
+          </li>
+        </div>
+        <div class="list bpl">
+          <h4 class="bpl-title content-page-subtitle">The Basketball Powder League</h4>
+          <li class="links-list">
+            <a href="https://www.sportsdada.net/Articles"
+              target="_blank">Powder League MVP Ladder</a>
+          </li>
+          <li class="links-list">
+            <a href="https://www.sportsdada.net/Articles"
+              target="_blank">Powder League Power Rankings</a>
           </li>
         </div>
       </div>
@@ -67,7 +78,7 @@
               target="_blank">Presentation: Predicting NCAA Players in the NBA</a>
           </li>
         </div>
-        <div class="list Dr. Sabin">
+        <div class="list DrSabin">
           <h4 class="sabin-title content-page-subtitle">Dr. Paul Sabin, ESPN</h4>
           <li class="links-list">
             <a href="https://nbasalary.sportsdada.net/"
@@ -80,6 +91,20 @@
           <li class="links-list">
             <a href="https://github.com/chardensoft/nbasalary/blob/main/Presentation.pdf"
               target="_blank">Presentation: Using NBA Salary Data to Improve Success</a>
+          </li>
+        </div>
+        <div class="list bpl">
+          <h4 class="bpl-title content-page-subtitle">The Basketball Powder League</h4>
+          <li class="links-list">
+            <a href="https://www.sportsdada.net/PowderStats"
+              target="_blank">Project: Management of All Live Stats (see menu option "BPL")</a>
+          </li>
+        </div>
+        <div class="list wr">
+          <h4 class="wr-title content-page-subtitle">The Wood Report</h4>
+          <li class="links-list">
+            <a href="https://www.thewoodreportxc.com/"
+              target="_blank">Project: Management of All Stats (see menu option "WR")</a>
           </li>
         </div>
       </div>
@@ -114,6 +139,15 @@ export default {
 .content-title {
   padding-top: 30px;
   color: #4670B4;
+  font-weight: bold;
+}
+
+.content-page-subtitle {
+
+}
+
+.content-page-title {
+  padding-left: 0px;
   font-weight: bold;
 }
 
