@@ -1,6 +1,8 @@
 <template>
   <div>
     <Header />
+    <!-- <Featured /> -->
+
     <div class="content">
       <div class="content-header">
         <h1 class="content-title">All Content</h1>
@@ -56,13 +58,13 @@
         <div class="list bpl">
           <h4 class="bpl-title content-page-subtitle">The Basketball Powder League</h4>
           <li class="links-list">
-            <a href="https://www.sportsdada.net/Articles"
-              target="_blank">Powder League MVP Ladder</a>
+            <a href="https://sportsdadas.blogspot.com/2021/07/sports-dadas-powder-league-mvp-ladder.html"
+              target="_blank">MVP Ladder - July 28th, 2021</a>
           </li>
-          <li class="links-list">
+          <!-- <li class="links-list">
             <a href="https://www.sportsdada.net/Articles"
               target="_blank">Powder League Power Rankings</a>
-          </li>
+          </li> -->
         </div>
       </div>
       <div class="projects">
@@ -116,6 +118,7 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+// import Featured from '@/components/Featured.vue';
 
 export default {
   name: 'Content',
@@ -123,6 +126,7 @@ export default {
   components: {
     Header,
     Footer,
+    // Featured,
   }
 }
 </script>
@@ -163,7 +167,7 @@ export default {
 
 a,
 a:active {
-  color: #68cbf8;
+  color: #24ADF2;
   text-decoration: underline;
 }
 

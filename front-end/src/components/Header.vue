@@ -1,56 +1,70 @@
 <template>
-  <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="full-header">
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="html/apply.html">Apply</a>
-          </li> -->
-          <li class="nav-item">
-            <router-link class ="header-link" to="/">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class ="header-link" to="/Content">Content</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class ="header-link" to="/About">About</router-link>
-          </li>
-          <li class="nav-item">
-            <a class ="header-link wreport-link" href="https://thewoodreportxc.com/" target="_blank">
-                <img class = "normal-wreport-img" src="@/assets/wreport.png" /><p>WR</p></a>
-          </li>
-          <li class="nav-item">
-            <router-link class ="header-link powder-link" to="/PowderStats">
-                <img class = "normal-powder-img" src="@/assets/powder.png" /><p>BPL</p></router-link>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Products
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="">Fake Plants</a>
-              <a class="dropdown-item" href="">Real Plants</a>
-              <a class="dropdown-item" href="">Accessories</a>
-            </div>
-          </li> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="html/apply.html">Apply</a>
+            </li> -->
+            <li class="nav-item">
+              <router-link class ="header-link" to="/">Home</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="header-link" to="/Content">Content</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="header-link" to="/About">About</router-link>
+            </li>
+            <li class="nav-item">
+              <a class ="header-link wreport-link" href="https://thewoodreportxc.com/" target="_blank">
+                  <img class = "normal-wreport-img" src="@/assets/wreport.png" /><p>WR</p></a>
+            </li>
+            <li class="nav-item">
+              <router-link class ="header-link powder-link" to="/PowderStats">
+                  <img class = "normal-powder-img" src="@/assets/powder.png" /><p>BPL</p></router-link>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Fake Plants</a>
+                <a class="dropdown-item" href="">Real Plants</a>
+                <a class="dropdown-item" href="">Accessories</a>
+              </div>
+            </li> -->
 
-        </ul>
-      </div>
-      <div class="header_buttons">
-        <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
-        <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
-      </div>
-      <img class="normal-logo" src="../assets/logo.png" />
+          </ul>
+        </div>
+        <div class="header_buttons">
+          <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
+          <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
+        </div>
+        <img class="normal-logo" src="../assets/logo.png" />
 
-    </nav>
+      </nav>
+    </div>
+    <Featured />
   </div>
 </template>
+
+<script>
+import Featured from '@/components/Featured.vue';
+
+export default {
+  name: 'Header',
+  components: {
+    Featured,
+  }
+}
+</script>
 
 <style>
 p {

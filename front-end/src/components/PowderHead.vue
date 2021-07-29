@@ -1,69 +1,86 @@
 <template>
-  <div class="powder-header">
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="full-header bg-light">
+    <div class="powder-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="html/apply.html">Apply</a>
-          </li> -->
-          <li class="nav-item">
-            <a href="https://www.powderleague.com/" target="_blank"><img class = "powder-img" src="@/assets/powder.png"/></a>
-          </li>
-          <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/PowderStats">
-                <p>Main</p></router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/Game">Games</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/Player">Players</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/Standings">Standings</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/TeamStat">Teams</router-link>
-          </li>
-          <!-- <li class="nav-item">
-            <router-link class ="powder-header-link powder-link" to="/The101">The 101</router-link>
-          </li> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="html/apply.html">Apply</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="https://www.powderleague.com/" target="_blank"><img class = "powder-img" src="@/assets/powder.png"/></a>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/PowderStats">
+                  <p>Main</p></router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/Game">Games</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/Player">Players</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/Standings">Standings</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/TeamStat">Teams</router-link>
+            </li>
+            <!-- <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/The101">The 101</router-link>
+            </li> -->
 
-          <!-- <li class="nav-item">
-            <router-link class ="powder-header-link" to="/">Back to Sports Dada</router-link>
-          </li> -->
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Products
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="">Fake Plants</a>
-              <a class="dropdown-item" href="">Real Plants</a>
-              <a class="dropdown-item" href="">Accessories</a>
-            </div>
-          </li> -->
+            <!-- <li class="nav-item">
+              <router-link class ="powder-header-link" to="/">Back to Sports Dada</router-link>
+            </li> -->
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Fake Plants</a>
+                <a class="dropdown-item" href="">Real Plants</a>
+                <a class="dropdown-item" href="">Accessories</a>
+              </div>
+            </li> -->
 
-        </ul>
-      </div>
-      <div class="powder-header_buttons">
-        <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
-        <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
-      </div>
-      <router-link to="/">
-        <img class="alternate-logo" src="../assets/logo_alt.png" />
-      </router-link>
+          </ul>
+        </div>
+        <div class="powder-header_buttons">
+          <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
+          <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
+        </div>
+        <router-link to="/">
+          <img class="alternate-logo" src="../assets/logo_alt.png" />
+        </router-link>
 
-    </nav>
+      </nav>
+    </div>
+    <Featured />
   </div>
 </template>
 
+<script>
+import Featured from '@/components/Featured.vue';
+
+export default {
+  name: 'PowderHead',
+  components: {
+    Featured,
+  }
+}
+</script>
+
 <style>
+.full-header {
+
+}
 p {
   margin: 0;
 }
