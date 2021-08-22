@@ -62,7 +62,7 @@
 
       </nav>
     </div>
-    <Featured />
+    <!-- <Featured /> -->
   </div>
 </template>
 
