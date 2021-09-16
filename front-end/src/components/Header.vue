@@ -44,7 +44,7 @@
           </ul>
         </div>
         <div class="header_buttons">
-          <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
+          <button class = "" onclick="location.href = 'https://venmo.com/sportsdada'">Donate</button>
           <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
         </div>
         <img class="normal-logo" src="../assets/logo.png" />

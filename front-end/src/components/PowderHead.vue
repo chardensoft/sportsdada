@@ -53,7 +53,7 @@
           </ul>
         </div>
         <div class="powder-header_buttons">
-          <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
+          <button class = "" onclick="location.href = 'https://venmo.com/sportsdada'">Donate</button>
           <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
         </div>
         <router-link to="/">

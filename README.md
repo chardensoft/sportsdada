@@ -5,11 +5,15 @@ SportsDada contains the compilation of most of the work I've done in the sports 
 
 ### Current Capabilities:
 - List of all projects, apps and content created by SportsDada
-- Tracking stats for the BPL
-- Contact info
+- Tracking stats for the Powder League
+- Connection to The Wood Report
+- Contact info & donation link
 
 ### Future Additions:
 - Adding a home page
+- How to articles
+- Public Projects
+- Favorite visualizations
 - Adding an about page
 - Subscription for newsletter
 - Requests
