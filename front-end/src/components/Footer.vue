@@ -9,7 +9,7 @@
         <button class = "" onclick="location.href = 'https://venmo.com/charden'">Donate</button>
         <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
       </div>
-      <h6 class ="header6">Text me: 801.712.0713</h6>
+      <h6 class ="header6">Email me: charden@berkeley.edu</h6>
     </div>
 
   </div>
