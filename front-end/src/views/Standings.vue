@@ -2,7 +2,7 @@
   <div class="standings">
     <PowderHead />
     <div class="nonflex">
-      <h3>Basketball Powder League Standings</h3>
+      <h3>Powder League Standings</h3>
       <p>Sort a column by clicking on its header</p>
       <table class="team-table" id="myTable1">
         <thead class="thead-team">

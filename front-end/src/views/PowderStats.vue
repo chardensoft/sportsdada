@@ -2,7 +2,7 @@
   <div class="powder">
     <PowderHead />
     <div class="nonflex">
-      <h3>Basketball Powder League Leaderboards</h3>
+      <h3>Powder League Leaderboards</h3>
       <!-- <button @click="getPts">Refresh</button> -->
       <div class = "leaderboards">
         <div class="leaderboard">

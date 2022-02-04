@@ -3,7 +3,7 @@
     <PowderHead />
     <div class="nonflex">
       <!-- <h1>!Currently Under Construction!</h1> -->
-      <h3>Basketball Powder League Game Box Scores</h3>
+      <h3>Powder League Game Box Scores</h3>
       <br>
       <form class="form-game">
         <label class="label-game" for="dates">Choose a date and scroll to the game you want:</label>
@@ -20,7 +20,7 @@
       <div v-if='(this.date == "7/29/21") || (this.date == "7/30/21")' class = "allbsflex">
         <div class="bsflex">
           <div class="tableheader">
-            <h5 class="teamtitle">Game {{this.game_date}} @ 6:00 PM Results:</h5>
+            <h5 class="teamtitle">6:00 PM Game Results:</h5>
             <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
             && (mast.time =='6:00 PM') && (mast.team_id==mast.winner)
             && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
@@ -144,7 +144,7 @@
         <br><br>
         <div class="bsflex">
           <div class="tableheader">
-            <h5 class="teamtitle">Game {{this.game_date}} @ 7:30 PM Results:</h5>
+            <h5 class="teamtitle">7:30 PM Game Results:</h5>
             <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
             && (mast.time =='7:30 PM') && (mast.team_id==mast.winner)
             && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
@@ -265,7 +265,7 @@
         <br><br>
         <div class="bsflex">
           <div class="tableheader">
-            <h5 class="teamtitle">Game {{this.game_date}} @ 9:00 PM Results:</h5>
+            <h5 class="teamtitle">9:00 PM Game Results:</h5>
             <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
             && (mast.time =='9:00 PM') && (mast.team_id==mast.winner)
             && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
@@ -387,7 +387,7 @@
       <div v-else class="allbsflex">
         <div class="bsflex">
           <div class="tableheader">
-            <h5 class="teamtitle">Game {{this.game_date}} @ 7:00 PM Results:</h5>
+            <h5 class="teamtitle">7:00 PM Game Results:</h5>
             <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
             && (mast.time =='7:00 PM') && (mast.team_id==mast.winner)
             && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
@@ -511,7 +511,7 @@
         <br><br>
         <div class="bsflex">
           <div class="tableheader">
-            <h5 class="teamtitle">Game {{this.game_date}} @ 8:30 PM Results:</h5>
+            <h5 class="teamtitle">8:30 PM Game Results:</h5>
             <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
             && (mast.time =='8:30 PM') && (mast.team_id==mast.winner)
             && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>

@@ -45,7 +45,7 @@
         </div>
         <div class="header_buttons">
           <button class = "" onclick="location.href = 'https://venmo.com/sportsdada'">Donate</button>
-          <button class = "" onclick="location.href = 'https://www.instagram.com/sports.dada/'">Follow</button>
+          <button class = "" onclick="location.href = 'https://twitter.com/SportsDada'">Follow</button>
         </div>
         <img class="normal-logo" src="../assets/logo.png" />
 

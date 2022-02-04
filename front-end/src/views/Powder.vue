@@ -2,7 +2,7 @@
   <div class="powder">
     <Header />
     <div class="nonflex">
-      <h3>Basketball Powder League Stats coming soon!</h3>
+      <h3>Powder League Stats coming soon!</h3>
       <div class="outerbox">
         <router-link to="/Powder"><div class = "option">
           <h4 class="optionname">2PTs, 3PTs, FTs</h4>
