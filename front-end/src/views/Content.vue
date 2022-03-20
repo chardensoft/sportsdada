@@ -22,15 +22,21 @@
           </a>
         </div>
         <div class="company">
-          <a class="comp_link" href="https://join.slack.com/t/sportsdada/shared_invite/zt-12vf175g6-MawHJaMtSKiHTAIinOCkyQ" target="_blank">
-            <img class="comp_logo" src="../assets/slack.png" />
-            <p class="comp_text">Slack: Join the community if you're an aspiring sports analyst or just enjoy sports!</p>
+          <a class="comp_link" href="https://discord.gg/FMHTDgrjxc" target="_blank">
+            <img class="comp_logo" src="../assets/discord.png" />
+            <p class="comp_text">Discord: Join the community if you're an aspiring sports analyst or just enjoy sports!</p>
           </a>
         </div>
         <div class="company">
           <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
             <img class="comp_logo" src="../assets/linkedin.png" />
             <p class="comp_text">LinkedIn: Sharing tips and thoughts about sports analytics &amp; data science</p>
+          </a>
+        </div>
+        <div class="company">
+          <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
+            <img class="comp_logo" src="../assets/twitter.png" />
+            <p class="comp_text">Twitter: Join the fun as I tweet data viz &amp; interesting stats</p>
           </a>
         </div>
       </div>
@@ -225,8 +231,9 @@ a:active:hover {
 
 .current-content {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
+  padding-right: 100px;
 }
 
 .company {

@@ -43,10 +43,10 @@
 
           </ul>
         </div>
-        <div class="header_buttons">
-          <button class = "" onclick="location.href = 'https://venmo.com/sportsdada'">Donate</button>
+        <!-- <div class="header_buttons">
           <button class = "" onclick="location.href = 'https://twitter.com/SportsDada'">Follow</button>
-        </div>
+          <button class = "" onclick="location.href = 'https://www.sportsdada.net'">Learn More</button>
+        </div> -->
         <img class="normal-logo" src="../assets/logo.png" />
 
       </nav>

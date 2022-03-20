@@ -54,10 +54,10 @@
 
           </ul>
         </div>
-        <div class="powder-header_buttons">
-          <button class = "" onclick="location.href = 'https://venmo.com/sportsdada'">Donate</button>
+        <!-- <div class="powder-header_buttons">
           <button class = "" onclick="location.href = 'https://twitter.com/SportsDada'">Follow</button>
-        </div>
+          <button class = "" onclick="location.href = 'https://www.sportsdada.net'">Learn More</button>
+        </div> -->
         <router-link to="/">
           <img class="alternate-logo" src="../assets/logo_alt.png" />
         </router-link>
@@ -91,7 +91,7 @@ p {
   background-color: white;
 }
 .alternate-logo {
-  width: 200px;
+  width: 250px;
 }
 .powder-img {
   width: 100px;
