@@ -18,7 +18,7 @@ ids <- data.frame(team = c("Arok", "Berger", "Draney", "Roberts", "Clarke", "Hum
                     "Drisdom", "Joyce", "Fulton", "Covington", "Egan"), 
                   team_id = c("ARK", "BGR", "DNY", "RBT", "CLK", "HMP", "DTP", "DDM", "JYC", "FLN", "CVN", "EGN"))
 
-game_times <- read_csv(file = "game_times.csv", col_types = "dcc") # read file with game ids
+game_times <- read_csv(file = "game_times.csv", col_types = "dccc") # read file with game ids
 
 #### Gather data for games ####
 for (k in 1:length(game_ids)) {

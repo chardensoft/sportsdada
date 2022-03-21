@@ -1,4 +1,33 @@
-game_id,time,date
-0,4:00 PM,3/24/22
-1,5:00 PM,3/25/22
-2,6:30 PM,3/25/22
+game_id,time,date,location
+0,4:00 PM,3/24/22,Draper APA
+1,5:00 PM,3/25/22,Draper APA
+2,6:30 PM,3/25/22,Draper APA
+3,8:00 PM,3/25/22,Draper APA
+4,9:30 PM,3/25/22,Draper APA
+5,5:00 PM,3/25/22,W Valley APA
+6,6:30 PM,3/25/22,W Valley APA
+7,8:00 PM,3/25/22,W Valley APA
+8,9:30 PM,3/25/22,W Valley APA
+9,10:00 AM,3/26/22,Draper APA
+10,11:30 AM,3/26/22,Draper APA
+11,1:00 PM,3/26/22,Draper APA
+12,2:30 PM,3/26/22,Draper APA
+13,5:00 PM,3/26/22,Draper APA
+14,6:30 PM,3/26/22,Draper APA
+15,8:00 PM,3/26/22,Draper APA
+16,9:30 PM,3/26/22,Draper APA
+17,10:00 AM,3/26/22,W Valley APA
+18,11:30 AM,3/26/22,W Valley APA
+19,1:00 PM,3/26/22,W Valley APA
+20,2:30 PM,3/26/22,W Valley APA
+21,5:00 PM,3/26/22,W Valley APA
+22,6:30 PM,3/26/22,W Valley APA
+23,8:00 PM,3/26/22,W Valley APA
+24,9:30 PM,3/26/22,W Valley APA
+25,5:00 PM,4/1/22,Draper APA
+26,6:30 PM,4/1/22,Draper APA
+27,8:00 PM,4/1/22,Draper APA
+28,9:30 PM,4/1/22,Draper APA
+29,10:00 AM,4/2/22,Draper APA
+30,12:00 PM,4/2/22,Draper APA
+31,7:00 PM,4/2/22,Draper APA
