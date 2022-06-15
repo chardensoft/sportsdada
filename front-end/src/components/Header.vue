@@ -17,7 +17,7 @@
               <router-link class ="header-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="header-link" to="/Content">Entries</router-link>
+              <router-link class ="header-link" to="/Entries">Entries</router-link>
             </li>
             <!-- <li class="nav-item">
               <router-link class ="header-link" to="/About">About</router-link>

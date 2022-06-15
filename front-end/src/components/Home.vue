@@ -3,7 +3,7 @@
     <div class="content-header">
       <h1 class="content-title">Current Projects</h1>
     </div>
-    <div class="current-content">
+    <div class="home-content">
 
       <!-- <div class="company">
         <a class="comp_link" href="https://www.tiktok.com/@chrisandkemi" target="_blank">
@@ -113,11 +113,11 @@ a:active:hover {
   list-style: none;
 }
 
-.current-content {
+.home-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-right: 100px;
+  padding-right: 0px;
 }
 
 .company {

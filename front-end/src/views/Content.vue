@@ -95,7 +95,7 @@
           </li>
         </div>
         <div class="list DrSabin">
-          <h4 class="sabin-title content-page-subtitle">IS 590R: Sports Analytics Project</h4>
+          <h4 class="sabin-title content-page-subtitle">College Sports Analytics Project</h4>
           <li class="links-list">
             <a href="https://github.com/chardensoft/nbasalary/blob/main/Final%20Paper.pdf"
               target="_blank">The Effect of Salary Allocation on Team Success in the NBA</a>
@@ -127,7 +127,7 @@
           </li>
         </div>
         <div class="list DrSabin">
-          <h4 class="sabin-title content-page-subtitle">IS 590R: Sports Analytics Project</h4>
+          <h4 class="sabin-title content-page-subtitle">College Sports Analytics Project</h4>
           <li class="links-list">
             <a href="https://nbasalary.sportsdada.net/"
               target="_blank">Research Project: Predicting NBA Success Using Salary Data</a>
@@ -254,9 +254,9 @@ a:active:hover {
 
 .current-content {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
-  padding-right: 100px;
+  margin-right: 250px;
 }
 
 .company {

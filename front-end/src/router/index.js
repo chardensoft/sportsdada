@@ -30,7 +30,7 @@ const routes = [
     component: PowderStats2022
   },
   {
-    path: '/Content',
+    path: '/Entries',
     name: 'Content',
     component: Content
   },
