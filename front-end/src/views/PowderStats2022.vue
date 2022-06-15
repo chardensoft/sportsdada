@@ -1,8 +1,8 @@
 <template>
   <div class="powder">
-    <PowderHead />
+    <PowderHead2022 />
     <div class="nonflex">
-      <h3>Powder League Leaderboards</h3>
+      <h3>2022 Powder League Leaderboards</h3>
       <!-- <button @click="getPts">Refresh</button> -->
       <div class = "leaderboards">
         <div class="leaderboard">
@@ -104,7 +104,7 @@
 
 <script>
 import PowderFoot from '@/components/PowderFoot.vue';
-import PowderHead from '@/components/PowderHead.vue';
+import PowderHead2022 from '@/components/PowderHead2022.vue';
 import pts_json from '../../../back-end/pts.json';
 import ast_json from '../../../back-end/ast.json';
 import reb_json from '../../../back-end/reb.json';
@@ -120,7 +120,7 @@ export default {
   title: 'BPL: Leaderboards',
   components: {
     PowderFoot,
-    PowderHead,
+    PowderHead2022,
   },
   data() {
     return {

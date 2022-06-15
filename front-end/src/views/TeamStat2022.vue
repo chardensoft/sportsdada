@@ -1,8 +1,8 @@
 team.<template>
   <div class="team">
-    <PowderHead />
+    <PowderHead2022 />
     <div class="nonflex">
-      <h3 class="h3-tmstat">Powder League Team Stats</h3>
+      <h3 class="h3-tmstat">2022 Powder League Team Stats</h3>
       <p>Sort a column by clicking on its header</p>
       <table class="tmstat-table" id="myTable3">
         <thead class="thead-tmstat">
@@ -59,7 +59,7 @@ team.<template>
 
 <script>
 import PowderFoot from '@/components/PowderFoot.vue';
-import PowderHead from '@/components/PowderHead.vue';
+import PowderHead2022 from '@/components/PowderHead2022.vue';
 import tmstat from '../../../back-end/team_stats.json';
 
 export default {
@@ -67,7 +67,7 @@ export default {
   title: 'BPL: Teams',
   components: {
     PowderFoot,
-    PowderHead,
+    PowderHead2022,
   },
   data() {
     return {

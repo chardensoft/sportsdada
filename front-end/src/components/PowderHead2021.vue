@@ -19,21 +19,25 @@
               <!-- </a> -->
             </li>
             <li class="nav-item">
-              <router-link class ="powder-header-link powder-link" to="/PowderStats">
-                  <p>Main</p></router-link>
+              <router-link class ="powder-header-link powder-link" to="/PowderStats2022">2022</router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="powder-header-link powder-link" to="/Game">Games</router-link>
+              <router-link class ="powder-header-link powder-link" to="/PowderStats2021">
+                  <p>Main '21</p></router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="powder-header-link powder-link" to="/Player">Players</router-link>
+              <router-link class ="powder-header-link powder-link" to="/Game2021">Games '21</router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="powder-header-link powder-link" to="/Standings">Standings</router-link>
+              <router-link class ="powder-header-link powder-link" to="/Player2021">Players '21</router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="powder-header-link powder-link" to="/TeamStat">Teams</router-link>
+              <router-link class ="powder-header-link powder-link" to="/Standings2021">Standings '21</router-link>
             </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/TeamStat2021">Teams '21</router-link>
+            </li>
+
             <!-- <li class="nav-item">
               <router-link class ="powder-header-link powder-link" to="/The101">The 101</router-link>
             </li> -->
@@ -72,7 +76,7 @@
 import Featured from '@/components/Featured.vue';
 
 export default {
-  name: 'PowderHead',
+  name: 'PowderHead2021',
   components: {
     Featured,
   }
@@ -159,6 +163,12 @@ button:hover:active {
 .powder-header-link:hover,
 .powder-header-link:active:hover {
   color: #4670B4;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1125px) {
+  .powder-link {
+    font-size: 20px;
+  }
 }
 
 /* Mobile Styles */

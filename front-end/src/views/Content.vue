@@ -5,46 +5,54 @@
 
     <div class="content">
       <div class="content-header">
-        <h1 class="content-title">Current Content</h1>
-        <h5 class="content-subtitle">All my content that I'm currently creating</h5>
+        <h1 class="content-title">Currently I'm:</h1>
+        <!-- <h5 class="content-subtitle">All my content that I'm currently creating</h5> -->
       </div>
       <div class="current-content">
-        <div class="company">
-          <a class="comp_link" href="https://sportsdada.substack.com/" target="_blank">
-            <img class="comp_logo" src="../assets/headshot.png" />
-            <p class="comp_text">My Substack Newsletter: Writing about what I love and sharing tips along the way</p>
-          </a>
-        </div>
-        <div class="company">
+
+        <!-- <div class="company">
           <a class="comp_link" href="https://www.tiktok.com/@chrisandkemi" target="_blank">
             <img class="comp_logo" src="../assets/tiktok.png" />
             <p class="comp_text">TikTok: Sharing videos about my journey to ESPN and my family</p>
           </a>
-        </div>
-        <div class="company">
+        </div> -->
+        <!-- <div class="company">
           <a class="comp_link" href="https://discord.gg/FMHTDgrjxc" target="_blank">
             <img class="comp_logo" src="../assets/discord.png" />
             <p class="comp_text">Discord: Join the community if you're an aspiring sports analyst or just enjoy sports!</p>
           </a>
+        </div> -->
+        <div class="company">
+          <router-link class ="comp_link" to="/ESPN">
+            <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" />
+            <p class="comp_text">Working on projects and articles for the ESPN Analytics Team</p>
+          </router-link>
         </div>
         <div class="company">
           <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
             <img class="comp_logo" src="../assets/linkedin.png" />
-            <p class="comp_text">LinkedIn: Sharing tips and thoughts about sports analytics &amp; data science</p>
+            <p class="comp_text">Sharing job tips &amp; career advice for sports nerds on LinkedIn</p>
           </a>
         </div>
         <div class="company">
+          <a class="comp_link" href="https://sportsdada.substack.com/" target="_blank">
+            <img class="comp_logo" src="../assets/headshot.png" />
+            <p class="comp_text">Writing about what I love + tips along the way on Substack</p>
+          </a>
+        </div>
+        <!-- <div class="company">
           <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
             <img class="comp_logo" src="../assets/twitter.png" />
             <p class="comp_text">Twitter: Join the fun as I tweet data viz &amp; interesting stats</p>
           </a>
-        </div>
+        </div> -->
       </div>
       <br>
-      <br>
+      <h5 class="content-subtitle">I also continue to help run the data processes for The Wood Report and the Powder League</h5>
+
       <div class="content-header">
-        <h1 class="content-title">Old Content</h1>
-        <h5 class="content-subtitle">Links to everything I worked on prior to starting at ESPN</h5>
+        <h1 class="content-title">Graveyard:</h1>
+        <!-- <h5 class="content-subtitle">Links to everything I worked on prior to starting at ESPN</h5> -->
       </div>
       <div class="articles">
         <h2 class="articles-title content-page-title">Articles</h2>
@@ -133,7 +141,7 @@
               target="_blank">Presentation: Using NBA Salary Data to Improve Success</a>
           </li>
         </div>
-        <div class="list bpl">
+        <!-- <div class="list bpl">
           <h4 class="bpl-title content-page-subtitle">The Powder League</h4>
           <li class="links-list">
             <a href="https://www.sportsdada.net/PowderStats"
@@ -145,6 +153,21 @@
           <li class="links-list">
             <a href="https://www.thewoodreportxc.com/"
               target="_blank">Project: Management of All Stats (see menu option "WR")</a>
+          </li>
+        </div> -->
+        <div class="list social">
+          <h4 class="sabin-title content-page-subtitle">Social Media</h4>
+          <li class="links-list">
+            <a href="https://www.tiktok.com/@chrisandkemi"
+              target="_blank">I gave TikTok an attempt</a>
+          </li>
+          <li class="links-list">
+            <a href="https://www.twitter.com/SportsDada/"
+              target="_blank">I still dabble with Twitter sometimes</a>
+          </li>
+          <li class="links-list">
+            <a href="https://discord.gg/FMHTDgrjxc"
+              target="_blank">Sometimes I'm on this Discord</a>
           </li>
         </div>
       </div>
@@ -199,7 +222,7 @@ export default {
 
 .articles,
 .projects {
-  padding-top: 30px;
+  padding-top: 10px;
   color: #4670B4;
 }
 
@@ -215,7 +238,7 @@ a:active:hover {
 }
 
 .list {
-  padding-left: 50px;
+  padding-left: 25px;
   padding-top: 10px;
 }
 
@@ -224,7 +247,7 @@ a:active:hover {
 }
 
 .links-list {
-  padding-left: 50px;
+  padding-left: 25px;
   padding-top: 10px;
   list-style: none;
 }
@@ -244,6 +267,7 @@ a:active:hover {
 }
 
 .comp_text {
+  padding-top: 5px;
   width: 250px;
 }
 
@@ -251,6 +275,7 @@ a:active:hover {
 .comp_link {
   color: #4670B4;
   text-decoration: none;
+  text-align: center;
 }
 
 .comp_link:active:hover,
@@ -271,6 +296,9 @@ a:active:hover {
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
+  }
+  .current-content {
+    padding-right: 0px;
   }
   .list {
     padding-left: 5px;

@@ -1,6 +1,6 @@
 <template>
   <div class="the101">
-    <PowderHead />
+    <PowderHead2021 />
     <div class="nonflex">
       <h1 class="construction">!Currently Under Construction!</h1>
       <br><br>
@@ -16,14 +16,14 @@
 
 <script>
 import PowderFoot from '@/components/PowderFoot.vue';
-import PowderHead from '@/components/PowderHead.vue';
+import PowderHead2021 from '@/components/PowderHead2021.vue';
 
 export default {
   name: 'The101',
   title: 'BPL: 101',
   components: {
     PowderFoot,
-    PowderHead,
+    PowderHead2021,
   }
 }
 </script>

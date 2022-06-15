@@ -8,9 +8,9 @@ library(readxl)
 library(xlsx)
 library(dplyr)
 
-day <- 15
-week <- 1
-month <- 6
+day <- 21
+week <- 10
+month <- 8
 
 game_num <- readRDS("gameNum.rds")
 
@@ -25,8 +25,7 @@ ids <- data.frame(team = c("Arok", "Berger", "Draney", "Roberts", "Clarke", "Hum
 args <- c(day, week, month)
 
 dates <- read.csv("game_dates.csv")
-dates <- data.frame(rbind(paste0(args[3], "/", args[1], "/", 22), dates))
-colnames(dates) <- c("dates")
+dates <- data.frame(rbind(paste0(args[3], "/", args[1], "/", 21), dates))
 write.csv(dates, "game_dates.csv", row.names = FALSE)
 
 ### Gather data for Game 1
@@ -158,7 +157,7 @@ for (i in 1:length(final_box$team)) {
 }
 final_box$game_id <- game_num
 final_box$time <- "7:00 PM"
-final_box$date <- paste0(args[3], "/", args[1], "/22")
+final_box$date <- paste0(args[3], "/", args[1], "/21")
 final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
 final_box$winner <- ids$team_id[which(ids$team == winner)]
 for (i in 1:length(final_box$date)) {
@@ -781,7 +780,7 @@ master <- read.csv(file = "Master.csv")
 player <- data.frame(id = unique(master$player_id))
 player <- data.frame(id = player[-c(which(player$id == "")),])
 player <- data.frame(id = player[-c(which(player$id == "Stats")),])
-# player <- data.frame(id = player[-which(player$id == "festusndumanya_02"),])
+player <- data.frame(id = player[-which(player$id == "festusndumanya_02"),])
 
 
 for (i in 1:length(player$id)) {
@@ -873,19 +872,19 @@ for (i in 1:length(player$id)) {
 # player <- player[-which(player$first == "Guest"),]
 
 ### Build leaderboards
-pts_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-pts)),][1:10,c(1:3, 8)]
-mp_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-mp)),][1:10,c(1:3, 7)]
-reb_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-treb)),][1:10,c(1:3, 20)]
-ast_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-ast)),][1:10,c(1:3, 21)]
-blk_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-blk)),][1:10,c(1:3, 23)]
-stl_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-stl)),][1:10,c(1:3, 22)]
+pts_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-pts)),][1:10,c(1:3, 8)]
+mp_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-mp)),][1:10,c(1:3, 7)]
+reb_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-treb)),][1:10,c(1:3, 20)]
+ast_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-ast)),][1:10,c(1:3, 21)]
+blk_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-blk)),][1:10,c(1:3, 23)]
+stl_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-stl)),][1:10,c(1:3, 22)]
 # `fg%_leader` <- player[which(player$fga > 5),][with(player[which(player$fga > 5),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
-`fg%_leader` <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
+`fg%_leader` <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
 # `3p%_leader` <- player[which(player$`3pa` > 3),][with(player[which(player$`3pa` > 3),],order(-`3p%`)),][1:10,c(1:3, 12:14)]
-p3int <- player[intersect(which(player$g >= 1), which((player$`3pa` * player$g) >= 1)),]
-`3p%_leader` <- p3int[with(p3int,order(-`3p%`)),][1:10,c(1:3, 12:14)]
+p3int <- player[intersect(which(player$g > 1), which((player$`3pa` * player$g) > 5)),]
+`3p%_leader` <-p3int[with(p3int,order(-`3p%`)),][1:10,c(1:3, 12:14)]
 # `ft%_leader` <- player[which(player$fta > 2),][with(player[which(player$fta > 2),],order(-`ft%`)),][1:10,c(1:3, 15:17)]
-ftint <- player[intersect(which(player$g >= 1), which((player$fta * player$g) >= 1)),]
+ftint <- player[intersect(which(player$g > 1), which((player$fta * player$g) > 9)),]
 `ft%_leader` <- ftint[with(ftint,order(-`ft%`)),][1:10,c(1:3, 15:17)]
 
 ## Add player averages to player.csv

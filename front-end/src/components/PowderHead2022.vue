@@ -1,7 +1,7 @@
 <template>
-  <div class="full-header">
-    <div class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="full-header bg-light">
+    <div class="powder-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,22 +14,33 @@
               <a class="nav-link" href="html/apply.html">Apply</a>
             </li> -->
             <li class="nav-item">
-              <router-link class ="header-link" to="/">Home</router-link>
+              <a href="https://www.powderleague.com/" target="_blank">
+                <img class = "powder-img" src="@/assets/powder.png"/>
+              </a>
             </li>
             <li class="nav-item">
-              <router-link class ="header-link" to="/Content">Entries</router-link>
+              <router-link class ="powder-header-link powder-link" to="/PowderStats2022">
+                  <p>Main</p></router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/Game2022">Games</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/Player2022">Players</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/Standings2022">Standings</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="powder-header-link powder-link" to="/TeamStat2022">Teams</router-link>
             </li>
             <!-- <li class="nav-item">
-              <router-link class ="header-link" to="/About">About</router-link>
+              <router-link class ="powder-header-link powder-link" to="/The101">The 101</router-link>
             </li> -->
-            <li class="nav-item">
-              <a class ="header-link wreport-link" href="https://thewoodreportxc.com/" target="_blank">
-                  <img class = "normal-wreport-img" src="@/assets/wreport.png" /><p>The Wood Report</p></a>
-            </li>
-            <li class="nav-item">
-              <router-link class ="header-link powder-link" to="/PowderStats">
-                  <img class = "normal-powder-img" src="@/assets/powder.png" /><p>Powder League</p></router-link>
-            </li>
+
+            <!-- <li class="nav-item">
+              <router-link class ="powder-header-link" to="/">Back to Sports Dada</router-link>
+            </li> -->
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Products
@@ -43,11 +54,13 @@
 
           </ul>
         </div>
-        <!-- <div class="header_buttons">
+        <!-- <div class="powder-header_buttons">
           <button class = "" onclick="location.href = 'https://twitter.com/SportsDada'">Follow</button>
           <button class = "" onclick="location.href = 'https://www.sportsdada.net'">Learn More</button>
         </div> -->
-        <img class="normal-logo" src="../assets/logo.png" />
+        <router-link to="/">
+          <img class="alternate-logo" src="../assets/logo_alt.png" />
+        </router-link>
 
       </nav>
     </div>
@@ -59,7 +72,7 @@
 import Featured from '@/components/Featured.vue';
 
 export default {
-  name: 'Header',
+  name: 'PowderHead2022',
   components: {
     Featured,
   }
@@ -67,28 +80,26 @@ export default {
 </script>
 
 <style>
+.full-header {
+
+}
 p {
   margin: 0;
 }
-.normal-logo {
-  width: 400px;
+.navbar {
+  padding: 0 !important;
+  background-color: white;
 }
-.normal-powder-img {
-  width: 35px;
+.alternate-logo {
+  width: 250px;
 }
-.normal-wreport-img {
-  width: 35px;
+.powder-img {
+  width: 100px;
+  /* cursor: pointer; */
 }
 .powder-link,
 .powder-link:active {
   color: #030303 !important;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.wreport-link,
-.wreport-link:active {
-  color: #F3B23D !important;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -100,14 +111,7 @@ p {
   flex-direction: row;
   align-items: center;
 }
-.wreport-link:hover,
-.wreport-link:hover:active {
-  color: #0F4C75 !important;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.header_buttons {
+.powder-header_buttons {
   margin-right: 10px;
   display: flex;
   justify-content: space-around;
@@ -130,11 +134,10 @@ button:hover:active {
   background-color: #F8F9FA;
   color: #CE663D;
 }
-.header {
+.powder-header {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-left: 10px;
 }
   /*color: #CE663D; <- orange*/
   /*color: #83C4E7; <- light blue*/
@@ -147,32 +150,26 @@ button:hover:active {
   align-items: center;
 }
 
-.header-link,
-.header-link:active {
+.powder-header-link,
+.powder-header-link:active {
   padding: 7px;
   color: #CE663D;
 }
 
-.header-link:hover,
-.header-link:active:hover {
+.powder-header-link:hover,
+.powder-header-link:active:hover {
   color: #4670B4;
-}
-
-@media only screen and (min-width: 991px) and (max-width: 1080px) {
-  .wreport-link,
-  .powder-link {
-    font-size: 19px;
-  }
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 991px) {
-  .normal-logo {
-    width: 200px;
+  .alternate-logo {
+    width: 150px;
   }
-  .normal-powder-img {
-    width: 35px;
+  .powder-img {
+    width: 50px;
   }
+
 }
 
 

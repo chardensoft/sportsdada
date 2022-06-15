@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer-content bg-light">
-      <h6 class ="header6">All content copyright © Sports Dada</h6>
+      <!-- <h6 class ="header6">All content copyright © Sports Dada</h6> -->
       <!-- <h6 class ="header6">
         <a href="https://linktr.ee/sportsdada" target="_blank">Donate/Follow</a>
       </h6> -->

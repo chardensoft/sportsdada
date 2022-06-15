@@ -1,3 +1,4 @@
+<!-- NOT IN USE -->
 <template>
   <div class="full-header">
     <div class="header">
@@ -17,7 +18,7 @@
               <router-link class ="header-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="header-link" to="/Content">Content</router-link>
+              <router-link class ="header-link" to="/Content">Entries</router-link>
             </li>
             <li class="nav-item">
               <router-link class ="header-link" to="/About">About</router-link>

@@ -1,27 +1,35 @@
 <template>
   <div class="about">
     <Header />
+
     <div class="about-content">
       <div class="about-info">
         <div class="text-info">
           <h1 class="hi-info">Hey! I'm Chris Harden and welcome to Sports Dada!</h1>
           <br>
-          <h6 class="small-info">I'm a Sports Analyst on ESPN's Sports Analytics Team. We're responsible for key statistics produced by ESPN such as BPI in the NBA and QBR in the NFL.</h6>
-          <h6 class="small-info">I'm a lucky husband and a dad of two adorable kids, a huge Boston sports fan, and I love building things!</h6>
+          <h6 class="small-info">Sports Dada was originally created so I could get noticed as I worked to get into the sports industry. I showcased projects and tried to show my worth.</h6>
+          <h6 class="small-info">Now, I'm living the dream as a Data Scientist on ESPN's Sports Analytics Team. We're responsible for key statistics produced by ESPN such as BPI in the NBA or QBR in the NFL.</h6>
+          <h6 class="small-info">I use the site to keep sharing things I've created or worked on and to try to help others along the way! I'm a lucky husband, dad of two adorable kids and a huge Boston sports fan. I love building things, hanging with my kids and watching movies with my wife.</h6>
+
+
         </div>
       </div>
       <div class="about-pic-div">
         <img class="about-pic" src="../assets/aboutpic.jpeg">
       </div>
-      <!-- <h1 class="comingsoon">About Page Coming Soon!</h1> -->
     </div>
+
+    <Home />
+
     <Footer />
+
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import Home from '@/components/Home.vue';
 
 export default {
   name: 'About',
@@ -29,6 +37,7 @@ export default {
   components: {
     Header,
     Footer,
+    Home,
   }
 }
 </script>
@@ -48,7 +57,7 @@ export default {
 }
 
 .text-info {
-  padding: 75px;
+  padding: 50px;
 }
 
 .about-info {
@@ -74,14 +83,14 @@ export default {
 } */
 
 .about-pic {
-  width: 400px;
+  width: 300px;
 }
 
 .about-pic-div {
   /* border: 2px solid black; */
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .about-info {
     width: 300px;
   }

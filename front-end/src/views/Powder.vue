@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="powder">
     <Header />
     <div class="nonflex">
@@ -84,4 +84,4 @@ h3 {
 }
 
 
-</style>
+</style> -->

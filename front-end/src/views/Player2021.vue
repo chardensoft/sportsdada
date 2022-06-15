@@ -1,9 +1,9 @@
 <template>
   <div class="player">
-    <PowderHead />
+    <PowderHead2021 />
     <div class="nonflex">
       <!-- <h1 class="construction">!Currently Under Construction!</h1> -->
-      <h3>Powder League Player Rankings</h3>
+      <h3>2021 Powder League Player Rankings</h3>
       <p>Sort a column by clicking on its header</p>
       <table class="player-table" id="myTable2">
         <thead class="thead-player">
@@ -68,15 +68,15 @@
 
 <script>
 import PowderFoot from '@/components/PowderFoot.vue';
-import PowderHead from '@/components/PowderHead.vue';
-import player_stats from '../../../back-end/players.json';
+import PowderHead2021 from '@/components/PowderHead2021.vue';
+import player_stats from '../../../back-end/players2021.json';
 
 export default {
   name: 'Player',
   title: 'BPL: Players',
   components: {
     PowderFoot,
-    PowderHead,
+    PowderHead2021,
   },
   data() {
     return {

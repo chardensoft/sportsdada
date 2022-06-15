@@ -1,9 +1,9 @@
 <template>
   <div class="game">
-    <PowderHead />
+    <PowderHead2022 />
     <div class="nonflex">
       <!-- <h1>!Currently Under Construction!</h1> -->
-      <h3>Powder League Game Box Scores</h3>
+      <h3>2022 Powder League Game Box Scores</h3>
       <br>
       <form class="form-game">
         <label class="label-game" for="dates">Choose a date and scroll to the game you want:</label>
@@ -637,7 +637,7 @@
 
 <script>
 import PowderFoot from '@/components/PowderFoot.vue';
-import PowderHead from '@/components/PowderHead.vue';
+import PowderHead2022 from '@/components/PowderHead2022.vue';
 import master from '../../../back-end/master.json';
 import game_dates from '../../../back-end/game_dates.json'
 
@@ -646,7 +646,7 @@ export default {
   title: 'BPL: Games',
   components: {
     PowderFoot,
-    PowderHead,
+    PowderHead2022,
   },
   // computed: {
   //   using_master() {
