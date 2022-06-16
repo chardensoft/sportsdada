@@ -7,6 +7,7 @@ rm(list = ls())
 library(readxl)
 library(xlsx)
 library(dplyr)
+library(stringr)
 
 day <- 15
 week <- 1
@@ -16,9 +17,9 @@ game_num <- readRDS("gameNum.rds")
 
 master_box <- read.csv("Master.csv")
 
-ids <- data.frame(team = c("Arok", "Berger", "Draney", "Roberts", "Clarke", "Humphries", "Dastrop", 
-                    "Drisdom", "Joyce", "Fulton", "Covington", "Egan"), 
-                  team_id = c("ARK", "BGR", "DNY", "RBT", "CLK", "HMP", "DTP", "DDM", "JYC", "FLN", "CVN", "EGN"))
+ids <- data.frame(team = c("Bullock", "Stan", "Draney", "Erickson", "Humpherys", 
+                    "Drisdom", "Joyce", "Covington", "Egan"), 
+                  team_id = c("BUL", "BGR", "STN", "ERK", "HMP", "DDM", "JYC", "CVN", "EGN"))
 
 
 #args <- commandArgs(trailingOnly=TRUE)
@@ -38,9 +39,9 @@ for (i in 1:length(df)) {
   
   if (substr(df[i], 1, 2) == "FG") {
     if (as.numeric(temp1[2,1]) > as.numeric(temp1[2,3])) {
-      winner <- as.character(temp1[1,1])
+      winner <- str_remove(as.character(temp1[1,1]), "Team ")
     } else {
-      winner <- as.character(temp1[1,3])
+      winner <- str_remove(as.character(temp1[1,3]), "Team ")
     }
   }
   
@@ -143,8 +144,8 @@ colnames(final_box) <- append(c("", "Home Team (Gray)", colnames(final_box)[3]),
 
 len <- length(final_box$`Home Team (Gray)`)
 split_row <- which(final_box$`Home Team (Gray)` == "")[2]
-final_box[c(1:(split_row - 1)), 1] <- colnames(final_box)[3]
-final_box[c((split_row + 2):len), 1] <- final_box[split_row + 1, 3]
+final_box[c(1:(split_row - 1)), 1] <- str_remove(colnames(final_box)[3], "Team.")
+final_box[c((split_row + 2):len), 1] <- str_remove(final_box[split_row + 1, 3], "Team ")
 colnames(final_box) <- final_box[1,]
 colnames(final_box)[1] <- "team"
 final_box <- final_box[-c(1, split_row, split_row + 1, split_row + 2),]
@@ -284,9 +285,9 @@ for (i in 1:length(df)) {
   
   if (substr(df[i], 1, 2) == "FG") {
     if (as.numeric(temp1[2,1]) > as.numeric(temp1[2,3])) {
-      winner <- as.character(temp1[1,1])
+      winner <- str_remove(as.character(temp1[1,1]), "Team ")
     } else {
-      winner <- as.character(temp1[1,3])
+      winner <- str_remove(as.character(temp1[1,3]), "Team ")
     }
   }
   
@@ -387,8 +388,8 @@ colnames(final_box) <- append(c("", "Home Team (Gray)", colnames(final_box)[3]),
 
 len <- length(final_box$`Home Team (Gray)`)
 split_row <- which(final_box$`Home Team (Gray)` == "")[2]
-final_box[c(1:(split_row - 1)), 1] <- colnames(final_box)[3]
-final_box[c((split_row + 2):len), 1] <- final_box[split_row + 1, 3]
+final_box[c(1:(split_row - 1)), 1] <- str_remove(colnames(final_box)[3], "Team.")
+final_box[c((split_row + 2):len), 1] <- str_remove(final_box[split_row + 1, 3], "Team ")
 colnames(final_box) <- final_box[1,]
 colnames(final_box)[1] <- "team"
 final_box <- final_box[-c(1, split_row, split_row + 1, split_row + 2),]
@@ -402,7 +403,7 @@ for (i in 1:length(final_box$team)) {
 }
 final_box$game_id <- game_num
 final_box$time <- "8:30 PM"
-final_box$date <- paste0(args[3], "/", args[1], "/21")
+final_box$date <- paste0(args[3], "/", args[1], "/22")
 final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
 final_box$winner <- ids$team_id[which(ids$team == winner)]
 for (i in 1:length(final_box$date)) {
@@ -648,7 +649,7 @@ if (length(df) > 0) {
   }
   final_box$game_id <- game_num
   final_box$time <- "9:00 PM"
-  final_box$date <- paste0(args[3], "/", args[1], "/21")
+  final_box$date <- paste0(args[3], "/", args[1], "/22")
   final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
   final_box$winner <- ids$team_id[which(ids$team == winner)]
   for (i in 1:length(final_box$date)) {
@@ -779,8 +780,12 @@ master <- read.csv(file = "Master.csv")
 # master[is.na(master)] <- ""
 
 player <- data.frame(id = unique(master$player_id))
-player <- data.frame(id = player[-c(which(player$id == "")),])
-player <- data.frame(id = player[-c(which(player$id == "Stats")),])
+if (length(which(player$id == "")) > 0) {
+  player <- data.frame(id = player[-c(which(player$id == "")),])  
+}
+if (length(which(player$id == "Stats")) > 0) {
+  player <- data.frame(id = player[-c(which(player$id == "Stats")),])  
+}
 # player <- data.frame(id = player[-which(player$id == "festusndumanya_02"),])
 
 
