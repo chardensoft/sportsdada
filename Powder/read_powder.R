@@ -9,7 +9,7 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 15
+day <- 17
 week <- 1
 month <- 6
 
@@ -17,7 +17,7 @@ game_num <- readRDS("gameNum.rds")
 
 master_box <- read.csv("Master.csv")
 
-ids <- data.frame(team = c("Bullock", "Stan", "Draney", "Erickson", "Humpherys", 
+ids <- data.frame(team = c("Bullock", "Berger", "Stan", "Erickson", "Humpherys", 
                     "Drisdom", "Joyce", "Covington", "Egan"), 
                   team_id = c("BUL", "BGR", "STN", "ERK", "HMP", "DDM", "JYC", "CVN", "EGN"))
 
@@ -887,10 +887,10 @@ stl_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],o
 # `fg%_leader` <- player[which(player$fga > 5),][with(player[which(player$fga > 5),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
 `fg%_leader` <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
 # `3p%_leader` <- player[which(player$`3pa` > 3),][with(player[which(player$`3pa` > 3),],order(-`3p%`)),][1:10,c(1:3, 12:14)]
-p3int <- player[intersect(which(player$g >= 1), which((player$`3pa` * player$g) >= 1)),]
+p3int <- player[intersect(which(player$g >= 1), which((player$`3pa` * player$g) > 0)),]
 `3p%_leader` <- p3int[with(p3int,order(-`3p%`)),][1:10,c(1:3, 12:14)]
 # `ft%_leader` <- player[which(player$fta > 2),][with(player[which(player$fta > 2),],order(-`ft%`)),][1:10,c(1:3, 15:17)]
-ftint <- player[intersect(which(player$g >= 1), which((player$fta * player$g) >= 1)),]
+ftint <- player[intersect(which(player$g >= 1), which((player$fta * player$g) > 1)),]
 `ft%_leader` <- ftint[with(ftint,order(-`ft%`)),][1:10,c(1:3, 15:17)]
 
 ## Add player averages to player.csv
