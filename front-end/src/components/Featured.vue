@@ -2,7 +2,7 @@
   <div class="featured">
     <a class="featured-link" href="https://fantasy.espn.com/games/basketball-draft-challenge-2022/group?id=1e633ff5-ceb8-4e61-8b2c-174fee5dda0d&joining=true" target="_blank">
     <div class="featured-content">
-      <h3 class ="featured-header">Featured: Come Join Our NBA Draft Group</h3>
+      <h3 class ="featured-header">Featured: Come Join My NBA Draft Group</h3>
     </div></a>
   </div>
 </template>
