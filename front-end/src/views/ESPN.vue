@@ -35,7 +35,7 @@
           </a>
         </div>
         <div class="company">
-          <a class="comp_link" href="https://www.espn.com/nba/draft/news" target="_blank">
+          <a class="comp_link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
             <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
             <p class="espn_comp_text">Article on 2022 NBA Draft</p>
           </a>
