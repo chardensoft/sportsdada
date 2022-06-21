@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <Header />
+    <Featured />
 
     <div class="about-content">
       <div class="about-info">
@@ -30,6 +31,7 @@
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Home from '@/components/Home.vue';
+import Featured from '@/components/Featured.vue';
 
 export default {
   name: 'About',
@@ -38,6 +40,7 @@ export default {
     Header,
     Footer,
     Home,
+    Featured,
   }
 }
 </script>

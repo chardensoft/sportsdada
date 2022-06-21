@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <!-- <Featured /> -->
+    <Featured />
 
     <div class="content">
       <div class="content-header">
@@ -179,7 +179,7 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
-// import Featured from '@/components/Featured.vue';
+import Featured from '@/components/Featured.vue';
 
 export default {
   name: 'Content',
@@ -187,7 +187,7 @@ export default {
   components: {
     Header,
     Footer,
-    // Featured,
+    Featured,
   }
 }
 </script>

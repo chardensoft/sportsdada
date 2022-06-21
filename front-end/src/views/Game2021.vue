@@ -3,7 +3,7 @@
     <PowderHead2021 />
     <div class="nonflex">
       <!-- <h1>!Currently Under Construction!</h1> -->
-      <h3>2021 Powder League Game Box Scores</h3>
+      <h3 class="h3-powder">2021 Powder League Game Box Scores</h3>
       <br>
       <form class="form-game">
         <label class="label-game" for="dates">Choose a date and scroll to the game you want:</label>
@@ -707,7 +707,7 @@ export default {
 .boxscore {
   width: 700px;
 }
-h3 {
+.h3-powder {
   padding-top: 20px;
   padding-left: 20px;
   color: #4670B4;

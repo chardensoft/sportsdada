@@ -14,7 +14,7 @@
               <a class="nav-link" href="html/apply.html">Apply</a>
             </li> -->
             <li class="nav-item">
-              <router-link class ="header-link" to="/">Home</router-link>
+              <router-link class ="header-link header-link1" to="/">Home</router-link>
             </li>
             <li class="nav-item">
               <router-link class ="header-link" to="/Entries">Entries</router-link>
@@ -134,7 +134,6 @@ button:hover:active {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-left: 10px;
 }
   /*color: #CE663D; <- orange*/
   /*color: #83C4E7; <- light blue*/
@@ -156,6 +155,10 @@ button:hover:active {
 .header-link:hover,
 .header-link:active:hover {
   color: #4670B4;
+}
+
+.header-link1 {
+  padding-left: 10px;
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1080px) {

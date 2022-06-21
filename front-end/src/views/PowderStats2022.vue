@@ -1,6 +1,7 @@
 <template>
   <div class="powder">
     <PowderHead2022 />
+    <Featured />
     <div class="nonflex">
       <h3>2022 Powder League Leaderboards</h3>
       <!-- <button @click="getPts">Refresh</button> -->
@@ -114,6 +115,7 @@ import stl_json from '../../../back-end/stl.json';
 import fg_json from '../../../back-end/fg.json';
 import p3_json from '../../../back-end/pth.json';
 import ft_json from '../../../back-end/ft.json';
+import Featured from '@/components/Featured.vue';
 
 export default {
   name: 'PowderStats',
@@ -121,6 +123,7 @@ export default {
   components: {
     PowderFoot,
     PowderHead2022,
+    Featured,
   },
   data() {
     return {
@@ -171,7 +174,7 @@ export default {
           // }
 
             this.fg[i].fg = (100 * this.fg[i].fg.toFixed(3)).toFixed(1);
-          
+
           // }
           // if (this.p3[i].p3 != Math.round(this.p3[i].p3)) {
             this.p3[i].p3 = (100 * this.p3[i].p3.toFixed(3)).toFixed(1);

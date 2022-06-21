@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <!-- <Featured /> -->
+    <Featured />
 
     <div class="espn-content">
       <div class="content-header">
@@ -23,11 +23,16 @@
           </a>
         </div> -->
         <div class="company">
-          <a class="comp_link" href="http://espnsportsanalytics.com/" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" /> -->
-            <p class="espn_comp_text">2022 NFL Draft Predictor</p>
+          <a class="comp_link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
+            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
+            <p class="espn_comp_text">Article on 2022 NBA Draft</p>
           </a>
         </div>
+        <!-- <div class="company">
+          <a class="comp_link" href="https://fantasy.espn.com/games/basketball-draft-challenge-2022/group?id=1e633ff5-ceb8-4e61-8b2c-174fee5dda0d&joining=true" target="_blank">
+            <p class="espn_comp_text">Join my NBA Draft Group!</p>
+          </a>
+        </div> -->
         <div class="company">
           <a class="comp_link" href="https://www.espn.com/nba/draft/projections" target="_blank">
             <!-- <img class="comp_logo" src="../assets/linkedin.png" /> -->
@@ -35,11 +40,13 @@
           </a>
         </div>
         <div class="company">
-          <a class="comp_link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
-            <p class="espn_comp_text">Article on 2022 NBA Draft</p>
+          <a class="comp_link" href="http://espnsportsanalytics.com/" target="_blank">
+            <!-- <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" /> -->
+            <p class="espn_comp_text">2022 NFL Draft Predictor</p>
           </a>
         </div>
+
+
         <!-- <div class="company">
           <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
             <img class="comp_logo" src="../assets/twitter.png" />
@@ -179,7 +186,7 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
-// import Featured from '@/components/Featured.vue';
+import Featured from '@/components/Featured.vue';
 
 export default {
   name: 'Content',
@@ -187,7 +194,7 @@ export default {
   components: {
     Header,
     Footer,
-    // Featured,
+    Featured,
   }
 }
 </script>

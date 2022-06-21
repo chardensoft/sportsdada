@@ -1,18 +1,26 @@
 <template>
   <div class="featured">
-    <a class="featured-link" href="https://sportsdadas.blogspot.com/2021/07/sports-dadas-powder-league-mvp-ladder.html" target="_blank">
+    <a class="featured-link" href="https://fantasy.espn.com/games/basketball-draft-challenge-2022/group?id=1e633ff5-ceb8-4e61-8b2c-174fee5dda0d&joining=true" target="_blank">
     <div class="featured-content">
-      <h1 class ="featured-header">Click Here! Featured Article: Powder League MVP Ladder</h1>
+      <h3 class ="featured-header">Featured: Come Join Our NBA Draft Group</h3>
     </div></a>
   </div>
 </template>
 
 <style>
-.featured-header {
-  padding: 20px 10px 10px 10px;
+.featured-header,
+.featured-header:active {
+  padding: 10px 10px 5px 10px;
+  color: white;
+}
+
+.featured-header:hover,
+.featured-header:hover:active {
+  color: #2056A7;
 }
 
 .featured {
+  /* margin-top: -30px; */
   padding-bottom: 10px;
 }
 
@@ -30,8 +38,8 @@
 
 .featured-content {
   border: solid 2px #4570B4;
-  margin: 2% 5% 1% 5%;
-  border-radius: 15px;
+  /* margin: 2% 5% 1% 5%; */
+  /* border-radius: 15px; */
   background-color: #4570B4;
   color: #fff;
   box-shadow: 0 0 40px 40px #4570B4 inset, 0 0 0 0 #4570B4;
