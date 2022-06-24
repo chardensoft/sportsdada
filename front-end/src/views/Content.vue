@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Featured />
+    <!-- <Featured /> -->
 
     <div class="content">
       <div class="content-header">

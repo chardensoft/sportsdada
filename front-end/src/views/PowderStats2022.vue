@@ -1,7 +1,7 @@
 <template>
   <div class="powder">
     <PowderHead2022 />
-    <Featured />
+    <!-- <Featured /> -->
     <div class="nonflex">
       <h3>2022 Powder League Leaderboards</h3>
       <!-- <button @click="getPts">Refresh</button> -->

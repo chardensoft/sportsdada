@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <Header />
-    <Featured />
+    <!-- <Featured /> -->
 
     <div class="about-content">
       <div class="about-info">
