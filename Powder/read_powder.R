@@ -9,7 +9,7 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 23
+day <- 24
 week <- 2
 month <- 6
 
