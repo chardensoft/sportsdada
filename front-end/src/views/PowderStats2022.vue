@@ -157,21 +157,21 @@ export default {
 
         for (let i = 0; i < 10; i++) {
 
-          // if (this.reb[i].treb != Math.round(this.reb[i].treb)) {
-            //this.reb[i].treb = this.reb[i].treb.toFixed(1);
-          // }
-          // if (this.ast[i].ast != Math.round(this.ast[i].ast)) {
-            //this.ast[i].ast = this.ast[i].ast.toFixed(1);
-          // }
-          // if (this.pts[i].pts != Math.round(this.pts[i].pts)) {
-            //this.pts[i].pts = this.pts[i].pts.toFixed(1);
-          // }
-          // if (this.blk[i].blk != Math.round(this.blk[i].blk)) {
-            //this.blk[i].blk = this.blk[i].blk.toFixed(1);
-          // }
-          // if (this.stl[i].stl != Math.round(this.stl[i].stl)) {
-          //  this.stl[i].stl = this.stl[i].stl.toFixed(1);
-          // }
+          if (this.reb[i].treb != Math.round(this.reb[i].treb)) {
+            this.reb[i].treb = this.reb[i].treb.toFixed(1);
+          }
+          if (this.ast[i].ast != Math.round(this.ast[i].ast)) {
+            this.ast[i].ast = this.ast[i].ast.toFixed(1);
+          }
+          if (this.pts[i].pts != Math.round(this.pts[i].pts)) {
+            this.pts[i].pts = this.pts[i].pts.toFixed(1);
+          }
+          if (this.blk[i].blk != Math.round(this.blk[i].blk)) {
+            this.blk[i].blk = this.blk[i].blk.toFixed(1);
+          }
+          if (this.stl[i].stl != Math.round(this.stl[i].stl)) {
+           this.stl[i].stl = this.stl[i].stl.toFixed(1);
+          }
 
             this.fg[i].fg = (100 * this.fg[i].fg.toFixed(3)).toFixed(1);
 
@@ -181,9 +181,9 @@ export default {
           // }
           // if (this.ft[i].ft != Math.round(this.ft[i].ft)) {
             this.ft[i].ft = (100 * this.ft[i].ft.toFixed(3)).toFixed(1);
-          // if (this.mp[i].mp != Math.round(this.mp[i].mp)) {
-            //this.mp[i].mp = this.mp[i].mp.toFixed(1);
-          // }
+          if (this.mp[i].mp != Math.round(this.mp[i].mp)) {
+            this.mp[i].mp = this.mp[i].mp.toFixed(1);
+          }
           // // console.log(this.p3);
           // this.fg[i].fg = 100 * this.fg[i].fg
           // this.p3[i].p3 = 100 * this.fg[i].p3
