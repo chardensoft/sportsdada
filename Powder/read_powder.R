@@ -955,10 +955,10 @@ for (i in 1:length(teams$team)) {
   
 }
 teams$pct <- round(as.numeric(teams$w) / (as.numeric(teams$w) + as.numeric(teams$l)), 2)
-teams <- teams %>% arrange(desc(pct))
+teams <- teams %>% arrange(desc(w), desc(pct))
 
 for (i in 1:length(teams$team)) {
-  teams$gb[i] <- ifelse(i == 1, 0, teams$w[1] - teams$w[i])
+  teams$gb[i] <- ifelse(i == 1, 0, teams$l[i] - teams$l[1])
   opponents <- team_data[which(team_data$team_id != teams$team_id[i]),]
   teams$ppg[i] <- round(mean(team_data[which(team_data$team_id == teams$team_id[i]),]$pts, na.rm = TRUE), 1)
   teams$oppg[i] <- round(mean(data.frame(rbind(opponents[which(opponents$home == teams$team_id[i]),], 
