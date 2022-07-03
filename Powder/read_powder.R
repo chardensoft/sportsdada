@@ -3,6 +3,7 @@
 ## Arg 1 = date (25, 1, etc); Arg 2 = week (1, 2, etc); Arg 3 = month (6, 7, etc.)
 
 ## Set up for gathering game data
+setwd("~/Desktop/curr_Chris/Sportsdada/sportsdada/Powder")
 rm(list = ls())
 library(readxl)
 library(xlsx)
