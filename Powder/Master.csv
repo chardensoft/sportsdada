@@ -110,7 +110,7 @@ date,time,game_id,home,away,team,team_id,winner,player_id,first,last,X.,g,gs,mp,
 6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,treyfarrer_01,Trey,Farrer,21,1,,,16,12,5,0.416666667,3,2,0.666666667,4,4,1,1,4,5,1,1,1,2,0
 6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,yoelichilds_01,Yoeli,Childs,23,2,,,11,10,5,0.5,3,1,0.333333333,0,0,,3,2,5,3,0,0,0,0
 6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,evantroy_01,Evan,Troy,24,1,,,0,7,0,0,5,0,0,0,0,,0,6,6,1,0,1,1,1
-6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,bartzinboban_01,Bartzin,Boban,25,1,,,7,3,3,1,1,1,1,0,0,,0,4,4,0,0,2,0,0
+6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,barzinboban_01,Barzin,Boban,25,2,,,7,3,3,1,1,1,1,0,0,,0,4,4,0,0,2,0,0
 6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,nicpaulos_01,Nic,Paulos,31,2,,,8,6,3,0.5,5,2,0.4,0,0,,0,1,1,0,2,0,2,1
 6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,kurkuath_01,Kur,Kuath,34,1,,,13,12,6,0.5,4,1,0.25,0,0,,0,5,5,4,0,2,1,1
 6/22/22,8:30 PM,6,DDM,JYC,Joyce,JYC,JYC,,,,Total:,,,,111,89,42,0.471910112,37,15,0.405405405,14,12,0.857142857,9,45,54,30,7,7,13,8
@@ -164,7 +164,7 @@ date,time,game_id,home,away,team,team_id,winner,player_id,first,last,X.,g,gs,mp,
 6/29/22,7:00 PM,9,BUL,EGN,Bullock,BUL,BUL,,,,Total:,,,,126,108,51,0.472222222,32,11,0.34375,21,13,0.619047619,13,37,50,20,8,4,10,8
 6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,stevepanos_01,Steve,Panos,0,3,,,0,3,0,0,0,0,,0,0,,1,0,1,1,0,0,1,1
 6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,jameswalljasper_01,James,Walljasper,1,2,,,7,8,3,0.375,0,0,,2,1,0.5,0,3,3,4,1,0,2,3
-6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,calebleondhart_01,Caleb,Leondhart,10,1,,,13,12,5,0.416666667,10,3,0.3,0,0,,0,7,7,0,0,1,3,0
+6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,calebleonhardt_01,Caleb,Leonhardt,10,2,,,13,12,5,0.416666667,10,3,0.3,0,0,,0,7,7,0,0,1,3,0
 6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,adamegan_01,Adam,Egan,13,3,,,12,13,4,0.307692308,4,0,0,4,4,1,0,0,0,4,0,0,2,0
 6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,rexsunderland_01,Rex,Sunderland,13,3,,,0,0,0,,0,0,,0,0,,0,2,2,0,2,0,1,1
 6/29/22,7:00 PM,9,BUL,EGN,Egan,EGN,BUL,wilcarter_01,Wil,Carter,15,3,,,23,21,8,0.380952381,5,3,0.6,6,4,0.666666667,1,11,12,1,0,1,3,7
@@ -205,7 +205,7 @@ date,time,game_id,home,away,team,team_id,winner,player_id,first,last,X.,g,gs,mp,
 7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,blazenield_01,Blaze,Nield,3,3,,,17,17,5,0.294117647,7,1,0.142857143,8,6,0.75,0,1,1,8,2,0,2,3
 7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,chaseberry_01,Chase,Berry,10,1,,,8,5,3,0.6,4,2,0.5,0,0,,1,1,2,2,3,0,2,0
 7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,connorharding_01,Connor,Harding,11,3,,,10,15,4,0.266666667,8,2,0.25,0,0,,1,4,5,3,0,0,3,1
-7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,barzinboban_01,Barzin,Boban,25,2,,,0,0,0,,0,0,,0,0,,1,2,3,0,0,0,1,4
+7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,barzinboban_01,Barzin,Boban,25,3,,,0,0,0,,0,0,,0,0,,1,2,3,0,0,0,1,4
 7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,nicpaulos_01,Nic,Paulos,31,3,,,2,8,1,0.125,5,0,0,0,0,,3,0,3,0,1,0,1,0
 7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,kurkuath_01,Kur,Kuath,34,2,,,17,21,8,0.380952381,6,0,0,2,1,0.5,9,11,20,5,0,2,2,1
 7/1/22,7:00 PM,11,BGR,JYC,Joyce,JYC,BGR,,,,Total:,,,,85,89,33,0.370786517,45,12,0.266666667,10,7,0.7,18,28,46,23,7,2,14,13

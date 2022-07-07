@@ -994,6 +994,11 @@ for (i in 1:length(team_stats$team)) {
   team_stats$pf[i] <- round(mean(team_data[which(team_data$team_id == team_stats$team_id[i]),]$pf, na.rm = TRUE), 1)
 }
 
+if (length(intersect(which(player$first == "?"), which(player$last == "?"))) > 0) {
+  player <- player[-intersect(which(player$first == "?"), which(player$last == "?")),]  
+}
+
+
 
 
 
