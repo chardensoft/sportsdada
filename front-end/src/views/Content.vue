@@ -59,7 +59,7 @@
         <div class="list citystreetstrat">
           <h4 class="citystreetstrat-title content-page-subtitle">City Street Strat</h4>
           <li class="links-list">
-            <a href="https://www.citystreetstrat.com/strategies/screw-the-bulls-and-the-bears-lets-turn-to-the-horses-derby-day-09052020-probabilities"
+            <a href="https://www.citystreetstrat.com/articles/screw-the-bulls-and-the-bears-lets-turn-to-the-horses-derby-day-09052020-probabilities"
               target="_blank">Predicting the Kentucky Derby</a>
           </li>
         </div>
