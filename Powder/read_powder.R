@@ -875,7 +875,9 @@ for (i in 1:length(player$id)) {
 for (i in 1:length(player$id)) {
   player$pf[i] <- mean(master$pf[which(master$player_id == player$id[i])], na.rm = TRUE)
 }
-
+if (length(intersect(which(player$first == "?"), which(player$last == "?"))) > 0) {
+  player <- player[-intersect(which(player$first == "?"), which(player$last == "?")),]  
+}
 # player <- player[-which(player$first == "Guest"),]
 
 ### Build leaderboards
@@ -930,6 +932,7 @@ player$pf <- round(as.numeric(player$pf), 1)
 
 player[is.na(player)] <- ""
 player$team[which(player$team == "")] <- NA
+
 
 team_data <- master[which(master$num=="Total:"),]
 
@@ -992,10 +995,6 @@ for (i in 1:length(team_stats$team)) {
   team_stats$blk[i] <- round(mean(team_data[which(team_data$team_id == team_stats$team_id[i]),]$blk, na.rm = TRUE), 1)
   team_stats$tov[i] <- round(mean(team_data[which(team_data$team_id == team_stats$team_id[i]),]$tov, na.rm = TRUE), 1)
   team_stats$pf[i] <- round(mean(team_data[which(team_data$team_id == team_stats$team_id[i]),]$pf, na.rm = TRUE), 1)
-}
-
-if (length(intersect(which(player$first == "?"), which(player$last == "?"))) > 0) {
-  player <- player[-intersect(which(player$first == "?"), which(player$last == "?")),]  
 }
 
 
