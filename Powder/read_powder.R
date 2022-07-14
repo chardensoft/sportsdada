@@ -10,8 +10,8 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 8
-week <- 4
+day <- 13
+week <- 5
 month <- 7
 
 game_num <- readRDS("gameNum.rds")
