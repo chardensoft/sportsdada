@@ -881,21 +881,21 @@ if (length(intersect(which(player$first == "?"), which(player$last == "?"))) > 0
 # player <- player[-which(player$first == "Guest"),]
 
 ### Build leaderboards
-pts_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-pts)),][1:10,c(1:3, 8)]
-mp_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-mp)),][1:10,c(1:3, 7)]
-reb_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-treb)),][1:10,c(1:3, 20)]
-ast_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-ast)),][1:10,c(1:3, 21)]
-blk_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-blk)),][1:10,c(1:3, 23)]
-stl_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-stl)),][1:10,c(1:3, 22)]
-# `fg%_leader` <- player[which(player$fga > 5),][with(player[which(player$fga > 5),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
-`fg%_leader` <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
+pts_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-pts, -g)),][1:10,c(1:3, 8)]
+mp_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-mp, -g)),][1:10,c(1:3, 7)]
+reb_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-treb, -g)),][1:10,c(1:3, 20)]
+ast_leader <- player[which(player$g > 1),][with(player[which(player$g > 1),],order(-ast, -g)),][1:10,c(1:3, 21)]
+blk_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-blk, -g)),][1:10,c(1:3, 23)]
+stl_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-stl, -g)),][1:10,c(1:3, 22)]
+`fg%_leader` <- player[which((player$fga * player$g) > 6),][with(player[which((player$fga * player$g) > 6),],order(-`fg%`, -g)),][1:10,c(1:3, 9:11)]
+# `fg%_leader` <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-`fg%`)),][1:10,c(1:3, 9:11)]
 # `3p%_leader` <- player[which(player$`3pa` > 3),][with(player[which(player$`3pa` > 3),],order(-`3p%`)),][1:10,c(1:3, 12:14)]
-p3int <- player[intersect(which(player$g >= 1), which((player$`3pa` * player$g) > 0)),]
-`3p%_leader` <- p3int[with(p3int,order(-`3p%`)),][1:10,c(1:3, 12:14)]
+p3int <- player[which((player$`3pa` * player$g) >= 5),]
+`3p%_leader` <- p3int[with(p3int,order(-`3p%`, -g)),][1:10,c(1:3, 12:14)]
 # `ft%_leader` <- player[which(player$fta > 2),][with(player[which(player$fta > 2),],order(-`ft%`)),][1:10,c(1:3, 15:17)]
 # ftint <- player[intersect(which(player$g >= 1), which((player$fta * player$g) > 1)),]
-ftint <- player[which(player$fta > 1),] %>% arrange(desc(fta))
-`ft%_leader` <- ftint[with(ftint,order(-`ft%`)),][1:10,c(1:3, 15:17)]
+ftint <- player[which((player$fta * player$g) >= 5),] %>% arrange(desc(fta))
+`ft%_leader` <- ftint[with(ftint,order(-`ft%`, -g)),][1:10,c(1:3, 15:17)]
 
 ## Add player averages to player.csv
 write.csv(player, "Player.csv", row.names = FALSE)
