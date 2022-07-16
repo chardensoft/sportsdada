@@ -10,7 +10,7 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 13
+day <- 14
 week <- 5
 month <- 7
 
@@ -279,6 +279,7 @@ game_num <- readRDS("gameNum.rds")
 #### GAME 2 ##############################
 ########################################
 df <- list.files(pattern = paste0("G2 ", args[3], "-", args[1], "(.*)xlsm$"), path = paste0("Week", args[2], "/"))
+master_box <- read.csv("Master.csv")
 
 final_box <- data.frame(NA)
 for (i in 1:length(df)) {
