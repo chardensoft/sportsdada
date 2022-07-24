@@ -449,23 +449,23 @@ date,time,game_id,home,away,team,team_id,winner,player_id,first,last,X.,g,gs,mp,
 7/22/22,8:30 PM,24,JYC,STN,Stan,STN,JYC,ibegerlach_01,Ibe,Gerlach,20,5,,,12,14,5,0.357142857,9,2,0.222222222,0,0,,1,3,4,2,,,,4
 7/22/22,8:30 PM,24,JYC,STN,Stan,STN,JYC,ronaldleach_01,Ronald,Leach,32,5,,,12,8,6,0.75,0,0,,0,0,,4,3,7,1,,,,2
 7/22/22,8:30 PM,24,JYC,STN,Stan,STN,JYC,,,,Total:,,,,102,89,38,0.426966292,41,11,0.268292683,19,15,0.789473684,8,27,35,14,,,,12
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,taylormiller_01,Taylor,Miller,0,4,,,14,11,6,0.545454545,4,2,0.5,0,0,,3,4,7,5,,,,1
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,brendanbailey_01,Brendan,Bailey,1,5,,,18,13,7,0.538461538,10,4,0.4,0,0,,1,6,7,1,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,dwaynebrown_01,Dwayne,Brown,2,6,,,18,15,8,0.533333333,7,2,0.285714286,0,0,,1,9,10,2,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,brandonsly_01,Brandon,Sly,2,6,,,11,8,4,0.5,1,1,1,2,2,1,1,1,2,4,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,markburton_01,Mark,Burton,3,5,,,18,15,8,0.533333333,9,2,0.222222222,0,0,,1,0,1,1,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,zachmogbo_01,Zach,Mogbo,4,6,,,10,8,5,0.625,1,0,0,0,0,,2,2,4,0,,,,3
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,zahirporter_01,Zahir,Porter,5,5,,,13,12,6,0.5,6,1,0.166666667,0,0,,0,0,0,3,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,kentrellbarkley_01,Kentrell,Barkley,12,5,,,14,7,5,0.714285714,4,2,0.5,2,2,1,2,5,7,3,,,,1
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,willcarter_01,Will,Carter,15,1,,,22,20,10,0.5,3,1,0.333333333,2,1,0.5,2,11,13,1,,,,2
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Barkley,ASGB,ASGS,,,,Total:,,,,138,109,59,0.541284404,45,15,0.333333333,6,5,0.833333333,13,38,51,20,,,,7
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,huntererickson_01,Hunter,Erickson,0,6,,,12,7,5,0.714285714,3,2,0.666666667,0,0,,0,2,2,7,,,,1
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,neemanamdar_01,Neema,Namdar,0,8,,,8,6,3,0.5,5,2,0.4,0,0,,0,2,2,0,,,,1
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,blazenield_01,Blaze,Nield,3,8,,,19,16,7,0.4375,10,4,0.4,2,1,0.5,0,2,2,4,,,,1
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,parkervan dyke_01,Parker,Van Dyke,7,6,,,23,20,10,0.5,9,3,0.333333333,0,0,,0,0,0,0,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,carsonjardine_01,Carson,Jardine,22,1,,,31,23,12,0.52173913,12,7,0.583333333,0,0,,1,6,7,6,,,,2
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,zavonjackson_01,Zavon,Jackson,24,5,,,7,5,3,0.6,0,0,,2,1,0.5,1,1,2,1,,,,2
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,zackvisentin_01,Zack,Visentin,32,6,,,7,3,3,1,0,0,,2,1,0.5,3,7,10,6,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,kurkuath_01,Kur,Kuath,34,4,,,0,0,0,,0,0,,0,0,,0,3,3,1,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,zacseljaas_01,Zac,Seljaas,99,6,,,33,25,12,0.48,18,7,0.388888889,2,2,1,0,10,10,6,,,,0
-2022 All Star Game,7:00 PM,25,ASGB,ASGS,Seljaas,ASGS,ASGS,,,,Total:,,,,140,105,55,0.523809524,57,25,0.438596491,8,5,0.625,5,33,38,31,,,,7
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,taylormiller_01,Taylor,Miller,0,4,,,14,11,6,0.545454545,4,2,0.5,0,0,,3,4,7,5,,,,1
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,brendanbailey_01,Brendan,Bailey,1,5,,,18,13,7,0.538461538,10,4,0.4,0,0,,1,6,7,1,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,dwaynebrown_01,Dwayne,Brown,2,6,,,18,15,8,0.533333333,7,2,0.285714286,0,0,,1,9,10,2,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,brandonsly_01,Brandon,Sly,2,6,,,11,8,4,0.5,1,1,1,2,2,1,1,1,2,4,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,markburton_01,Mark,Burton,3,5,,,18,15,8,0.533333333,9,2,0.222222222,0,0,,1,0,1,1,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,zachmogbo_01,Zach,Mogbo,4,6,,,10,8,5,0.625,1,0,0,0,0,,2,2,4,0,,,,3
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,zahirporter_01,Zahir,Porter,5,5,,,13,12,6,0.5,6,1,0.166666667,0,0,,0,0,0,3,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,kentrellbarkley_01,Kentrell,Barkley,12,5,,,14,7,5,0.714285714,4,2,0.5,2,2,1,2,5,7,3,,,,1
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,willcarter_01,Will,Carter,15,1,,,22,20,10,0.5,3,1,0.333333333,2,1,0.5,2,11,13,1,,,,2
+2022 Showcase,7:00 PM,25,SCB,SCS,Barkley,SCB,SCS,,,,Total:,,,,138,109,59,0.541284404,45,15,0.333333333,6,5,0.833333333,13,38,51,20,,,,7
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,huntererickson_01,Hunter,Erickson,0,6,,,12,7,5,0.714285714,3,2,0.666666667,0,0,,0,2,2,7,,,,1
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,neemanamdar_01,Neema,Namdar,0,8,,,8,6,3,0.5,5,2,0.4,0,0,,0,2,2,0,,,,1
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,blazenield_01,Blaze,Nield,3,8,,,19,16,7,0.4375,10,4,0.4,2,1,0.5,0,2,2,4,,,,1
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,parkervan dyke_01,Parker,Van Dyke,7,6,,,23,20,10,0.5,9,3,0.333333333,0,0,,0,0,0,0,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,carsonjardine_01,Carson,Jardine,22,1,,,31,23,12,0.52173913,12,7,0.583333333,0,0,,1,6,7,6,,,,2
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,zavonjackson_01,Zavon,Jackson,24,5,,,7,5,3,0.6,0,0,,2,1,0.5,1,1,2,1,,,,2
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,zackvisentin_01,Zack,Visentin,32,6,,,7,3,3,1,0,0,,2,1,0.5,3,7,10,6,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,kurkuath_01,Kur,Kuath,34,4,,,0,0,0,,0,0,,0,0,,0,3,3,1,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,zacseljaas_01,Zac,Seljaas,99,6,,,33,25,12,0.48,18,7,0.388888889,2,2,1,0,10,10,6,,,,0
+2022 Showcase,7:00 PM,25,SCB,SCS,Seljaas,SCS,SCS,,,,Total:,,,,140,105,55,0.523809524,57,25,0.438596491,8,5,0.625,5,33,38,31,,,,7

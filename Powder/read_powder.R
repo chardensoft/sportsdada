@@ -781,6 +781,8 @@ rm(list = ls())
 master <- read.csv(file = "Master.csv")
 # master[is.na(master)] <- ""
 
+master <- master[-which(master$date == "2022 Showcase"), ]
+
 player <- data.frame(id = unique(master$player_id))
 if (length(which(player$id == "")) > 0) {
   player <- data.frame(id = player[-c(which(player$id == "")),])  
@@ -998,9 +1000,8 @@ for (i in 1:length(team_stats$team)) {
   team_stats$pf[i] <- round(mean(team_data[which(team_data$team_id == team_stats$team_id[i]),]$pf, na.rm = TRUE), 1)
 }
 
-
-
-
+master <- read.csv(file = "Master.csv")
+colnames(master)[c(12, 19:22, 25)] <- c("num", "fgp", "thpa", "thpm", "thpp", "ftp")
 
 write_json(pts_leader, "../back-end/pts.json")
 write_json(ast_leader, "../back-end/ast.json")
