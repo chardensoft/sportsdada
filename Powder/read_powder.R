@@ -10,7 +10,7 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 20
+day <- 23
 week <- 6
 month <- 7
 
@@ -19,8 +19,8 @@ game_num <- readRDS("gameNum.rds")
 master_box <- read.csv("Master.csv")
 
 ids <- data.frame(team = c("Bullock", "Berger", "Stan", "Erickson", "Humpherys", 
-                    "Drisdom", "Joyce", "Covington", "Egan"), 
-                  team_id = c("BUL", "BGR", "STN", "ERK", "HMP", "DDM", "JYC", "CVN", "EGN"))
+                    "Drisdom", "Joyce", "Covington", "Egan", "Barkley (All Star)", "Seljaas (All Star)"), 
+                  team_id = c("BUL", "BGR", "STN", "ERK", "HMP", "DDM", "JYC", "CVN", "EGN", "ASGB", "ASGS"))
 
 
 #args <- commandArgs(trailingOnly=TRUE)
