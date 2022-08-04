@@ -10,7 +10,7 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 2
+day <- 3
 week <- 8
 month <- 8
 
@@ -159,7 +159,7 @@ for (i in 1:length(final_box$team)) {
   final_box$team_id[i] <- ids$team_id[which(ids$team == final_box$team[i])]
 }
 final_box$game_id <- game_num
-final_box$time <- "6:00 PM"
+final_box$time <- "7:00 PM"
 final_box$date <- paste0(args[3], "/", args[1], "/22")
 final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
 final_box$winner <- ids$team_id[which(ids$team == winner)]
@@ -404,7 +404,7 @@ for (i in 1:length(final_box$team)) {
   final_box$team_id[i] <- ids$team_id[which(ids$team == final_box$team[i])]
 }
 final_box$game_id <- game_num
-final_box$time <- "7:15 PM"
+final_box$time <- "8:30 PM"
 final_box$date <- paste0(args[3], "/", args[1], "/22")
 final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
 final_box$winner <- ids$team_id[which(ids$team == winner)]
@@ -780,7 +780,11 @@ rm(list = ls())
 master <- read.csv(file = "Master.csv")
 # master[is.na(master)] <- ""
 
+# remove all star game
 master <- master[-which(master$date == "2022 Showcase"), ]
+# remove players who can't have stats
+master <- master[-which(master$first == "Guest"),]
+
 
 player <- data.frame(id = unique(master$player_id))
 if (length(which(player$id == "")) > 0) {
@@ -880,7 +884,6 @@ for (i in 1:length(player$id)) {
 if (length(intersect(which(player$first == "?"), which(player$last == "?"))) > 0) {
   player <- player[-intersect(which(player$first == "?"), which(player$last == "?")),]  
 }
-# player <- player[-which(player$first == "Guest"),]
 
 ### Build leaderboards
 pts_leader <- player[which(player$g >= 1),][with(player[which(player$g >= 1),],order(-pts, -g)),][1:10,c(1:3, 8)]
