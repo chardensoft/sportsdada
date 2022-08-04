@@ -142,7 +142,380 @@
           </div>
         </div>
         <br><br>
-        
+
+      </div>
+      <div v-else-if='(this.date == "Playoffs Day 1")' class = "allbsflex">
+        <div class="bsflex">
+          <div class="tableheader">
+            <h5 class="teamtitle">6:00 PM Game Results:</h5>
+            <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
+            && (mast.time =='6:00 PM') && (mast.team_id==mast.winner)
+            && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
+            <h5 class="teamtitle2" v-for="(mast,index) in master" v-if="(mast.date===date)
+            && (mast.time =='6:00 PM') && (mast.team_id!=mast.winner)
+            && (mast.num == 'Total:')">- {{mast.pts}} {{mast.team}}</h5>
+          </div>
+          <div class="bsstats-holder">
+            <div class="bsstats">
+              <table class="table-game boxinfo">
+                <tr class="labels">
+                  <!-- <th class="th-game" v-if="(master.date===date)
+                  && (master.time =='6:00 PM') && (master.team_id==master.winner)">{{master.team}} -->
+                  <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">First</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">Last</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">#</h5></th>
+                </tr>
+                <tr v-for="(mast,index) in master" v-if="(mast.date===date)
+                && (mast.time =='6:00 PM') && (mast.team_id==mast.winner)">
+                  <td class="td-game" v-if="mast.num == 'Total:'">{{mast.team}}</td>
+                  <td class="td-game" v-else></td>
+                  <!-- <td class="td-game" v-if="mast.num == 'Total:'"> -->
+                  <td class="td-game">{{mast.first}}</td>
+                  <td class="td-game">{{mast.last}}</td>
+                  <td class="td-game">{{mast.num}}</td>
+                </tr>
+              </table>
+              <table class="table-game boxscore">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">OREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">DREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">AST</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">STL</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">BLK</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TOV</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PF</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time ==='6:00 PM') && (mast.team_id==mast.winner)">
+                  <td class="td-game">{{mast.mp}}</td>
+                  <td class="td-game">{{mast.pts}}</td>
+                  <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
+                  <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
+                  <td class="td-game">{{mast.ftm}}-{{mast.fta}}</td>
+                  <td class="td-game">{{mast.oreb}}</td>
+                  <td class="td-game">{{mast.dreb}}</td>
+                  <td class="td-game">{{mast.treb}}</td>
+                  <td class="td-game">{{mast.ast}}</td>
+                  <td class="td-game">{{mast.stl}}</td>
+                  <td class="td-game">{{mast.blk}}</td>
+                  <td class="td-game">{{mast.tov}}</td>
+                  <td class="td-game">{{mast.pf}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="bsflex">
+          <!-- <h5 class="teamtitle">Game 1 Away Team</h5> -->
+          <div class="bsstats-holder">
+            <div class="bsstats">
+              <table class="table-game boxinfo">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">First</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">Last</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">#</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time =='6:00 PM') && (mast.team_id!=mast.winner)">
+                  <td class="td-game" v-if="mast.num == 'Total:'">{{mast.team}}</td>
+                  <td class="td-game" v-else></td>
+                  <td class="td-game">{{mast.first}}</td>
+                  <td class="td-game">{{mast.last}}</td>
+                  <td class="td-game">{{mast.num}}</td>
+                </tr>
+              </table>
+              <table class="table-game boxscore">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">OREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">DREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">AST</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">STL</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">BLK</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TOV</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PF</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time ==='6:00 PM') && (mast.team_id!=mast.winner)">
+                  <td class="td-game">{{mast.mp}}</td>
+                  <td class="td-game">{{mast.pts}}</td>
+                  <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
+                  <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
+                  <td class="td-game">{{mast.ftm}}-{{mast.fta}}</td>
+                  <td class="td-game">{{mast.oreb}}</td>
+                  <td class="td-game">{{mast.dreb}}</td>
+                  <td class="td-game">{{mast.treb}}</td>
+                  <td class="td-game">{{mast.ast}}</td>
+                  <td class="td-game">{{mast.stl}}</td>
+                  <td class="td-game">{{mast.blk}}</td>
+                  <td class="td-game">{{mast.tov}}</td>
+                  <td class="td-game">{{mast.pf}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="bsflex">
+          <div class="tableheader">
+            <h5 class="teamtitle">7:15 PM Game Results:</h5>
+            <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
+            && (mast.time =='7:15 PM') && (mast.team_id==mast.winner)
+            && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
+            <h5 class="teamtitle2" v-for="(mast,index) in master" v-if="(mast.date===date)
+            && (mast.time =='7:15 PM') && (mast.team_id!=mast.winner)
+            && (mast.num == 'Total:')">- {{mast.pts}} {{mast.team}}</h5>
+          </div>
+          <div class="bsstats-holder">
+            <div class="bsstats">
+              <table class="table-game boxinfo">
+                <tr class="labels">
+                  <!-- <th class="th-game" v-if="(master.date===date)
+                  && (master.time =='6:00 PM') && (master.team_id==master.winner)">{{master.team}} -->
+                  <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">First</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">Last</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">#</h5></th>
+                </tr>
+                <tr v-for="(mast,index) in master" v-if="(mast.date===date)
+                && (mast.time =='7:15 PM') && (mast.team_id==mast.winner)">
+                  <td class="td-game" v-if="mast.num == 'Total:'">{{mast.team}}</td>
+                  <td class="td-game" v-else></td>
+                  <!-- <td class="td-game" v-if="mast.num == 'Total:'"> -->
+                  <td class="td-game">{{mast.first}}</td>
+                  <td class="td-game">{{mast.last}}</td>
+                  <td class="td-game">{{mast.num}}</td>
+                </tr>
+              </table>
+              <table class="table-game boxscore">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">OREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">DREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">AST</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">STL</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">BLK</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TOV</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PF</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time ==='7:15 PM') && (mast.team_id==mast.winner)">
+                  <td class="td-game">{{mast.mp}}</td>
+                  <td class="td-game">{{mast.pts}}</td>
+                  <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
+                  <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
+                  <td class="td-game">{{mast.ftm}}-{{mast.fta}}</td>
+                  <td class="td-game">{{mast.oreb}}</td>
+                  <td class="td-game">{{mast.dreb}}</td>
+                  <td class="td-game">{{mast.treb}}</td>
+                  <td class="td-game">{{mast.ast}}</td>
+                  <td class="td-game">{{mast.stl}}</td>
+                  <td class="td-game">{{mast.blk}}</td>
+                  <td class="td-game">{{mast.tov}}</td>
+                  <td class="td-game">{{mast.pf}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="bsflex">
+          <!-- <h5 class="teamtitle">Game 1 Away Team</h5> -->
+          <div class="bsstats-holder">
+            <div class="bsstats">
+              <table class="table-game boxinfo">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">First</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">Last</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">#</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time =='7:15 PM') && (mast.team_id!=mast.winner)">
+                  <td class="td-game" v-if="mast.num == 'Total:'">{{mast.team}}</td>
+                  <td class="td-game" v-else></td>
+                  <td class="td-game">{{mast.first}}</td>
+                  <td class="td-game">{{mast.last}}</td>
+                  <td class="td-game">{{mast.num}}</td>
+                </tr>
+              </table>
+              <table class="table-game boxscore">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">OREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">DREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">AST</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">STL</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">BLK</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TOV</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PF</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time ==='7:15 PM') && (mast.team_id!=mast.winner)">
+                  <td class="td-game">{{mast.mp}}</td>
+                  <td class="td-game">{{mast.pts}}</td>
+                  <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
+                  <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
+                  <td class="td-game">{{mast.ftm}}-{{mast.fta}}</td>
+                  <td class="td-game">{{mast.oreb}}</td>
+                  <td class="td-game">{{mast.dreb}}</td>
+                  <td class="td-game">{{mast.treb}}</td>
+                  <td class="td-game">{{mast.ast}}</td>
+                  <td class="td-game">{{mast.stl}}</td>
+                  <td class="td-game">{{mast.blk}}</td>
+                  <td class="td-game">{{mast.tov}}</td>
+                  <td class="td-game">{{mast.pf}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="bsflex">
+          <div class="tableheader">
+            <h5 class="teamtitle">8:45 PM Game Results:</h5>
+            <h5 class="teamtitle1" v-for="(mast,index) in master" v-if="(mast.date===date)
+            && (mast.time =='8:45 PM') && (mast.team_id==mast.winner)
+            && (mast.num == 'Total:')">{{mast.team}} {{mast.pts}}</h5>
+            <h5 class="teamtitle2" v-for="(mast,index) in master" v-if="(mast.date===date)
+            && (mast.time =='8:45 PM') && (mast.team_id!=mast.winner)
+            && (mast.num == 'Total:')">- {{mast.pts}} {{mast.team}}</h5>
+          </div>
+          <div class="bsstats-holder">
+            <div class="bsstats">
+              <table class="table-game boxinfo">
+                <tr class="labels">
+                  <!-- <th class="th-game" v-if="(master.date===date)
+                  && (master.time =='8:45 PM') && (master.team_id==master.winner)">{{master.team}} -->
+                  <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">First</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">Last</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">#</h5></th>
+                </tr>
+                <tr v-for="(mast,index) in master" v-if="(mast.date===date)
+                && (mast.time =='8:45 PM') && (mast.team_id==mast.winner)">
+                  <td class="td-game" v-if="mast.num == 'Total:'">{{mast.team}}</td>
+                  <td class="td-game" v-else></td>
+                  <!-- <td class="td-game" v-if="mast.num == 'Total:'"> -->
+                  <td class="td-game">{{mast.first}}</td>
+                  <td class="td-game">{{mast.last}}</td>
+                  <td class="td-game">{{mast.num}}</td>
+                </tr>
+              </table>
+              <table class="table-game boxscore">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">OREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">DREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">AST</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">STL</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">BLK</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TOV</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PF</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time ==='8:45 PM') && (mast.team_id==mast.winner)">
+                  <td class="td-game">{{mast.mp}}</td>
+                  <td class="td-game">{{mast.pts}}</td>
+                  <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
+                  <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
+                  <td class="td-game">{{mast.ftm}}-{{mast.fta}}</td>
+                  <td class="td-game">{{mast.oreb}}</td>
+                  <td class="td-game">{{mast.dreb}}</td>
+                  <td class="td-game">{{mast.treb}}</td>
+                  <td class="td-game">{{mast.ast}}</td>
+                  <td class="td-game">{{mast.stl}}</td>
+                  <td class="td-game">{{mast.blk}}</td>
+                  <td class="td-game">{{mast.tov}}</td>
+                  <td class="td-game">{{mast.pf}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="bsflex">
+          <!-- <h5 class="teamtitle">Game 1 Away Team</h5> -->
+          <div class="bsstats-holder">
+            <div class="bsstats">
+              <table class="table-game boxinfo">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">First</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">Last</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">#</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time =='8:45 PM') && (mast.team_id!=mast.winner)">
+                  <td class="td-game" v-if="mast.num == 'Total:'">{{mast.team}}</td>
+                  <td class="td-game" v-else></td>
+                  <td class="td-game">{{mast.first}}</td>
+                  <td class="td-game">{{mast.last}}</td>
+                  <td class="td-game">{{mast.num}}</td>
+                </tr>
+              </table>
+              <table class="table-game boxscore">
+                <tr class="labels">
+                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">FT</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">OREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">DREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TREB</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">AST</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">STL</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">BLK</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">TOV</h5></th>
+                  <th class="th-game"><h5 class="teamtitle3">PF</h5></th>
+                </tr>
+                <tr v-for="mast in master" v-if="(mast.date===date)
+                && (mast.time ==='8:45 PM') && (mast.team_id!=mast.winner)">
+                  <td class="td-game">{{mast.mp}}</td>
+                  <td class="td-game">{{mast.pts}}</td>
+                  <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
+                  <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
+                  <td class="td-game">{{mast.ftm}}-{{mast.fta}}</td>
+                  <td class="td-game">{{mast.oreb}}</td>
+                  <td class="td-game">{{mast.dreb}}</td>
+                  <td class="td-game">{{mast.treb}}</td>
+                  <td class="td-game">{{mast.ast}}</td>
+                  <td class="td-game">{{mast.stl}}</td>
+                  <td class="td-game">{{mast.blk}}</td>
+                  <td class="td-game">{{mast.tov}}</td>
+                  <td class="td-game">{{mast.pf}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
       <div v-else class="allbsflex">
         <div class="bsflex">

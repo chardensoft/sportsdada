@@ -10,9 +10,9 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 23
-week <- 6
-month <- 7
+day <- 2
+week <- 8
+month <- 8
 
 game_num <- readRDS("gameNum.rds")
 
@@ -159,7 +159,7 @@ for (i in 1:length(final_box$team)) {
   final_box$team_id[i] <- ids$team_id[which(ids$team == final_box$team[i])]
 }
 final_box$game_id <- game_num
-final_box$time <- "7:00 PM"
+final_box$time <- "6:00 PM"
 final_box$date <- paste0(args[3], "/", args[1], "/22")
 final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
 final_box$winner <- ids$team_id[which(ids$team == winner)]
@@ -404,7 +404,7 @@ for (i in 1:length(final_box$team)) {
   final_box$team_id[i] <- ids$team_id[which(ids$team == final_box$team[i])]
 }
 final_box$game_id <- game_num
-final_box$time <- "8:30 PM"
+final_box$time <- "7:15 PM"
 final_box$date <- paste0(args[3], "/", args[1], "/22")
 final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
 final_box$winner <- ids$team_id[which(ids$team == winner)]
@@ -527,15 +527,17 @@ saveRDS(game_num, "gameNum.rds")
 ########################################
 df <- list.files(pattern = paste0("G3 ", args[3], "-", args[1], "(.*)xlsm$"), path = paste0("Week", args[2], "/"))
 if (length(df) > 0) {
+  master_box <- read.csv("Master.csv")
+  
   final_box <- data.frame(NA)
   for (i in 1:length(df)) {
     temp1 <- read_excel(paste0("Week", args[2], "/", df[i]))
     
     if (substr(df[i], 1, 2) == "FG") {
       if (as.numeric(temp1[2,1]) > as.numeric(temp1[2,3])) {
-        winner <- as.character(temp1[1,1])
+        winner <- str_remove(as.character(temp1[1,1]), "Team ")
       } else {
-        winner <- as.character(temp1[1,3])
+        winner <- str_remove(as.character(temp1[1,3]), "Team ")
       }
     }
     
@@ -630,14 +632,11 @@ if (length(df) > 0) {
     final_box <- final_box[-delete_row,]
   }
   colnames(final_box) <- append(c("", "Home Team (Gray)", colnames(final_box)[3]), vec)
-  #############################
-  ##### Add to Powder.xlsx ###########
-  #write.xlsx(final_box, file = "Powder.xlsx", sheetName = paste0("0", args[3], "-", day, " G3"), append = TRUE)
   
   len <- length(final_box$`Home Team (Gray)`)
   split_row <- which(final_box$`Home Team (Gray)` == "")[2]
-  final_box[c(1:(split_row - 1)), 1] <- colnames(final_box)[3]
-  final_box[c((split_row + 2):len), 1] <- final_box[split_row + 1, 3]
+  final_box[c(1:(split_row - 1)), 1] <- str_remove(colnames(final_box)[3], "Team.")
+  final_box[c((split_row + 2):len), 1] <- str_remove(final_box[split_row + 1, 3], "Team ")
   colnames(final_box) <- final_box[1,]
   colnames(final_box)[1] <- "team"
   final_box <- final_box[-c(1, split_row, split_row + 1, split_row + 2),]
@@ -650,7 +649,7 @@ if (length(df) > 0) {
     final_box$team_id[i] <- ids$team_id[which(ids$team == final_box$team[i])]
   }
   final_box$game_id <- game_num
-  final_box$time <- "9:00 PM"
+  final_box$time <- "8:45 PM"
   final_box$date <- paste0(args[3], "/", args[1], "/22")
   final_box$player_id <- ifelse(final_box$`#`=="Total:", "", tolower(paste0(final_box$First, final_box$Last, "_01")))
   final_box$winner <- ids$team_id[which(ids$team == winner)]
