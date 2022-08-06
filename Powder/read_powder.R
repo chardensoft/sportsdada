@@ -10,7 +10,7 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 3
+day <- 5
 week <- 8
 month <- 8
 
@@ -27,12 +27,12 @@ ids <- data.frame(team = c("Bullock", "Berger", "Stan", "Erickson", "Humpherys",
 args <- c(day, week, month)
 
 dates <- read.csv("game_dates.csv")
-dates <- data.frame(rbind(paste0(args[3], "/", args[1], "/", 22), dates))
+dates <- data.frame(rbind(paste0("Playoffs Day 3"), dates))
 colnames(dates) <- c("dates")
 write.csv(dates, "game_dates.csv", row.names = FALSE)
 
 ### Gather data for Game 1
-df <- list.files(pattern = paste0("G1 ", args[3], "-", args[1], "(.*)xlsm$"), path = paste0("Week", args[2], "/"))
+df <- list.files(pattern = paste0("G1 ", "Playoffs Day 3", "(.*)xlsm$"), path = paste0("Week", args[2], "/"))
 
 final_box <- data.frame(NA)
 for (i in 1:length(df)) {
@@ -278,7 +278,7 @@ game_num <- readRDS("gameNum.rds")
 ############################################
 #### GAME 2 ##############################
 ########################################
-df <- list.files(pattern = paste0("G2 ", args[3], "-", args[1], "(.*)xlsm$"), path = paste0("Week", args[2], "/"))
+df <- list.files(pattern = paste0("G2 ", "Playoffs Day 3", "(.*)xlsm$"), path = paste0("Week", args[2], "/"))
 master_box <- read.csv("Master.csv")
 
 final_box <- data.frame(NA)
