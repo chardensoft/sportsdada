@@ -3,7 +3,7 @@
     <PowderHead2022 />
     <div class="nonflex">
       <!-- <h1 class="construction">!Currently Under Construction!</h1> -->
-      <h3>2022 Powder League Player Rankings</h3>
+      <h3>Player Season Stats</h3>
       <p>Sort a column by clicking on its header</p>
       <table class="player-table" id="myTable2">
         <thead class="thead-player">

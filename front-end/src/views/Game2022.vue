@@ -3,7 +3,7 @@
     <PowderHead2022 />
     <div class="nonflex">
       <!-- <h1>!Currently Under Construction!</h1> -->
-      <h3>2022 Powder League Game Box Scores</h3>
+      <h3>Box Scores</h3>
       <br>
       <form class="form-game">
         <label class="label-game" for="dates">Choose a date and scroll to the game you want:</label>

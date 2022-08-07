@@ -3,7 +3,7 @@
     <PowderHead2022 />
     <!-- <Featured /> -->
     <div class="nonflex">
-      <h3>2022 Powder League Leaderboards</h3>
+      <h3>Season Leaderboards</h3>
       <!-- <button @click="getPts">Refresh</button> -->
       <div class = "leaderboards">
         <div class="leaderboard">

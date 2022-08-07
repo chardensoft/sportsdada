@@ -2,7 +2,7 @@ team.<template>
   <div class="team">
     <PowderHead2022 />
     <div class="nonflex">
-      <h3 class="h3-tmstat">2022 Powder League Team Stats</h3>
+      <h3 class="h3-tmstat">Team Season Stats</h3>
       <p>Sort a column by clicking on its header</p>
       <table class="tmstat-table" id="myTable3">
         <thead class="thead-tmstat">
