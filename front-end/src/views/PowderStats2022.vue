@@ -8,35 +8,35 @@
       <div class = "leaderboards">
         <div class="leaderboard">
           <div class="leaderboard_head">
-            <h5>Points</h5>
+            <h5>Points Per Game</h5>
             <hr>
           </div>
           <div class="leaderboard_body" v-for="(pt, index) in pts" :key="pt.id">
             <p class = "firsthalf">{{index + 1}}. {{pt.first}} {{pt.last}}</p>
-            <p class = "secondhalf">{{pt.pts}} ppg</p>
+            <p class = "secondhalf">{{pt.pts}}</p>
           </div>
         </div>
         <div class="leaderboard">
           <div class="leaderboard_head">
-            <h5>Rebounds</h5>
+            <h5>Rebounds Per Game</h5>
             <hr>
           </div>
           <div class="leaderboard_body" v-for="(rb, index) in reb" :key="rb.id">
             <p class = "firsthalf">{{index + 1}}. {{rb.first}} {{rb.last}}</p>
-            <p class = "secondhalf">{{rb.treb}} rpg</p>
+            <p class = "secondhalf">{{rb.treb}}</p>
           </div>
         </div>
         <div class="leaderboard">
           <div class="leaderboard_head">
-            <h5>Assists</h5>
+            <h5>Assists Per Game</h5>
             <hr>
           </div>
           <div class="leaderboard_body" v-for="(at, index) in ast" :key="at.id">
             <p class = "firsthalf">{{index + 1}}. {{at.first}} {{at.last}}</p>
-            <p class = "secondhalf">{{at.ast}} apg</p>
+            <p class = "secondhalf">{{at.ast}}</p>
           </div>
         </div>
-        <div class="leaderboard">
+        <!-- <div class="leaderboard">
           <div class="leaderboard_head">
             <h5>Minutes Played</h5>
             <hr>
@@ -45,25 +45,25 @@
             <p class = "firsthalf">{{index + 1}}. {{m.first}} {{m.last}}</p>
             <p class = "secondhalf">{{m.mp}} mpg</p>
           </div>
-        </div>
+        </div> -->
         <div class="leaderboard">
           <div class="leaderboard_head">
-            <h5>Blocks</h5>
+            <h5>Blocks Per Game</h5>
             <hr>
           </div>
           <div class="leaderboard_body" v-for="(bk, index) in blk" :key="bk.id">
             <p class = "firsthalf">{{index + 1}}. {{bk.first}} {{bk.last}}</p>
-            <p class = "secondhalf">{{bk.blk}} bpg</p>
+            <p class = "secondhalf">{{bk.blk}}</p>
           </div>
         </div>
         <div class="leaderboard">
           <div class="leaderboard_head">
-            <h5>Steals</h5>
+            <h5>Steals Per Game</h5>
             <hr>
           </div>
           <div class="leaderboard_body" v-for="(st, index) in stl" :key="st.id">
             <p class = "firsthalf">{{index + 1}}. {{st.first}} {{st.last}}</p>
-            <p class = "secondhalf">{{st.stl}} spg</p>
+            <p class = "secondhalf">{{st.stl}}</p>
           </div>
         </div>
         <div class="leaderboard">
@@ -74,6 +74,16 @@
           <div class="leaderboard_body" v-for="(fgp, index) in fg" :key="fgp.id">
             <p class = "firsthalf">{{index + 1}}. {{fgp.first}} {{fgp.last}}</p>
             <p class = "secondhalf">{{fgp.fg}}%</p>
+          </div>
+        </div>
+        <div class="leaderboard">
+          <div class="leaderboard_head">
+            <h5>Three Pointers Made</h5>
+            <hr>
+          </div>
+          <div class="leaderboard_body" v-for="(tot3p, index) in tot3" :key="tot3p.id">
+            <p class = "firsthalf">{{index + 1}}. {{tot3p.first}} {{tot3p.last}}</p>
+            <p class = "secondhalf">{{tot3p.tot3}}</p>
           </div>
         </div>
         <div class="leaderboard">
@@ -115,6 +125,7 @@ import stl_json from '../../../back-end/stl.json';
 import fg_json from '../../../back-end/fg.json';
 import p3_json from '../../../back-end/pth.json';
 import ft_json from '../../../back-end/ft.json';
+import tot3_json from '../../../back-end/thtot.json';
 import Featured from '@/components/Featured.vue';
 
 export default {
@@ -137,6 +148,7 @@ export default {
       p3: [],
       ft: [],
       error: '',
+      tot3: [],
     }
   },
   created() {
@@ -154,6 +166,7 @@ export default {
         this.fg = fg_json;
         this.p3 = p3_json;
         this.ft = ft_json;
+        this.tot3 = tot3_json;
 
         for (let i = 0; i < 10; i++) {
 
@@ -172,6 +185,7 @@ export default {
           if (this.stl[i].stl != Math.round(this.stl[i].stl)) {
            this.stl[i].stl = this.stl[i].stl.toFixed(1);
           }
+          this.tot3[i].tot3 = this.tot3[i].tot3.toFixed(0);
 
             this.fg[i].fg = (100 * this.fg[i].fg.toFixed(3)).toFixed(1);
 
