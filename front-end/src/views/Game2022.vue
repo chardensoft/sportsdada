@@ -17,7 +17,7 @@
       <!-- <p class="p-game">Currently displaying games from: {{this.date}}</p> -->
       <br>
                                                 <!--|| (this.date == "7/30/21")-->
-      <div v-if='(this.date == "2022 Showcase")' class = "allbsflex">
+      <div v-if='(this.date == "7/23 Showcase") || (this.date == "8/9 Showcase")' class = "allbsflex">
         <div class="bsflex">
           <div class="tableheader">
             <h5 class="teamtitle">7:00 PM Game Results:</h5>

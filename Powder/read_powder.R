@@ -10,8 +10,8 @@ library(xlsx)
 library(dplyr)
 library(stringr)
 
-day <- 6
-week <- 8
+day <- 9
+week <- 9
 month <- 8
 
 game_num <- readRDS("gameNum.rds")
@@ -781,7 +781,8 @@ master <- read.csv(file = "Master.csv")
 # master[is.na(master)] <- ""
 
 # remove all star game
-master <- master[-which(master$date == "2022 Showcase"), ]
+master <- master[-which(master$date == "7/23 Showcase"), ]
+master <- master[-which(master$date == "8/9 Showcase")]
 # remove players who can't have stats
 master <- master[-which(master$first == "Guest"),]
 
