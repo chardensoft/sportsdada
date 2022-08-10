@@ -51,7 +51,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -67,7 +66,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:00 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -107,7 +105,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -123,7 +120,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:00 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -178,7 +174,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -194,7 +189,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:00 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -234,7 +228,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -250,7 +243,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:00 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -305,7 +297,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -321,7 +312,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='6:00 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -361,7 +351,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -377,7 +366,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='6:00 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -429,7 +417,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -445,7 +432,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:15 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -485,7 +471,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -501,7 +486,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:15 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -553,7 +537,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -569,7 +552,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='8:45 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -609,7 +591,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -625,7 +606,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='8:45 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -678,7 +658,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -694,7 +673,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:00 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -734,7 +712,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -750,7 +727,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='7:00 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -799,7 +775,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -815,7 +790,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='8:30 PM') && (mast.team_id==mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
@@ -855,7 +829,6 @@
               </table>
               <table class="table-game boxscore">
                 <tr class="labels">
-                  <th class="th-game"><h5 class="teamtitle3">MP</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">PTS</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">FG</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">3PT</h5></th>
@@ -871,7 +844,6 @@
                 </tr>
                 <tr v-for="mast in master" v-if="(mast.date===date)
                 && (mast.time ==='8:30 PM') && (mast.team_id!=mast.winner)">
-                  <td class="td-game">{{mast.mp}}</td>
                   <td class="td-game">{{mast.pts}}</td>
                   <td class="td-game">{{mast.fgm}}-{{mast.fga}}</td>
                   <td class="td-game">{{mast.thpm}}-{{mast.thpa}}</td>
