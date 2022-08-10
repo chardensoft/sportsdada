@@ -142,9 +142,9 @@
 "maxshulga_01","Max","Shulga","Erickson",1,NA,NA,16,17,7,0.411764705882353,9,1,0.111111111111111,1,1,1,0,6,6,1,NA,0,NA,1,1
 "jacksonlast_01","Jackson","Last","Covington",1,NA,NA,32,20,10,0.5,10,3,0.3,9,9,1,0,5,5,5,NA,0,NA,4,3
 "chrisbarns_01","Chris","Barns","Bullock",2,NA,NA,10,10,5,0.5,0,0,NA,0,0,NA,2,0,2,0,2,0,2,3,0
-"kylekuzma_01","Kyle","Kuzma","Team A",1,NA,NA,67,50,28,0.56,26,10,0.384615384615385,1,1,1,0,11,11,2,1,0,5,3,10
+"kylekuzma_01","Kyle","Kuzma","Team A",1,NA,NA,67,50,28,0.56,26,10,0.384615384615385,1,1,1,3,11,14,10,1,0,5,3,10
 "devondaniels_01","Devon","Daniels","Team A",1,NA,NA,16,13,7,0.538461538461538,5,1,0.2,2,1,0.5,7,8,15,4,3,0,1,2,1
-"delonwright_01","Delon","Wright","Team A",1,NA,NA,14,13,5,0.384615384615385,4,0,0,4,4,1,2,3,5,10,3,1,0,0,0
-"scottiebarnes_01","Scottie","Barnes","Team B",1,NA,NA,35,21,14,0.666666666666667,8,4,0.5,3,3,1,3,12,15,5,2,2,3,0,4
-"kentaviouscaldwell-pope_01","Kentavious","Caldwell-Pope","Team B",1,NA,NA,38,32,14,0.4375,21,8,0.380952380952381,2,2,1,0,7,7,3,2,0,3,2,8
+"delonwright_01","Delon","Wright","Team A",1,NA,NA,20,13,6,0.461538461538462,4,1,0.25,5,5,1,2,3,5,10,3,1,0,0,1
+"scottiebarnes_01","Scottie","Barnes","Team B",1,NA,NA,35,21,14,0.666666666666667,8,4,0.5,3,3,1,3,12,15,13,2,2,3,0,4
+"kentaviouscaldwell-pope_01","Kentavious","Caldwell-Pope","Team B",1,NA,NA,40,32,15,0.46875,21,8,0.380952380952381,2,2,1,0,7,7,6,4,0,3,2,8
 "johnnymogbo_01","Johnny","Mogbo","Team B",1,NA,NA,6,6,3,0.5,1,0,0,0,0,NA,6,2,8,7,1,0,2,2,0
