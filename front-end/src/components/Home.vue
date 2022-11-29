@@ -11,12 +11,12 @@
           <p class="comp_text">TikTok: Sharing videos about my journey to ESPN and my family</p>
         </a>
       </div> -->
-      <!-- <div class="company">
-        <a class="comp_link" href="https://discord.gg/FMHTDgrjxc" target="_blank">
-          <img class="comp_logo" src="../assets/discord.png" />
-          <p class="comp_text">Discord: Join the community if you're an aspiring sports analyst or just enjoy sports!</p>
+      <div class="company">
+        <a class="comp_link" href="https://me.volley.app/chris-harden">
+          <img class="comp_logo" src="../assets/volley.png" />
+          <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
         </a>
-      </div> -->
+      </div>
       <div class="company">
         <router-link class ="comp_link" to="/ESPN">
           <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" />
@@ -29,12 +29,12 @@
           <p class="comp_text">Sharing job tips &amp; career advice for sports nerds on LinkedIn</p>
         </a>
       </div>
-      <div class="company">
+      <!-- <div class="company">
         <a class="comp_link" href="https://sportsdada.substack.com/" target="_blank">
           <img class="comp_logo" src="../assets/headshot.png" />
           <p class="comp_text">Writing about what I love + tips along the way on Substack</p>
         </a>
-      </div>
+      </div> -->
       <!-- <div class="company">
         <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
           <img class="comp_logo" src="../assets/twitter.png" />

@@ -23,9 +23,21 @@
           </a>
         </div> -->
         <div class="company">
+          <a class="comp_link" href="https://www.espn.com/mens-college-basketball/story/_/id/35092437/at-phil-knight-invitational-north-carolina-worse-alabama" target="_blank">
+            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
+            <p class="espn_comp_text">Phil Knight Invitational: North Carolina is worth than you think, but Alabama is better</p>
+          </a>
+        </div>
+        <div class="company">
+          <a class="comp_link" href="https://www.espn.com/mens-college-basketball/bpi" target="_blank">
+            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
+            <p class="espn_comp_text">Men's College Basketball Power Index</p>
+          </a>
+        </div>
+        <div class="company">
           <a class="comp_link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
             <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
-            <p class="espn_comp_text">Article on 2022 NBA Draft</p>
+            <p class="espn_comp_text">2022 NBA Draft: Best prospects, most overrated, underrated</p>
           </a>
         </div>
         <!-- <div class="company">
@@ -275,7 +287,8 @@ a:active:hover {
 
 .espn_comp_text {
   padding-top: 5px;
-  width: 125px;
+  width: 140px;
+  height: 140px;
 }
 
 .comp_link:active,
@@ -291,10 +304,10 @@ a:active:hover {
   text-decoration: underline;
 }
 
-.comp_logo {
+/* .comp_logo {
   width: 250px;
   height: 250px;
-}
+} */
 
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {

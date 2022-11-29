@@ -782,7 +782,7 @@ master <- read.csv(file = "Master.csv")
 
 # remove all star game
 master <- master[-which(master$date == "7/23 Showcase"), ]
-master <- master[-which(master$date == "8/9 Showcase")]
+master <- master[-which(master$date == "8/9 Showcase"),]
 # remove players who can't have stats
 master <- master[-which(master$first == "Guest"),]
 
