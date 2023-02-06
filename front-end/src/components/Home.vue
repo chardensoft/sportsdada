@@ -12,23 +12,30 @@
         </a>
       </div> -->
       <div class="company">
-        <a class="comp_link" href="https://me.volley.app/chris-harden">
-          <img class="comp_logo" src="../assets/volley.png" />
-          <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
-        </a>
-      </div>
-      <div class="company">
-        <router-link class ="comp_link" to="/ESPN">
-          <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" />
-          <p class="comp_text">Projects and Articles for the<br>ESPN Analytics Team</p>
-        </router-link>
-      </div>
-      <div class="company">
-        <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
-          <img class="comp_logo" src="../assets/linkedin.png" />
-          <p class="comp_text">Sharing job tips &amp; career advice for sports nerds on LinkedIn</p>
-        </a>
-      </div>
+          <router-link class ="comp_link" to="/ESPN">
+            <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" />
+            <p class="comp_text">Working on projects and articles for the ESPN Analytics Team</p>
+          </router-link>
+        </div>
+        <!-- <div class="company">
+          <a class="comp_link" href="https://me.volley.app/chris-harden">
+            <img class="comp_logo" src="../assets/volley.png" />
+            <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
+          </a>
+        </div> -->
+        
+        <div class="company">
+          <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
+            <img class="comp_logo" src="../assets/linkedin.png" />
+            <p class="comp_text">Sharing job tips &amp; such on LinkedIn</p>
+          </a>
+        </div>
+        <div class="company">
+          <a class="comp_link" href="https://letterboxd.com/charden/" target="_blank">
+            <img class="comp_logo" src="../assets/letterboxd.png" />
+            <p class="comp_text">Watching movies?</p>
+          </a>
+        </div>
       <!-- <div class="company">
         <a class="comp_link" href="https://sportsdada.substack.com/" target="_blank">
           <img class="comp_logo" src="../assets/headshot.png" />

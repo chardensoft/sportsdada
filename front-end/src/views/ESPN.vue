@@ -4,192 +4,65 @@
     <!-- <Featured /> -->
 
     <div class="espn-content">
-      <div class="content-header">
+      <!-- <div class="content-header">
         <h1 class="content-title">ESPN Analytics</h1>
-        <!-- <h5 class="content-subtitle">All my content that I'm currently creating</h5> -->
+      </div> -->
+      <img class="espn-page-comp-logo" src="../assets/ESPN_ANALYTICS_1.png" />
+      <div class="page-key"> 
+        <div class="model-box key-box">
+          <p class="model-link key_text">Model</p>
+        </div>
+        <div class="viz-box key-box">
+          <p class="viz-link key_text">Viz</p>
+        </div>
+        <div class="article-box key-box">
+          <p class="article-link key_text">Article</p>
+        </div>
       </div>
       <div class="espn-current-content">
 
-        <!-- <div class="company">
-          <a class="comp_link" href="https://www.tiktok.com/@chrisandkemi" target="_blank">
-            <img class="comp_logo" src="../assets/tiktok.png" />
-            <p class="comp_text">TikTok: Sharing videos about my journey to ESPN and my family</p>
-          </a>
-        </div> -->
-        <!-- <div class="company">
-          <a class="comp_link" href="https://discord.gg/FMHTDgrjxc" target="_blank">
-            <img class="comp_logo" src="../assets/discord.png" />
-            <p class="comp_text">Discord: Join the community if you're an aspiring sports analyst or just enjoy sports!</p>
-          </a>
-        </div> -->
-        <div class="company">
-          <a class="comp_link" href="https://www.espn.com/mens-college-basketball/story/_/id/35092437/at-phil-knight-invitational-north-carolina-worse-alabama" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
-            <p class="espn_comp_text">Phil Knight Invitational: North Carolina is worth than you think, but Alabama is better</p>
-          </a>
-        </div>
-        <div class="company">
-          <a class="comp_link" href="https://www.espn.com/mens-college-basketball/bpi" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/bpi" target="_blank">
             <p class="espn_comp_text">Men's College Basketball Power Index</p>
           </a>
         </div>
-        <div class="company">
-          <a class="comp_link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/headshot.png" /> -->
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35594002/bpi-stats-backed-strengths-weaknesses-powerhouses-texas-kansas-2022-23" target="_blank">
+            <p class="espn_comp_text">Texas @ Kansas is one of the best matchups this season and here's why</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35460227/the-big-12-best-conference-men-college-basketball-2022-23" target="_blank">
+            <p class="espn_comp_text">Top to bottom, the Big 12 is the best conference in men's college basketball</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35287917/even-jumpman-invitational-michigan-men-basketball-season-over" target="_blank">
+            <p class="espn_comp_text">Jumpman Invitational: Is Michigan's season already over?</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35092437/at-phil-knight-invitational-north-carolina-worse-alabama" target="_blank">
+            <p class="espn_comp_text">Phil Knight Invitational: North Carolina is worth than you think, but Alabama is better</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
             <p class="espn_comp_text">2022 NBA Draft: Best prospects, most overrated, underrated</p>
           </a>
         </div>
-        <!-- <div class="company">
-          <a class="comp_link" href="https://fantasy.espn.com/games/basketball-draft-challenge-2022/group?id=1e633ff5-ceb8-4e61-8b2c-174fee5dda0d&joining=true" target="_blank">
-            <p class="espn_comp_text">Join my NBA Draft Group!</p>
-          </a>
-        </div> -->
-        <div class="company">
-          <a class="comp_link" href="https://www.espn.com/nba/draft/projections" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/linkedin.png" /> -->
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/draft/projections" target="_blank">
             <p class="espn_comp_text">2022 NBA Draft Projections</p>
           </a>
         </div>
-        <div class="company">
-          <a class="comp_link" href="http://espnsportsanalytics.com/" target="_blank">
-            <!-- <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" /> -->
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/" target="_blank">
             <p class="espn_comp_text">2022 NFL Draft Predictor</p>
           </a>
         </div>
-
-
-        <!-- <div class="company">
-          <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
-            <img class="comp_logo" src="../assets/twitter.png" />
-            <p class="comp_text">Twitter: Join the fun as I tweet data viz &amp; interesting stats</p>
-          </a>
-        </div> -->
       </div>
-      <br>
-      <!-- <h5 class="content-subtitle">I also continue to help run the data processes for The Wood Report and the Powder League</h5> -->
 
-      <!-- <div class="content-header">
-        <h1 class="content-title">Graveyard:</h1> -->
-        <!-- <h5 class="content-subtitle">Links to everything I worked on prior to starting at ESPN</h5> -->
-      <!-- </div> -->
-      <!-- <div class="articles">
-        <h2 class="articles-title content-page-title">Articles</h2>
-        <div class="list citystreetstrat">
-          <h4 class="citystreetstrat-title content-page-subtitle">City Street Strat</h4>
-          <li class="links-list">
-            <a href="https://www.citystreetstrat.com/strategies/screw-the-bulls-and-the-bears-lets-turn-to-the-horses-derby-day-09052020-probabilities"
-              target="_blank">Predicting the Kentucky Derby</a>
-          </li>
-        </div>
-        <div class="list blog">
-          <h4 class="blog-title content-page-subtitle">Old SportsDada Blog</h4>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2020/10/world-series-guide-everything-you-need.html"
-              target="_blank">World Series Guide: Everything you need to know for 2020's Fall Classic</a>
-          </li>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2020/10/the-arena-effect.html"
-              target="_blank">The Arena Effect</a>
-          </li>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2020/10/ppg-vs-all-star-votes.html"
-              target="_blank">PPG vs. All Star Votes</a>
-          </li>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2020/09/nuggets-vs-clippers-game-7.html"
-              target="_blank">Nuggets vs. Clippers - Game 7</a>
-          </li>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2020/09/blog-post_12.html"
-              target="_blank">Betting Rockets v. Lakers Game 5</a>
-          </li>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2019/11/nfl-daily-fantasy-keys.html"
-              target="_blank">NFL: Daily Fantasy Keys</a>
-          </li>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2019/07/less-than-five-percent-i-love-nba-my.html"
-              target="_blank">NBA: Less Than Five Percent</a>
-          </li>
-        </div>
-        <div class="list DrSabin">
-          <h4 class="sabin-title content-page-subtitle">IS 590R: Sports Analytics Project</h4>
-          <li class="links-list">
-            <a href="https://github.com/chardensoft/nbasalary/blob/main/Final%20Paper.pdf"
-              target="_blank">The Effect of Salary Allocation on Team Success in the NBA</a>
-          </li>
-        </div>
-        <div class="list bpl">
-          <h4 class="bpl-title content-page-subtitle">The Powder League</h4>
-          <li class="links-list">
-            <a href="https://sportsdadas.blogspot.com/2021/07/sports-dadas-powder-league-mvp-ladder.html"
-              target="_blank">MVP Ladder - July 28th, 2021</a>
-          </li> -->
-          <!-- <li class="links-list">
-            <a href="https://www.sportsdada.net/Articles"
-              target="_blank">Powder League Power Rankings</a>
-          </li> -->
-        <!-- </div>
-      </div>
-      <div class="projects">
-        <h3 class="projects-title content-page-title">Projects</h3>
-        <div class="list pottersports">
-          <h4 class="pottersports-title content-page-subtitle">Potter Sports Group</h4>
-          <li class="links-list">
-            <a href="https://christopher-harden.shinyapps.io/shiny1/"
-              target="_blank">Shiny App: Predicting NCAA Players in the NBA</a>
-          </li>
-          <li class="links-list">
-            <a href="https://github.com/chardensoft/potter/blob/main/PotterProject.pdf"
-              target="_blank">Presentation: Predicting NCAA Players in the NBA</a>
-          </li>
-        </div>
-        <div class="list DrSabin">
-          <h4 class="sabin-title content-page-subtitle">IS 590R: Sports Analytics Project</h4>
-          <li class="links-list">
-            <a href="https://nbasalary.sportsdada.net/"
-              target="_blank">Research Project: Predicting NBA Success Using Salary Data</a>
-          </li>
-          <li class="links-list">
-            <a href="https://christopher-harden.shinyapps.io/NbaSalary/"
-              target="_blank">Shiny App: Exploring NBA Salary Data</a>
-          </li>
-          <li class="links-list">
-            <a href="https://github.com/chardensoft/nbasalary/blob/main/Presentation.pdf"
-              target="_blank">Presentation: Using NBA Salary Data to Improve Success</a>
-          </li>
-        </div> -->
-        <!-- <div class="list bpl">
-          <h4 class="bpl-title content-page-subtitle">The Powder League</h4>
-          <li class="links-list">
-            <a href="https://www.sportsdada.net/PowderStats"
-              target="_blank">Project: Management of All Live Stats (see menu option "BPL")</a>
-          </li>
-        </div>
-        <div class="list wr">
-          <h4 class="wr-title content-page-subtitle">The Wood Report</h4>
-          <li class="links-list">
-            <a href="https://www.thewoodreportxc.com/"
-              target="_blank">Project: Management of All Stats (see menu option "WR")</a>
-          </li>
-        </div> -->
-        <!-- <div class="list social">
-          <h4 class="sabin-title content-page-subtitle">Social Media</h4>
-          <li class="links-list">
-            <a href="https://www.tiktok.com/@chrisandkemi"
-              target="_blank">I gave TikTok an attempt</a>
-          </li>
-          <li class="links-list">
-            <a href="https://www.twitter.com/SportsDada/"
-              target="_blank">I still dabble with Twitter sometimes</a>
-          </li>
-          <li class="links-list">
-            <a href="https://discord.gg/FMHTDgrjxc"
-              target="_blank">Sometimes I'm on this Discord</a>
-          </li>
-        </div>
-      </div> -->
     </div>
     <Footer />
   </div>
@@ -245,6 +118,17 @@ export default {
   color: #4670B4;
 }
 
+.page-key {
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
 a,
 a:active {
   color: #24ADF2;
@@ -278,11 +162,33 @@ a:active:hover {
   padding-right: 0px;
 }
 
-.company {
+.espn-company-box {
   padding: 25px;
   margin: 25px;
-  border: 1px solid #CE663D;
   border-radius: 25px;
+}
+
+.key-box {
+  width: 65px;
+  height: 50px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.key_text {
+  padding-top: 10px;
+}
+
+.model-box {
+  border: 1px solid #A32cc4; /*#fd084a #82C3E6*/
+}
+
+.viz-box {
+  border: 1px solid #1338be; /*#a0fefb #4670B4*/
+}
+
+.article-box {
+  border: 1px solid #CE663D; /*#494fc1*/
 }
 
 .espn_comp_text {
@@ -291,23 +197,56 @@ a:active:hover {
   height: 140px;
 }
 
-.comp_link:active,
-.comp_link {
-  color: #4670B4;
+.espn-page-comp-link:active,
+.espn-page-comp-link {
   text-decoration: none;
   text-align: center;
 }
 
-.comp_link:active:hover,
-.comp_link:hover {
-  color: #4670B4;
+.espn-page-comp-link:active:hover,
+.espn-page-comp-link:hover {
   text-decoration: underline;
 }
 
-/* .comp_logo {
-  width: 250px;
-  height: 250px;
-} */
+.model-link:active:hover,
+.model-link:hover {
+  cursor: pointer;
+  color: #1338be;
+}
+
+.model-link:active,
+.model-link {
+  color: #CE663D;
+}
+
+.viz-link:active:hover,
+.viz-link:hover {
+  cursor: pointer;
+  color: #CE663D;
+}
+
+.viz-link:active,
+.viz-link {
+  color: #A32cc4;
+}
+
+.article-link:active:hover,
+.article-link:hover {
+  color: #A32cc4; 
+  cursor: pointer;
+}
+
+.article-link:active,
+.article-link {
+  color: #1338be;
+}
+
+.espn-page-comp-logo {
+  width: 300px;
+  height: 300px;
+  margin: -100px;
+  padding-top: 25px;
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {

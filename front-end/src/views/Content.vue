@@ -23,21 +23,28 @@
           </a>
         </div> -->
         <div class="company">
-          <a class="comp_link" href="https://me.volley.app/chris-harden">
-            <img class="comp_logo" src="../assets/volley.png" />
-            <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
-          </a>
-        </div>
-        <div class="company">
           <router-link class ="comp_link" to="/ESPN">
             <img class="comp_logo" src="../assets/ESPN_ANALYTICS_1.png" />
             <p class="comp_text">Working on projects and articles for the ESPN Analytics Team</p>
           </router-link>
         </div>
+        <!-- <div class="company">
+          <a class="comp_link" href="https://me.volley.app/chris-harden">
+            <img class="comp_logo" src="../assets/volley.png" />
+            <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
+          </a>
+        </div> -->
+        
         <div class="company">
           <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
             <img class="comp_logo" src="../assets/linkedin.png" />
-            <p class="comp_text">Sharing job tips &amp; career advice for sports nerds on LinkedIn</p>
+            <p class="comp_text">Sharing job tips &amp; such on LinkedIn</p>
+          </a>
+        </div>
+        <div class="company">
+          <a class="comp_link" href="https://letterboxd.com/charden/" target="_blank">
+            <img class="comp_logo" src="../assets/letterboxd.png" />
+            <p class="comp_text">Watching movies?</p>
           </a>
         </div>
         <!-- <div class="company">
@@ -164,17 +171,21 @@
         <div class="list social">
           <h4 class="sabin-title content-page-subtitle">Social Media</h4>
           <li class="links-list">
-            <a href="https://www.tiktok.com/@chrisandkemi"
-              target="_blank">I gave TikTok an attempt</a>
+            <a href="https://sportsdada.substack.com/"
+              target="_blank">I tried Substack regularly once</a>
           </li>
           <li class="links-list">
             <a href="https://www.twitter.com/SportsDada/"
               target="_blank">I still dabble with Twitter sometimes</a>
           </li>
           <li class="links-list">
+            <a href="https://www.instagram.com/sports.dada/"
+              target="_blank">This Instagram was fire during Powder League</a>
+          </li>
+          <!-- <li class="links-list">
             <a href="https://discord.gg/FMHTDgrjxc"
               target="_blank">Sometimes I'm on this Discord</a>
-          </li>
+          </li> -->
         </div>
       </div>
     </div>
