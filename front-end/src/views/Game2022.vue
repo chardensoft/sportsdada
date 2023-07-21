@@ -640,7 +640,7 @@
               <table class="table-game boxinfo">
                 <tr class="labels">
                   <th class="th-game" v-if="(master.date===date)
-                  && (master.time =='7:00 PM') && (master.team_id==master.winner)">{{master.team}}
+                  && (master.time =='7:00 PM') && (master.team_id==master.winner)">{{master.team}}</th>
                   <th class="th-game"><h5 class="teamtitle3">Team</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">First</h5></th>
                   <th class="th-game"><h5 class="teamtitle3">Last</h5></th>

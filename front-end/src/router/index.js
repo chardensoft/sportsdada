@@ -15,6 +15,7 @@ import The101 from '../views/The101.vue'
 import TeamStat2021 from '../views/TeamStat2021.vue'
 import TeamStat2022 from '../views/TeamStat2022.vue'
 import ESPN from '../views/ESPN.vue'
+import PlayGames from '../views/PlayGames.vue'
 
 Vue.use(VueRouter)
 
@@ -98,6 +99,11 @@ const routes = [
     path: '/ESPN',
     name: 'ESPN',
     component: ESPN
+  },
+  {
+    path: '/PlayGames',
+    name: 'PlayGames',
+    component: PlayGames
   },
 ]
 

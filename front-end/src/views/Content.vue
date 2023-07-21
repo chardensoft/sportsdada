@@ -44,7 +44,7 @@
         <div class="company">
           <a class="comp_link" href="https://letterboxd.com/charden/" target="_blank">
             <img class="comp_logo" src="../assets/letterboxd.png" />
-            <p class="comp_text">Watching movies?</p>
+            <p class="comp_text">Watching movies :)</p>
           </a>
         </div>
         <!-- <div class="company">
@@ -53,12 +53,12 @@
             <p class="comp_text">Writing about what I love + tips along the way on Substack</p>
           </a>
         </div> -->
-        <!-- <div class="company">
+        <div class="company">
           <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
             <img class="comp_logo" src="../assets/twitter.png" />
-            <p class="comp_text">Twitter: Join the fun as I tweet data viz &amp; interesting stats</p>
+            <p class="comp_text">Tweeting data viz &amp; interesting stats</p>
           </a>
-        </div> -->
+        </div>
       </div>
       <br>
       <h5 class="content-subtitle">I also continue to help run the data processes for The Wood Report and the Powder League</h5>
@@ -215,7 +215,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .content-title {
@@ -273,7 +273,6 @@ a:active:hover {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
-  margin-right: 250px;
 }
 
 .company {
@@ -315,7 +314,7 @@ a:active:hover {
     padding-right: 5px;
   }
   .current-content {
-    padding-right: 0px;
+    justify-content: space-around;
   }
   .list {
     padding-left: 5px;

@@ -9,6 +9,7 @@
       </div> -->
       <img class="espn-page-comp-logo" src="../assets/ESPN_ANALYTICS_1.png" />
       <div class="page-key"> 
+        <h4>Key:  </h4> 
         <div class="model-box key-box">
           <p class="model-link key_text">Model</p>
         </div>
@@ -20,12 +21,58 @@
         </div>
       </div>
       <div class="espn-current-content">
-
+        
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/statistics/rpm" target="_blank">
+            <p class="espn_comp_text">NBA RPM</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/nba/insider/insider/story/_/id/37875763/2023-nba-draft-projections-best-prospects-most-overrated-underrated" target="_blank">
+            <p class="espn_comp_text">2023 NBA Draft: Best prospects, most overrated, underrated</p>
+          </a>
+        </div>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/draft/projections" target="_blank">
+            <p class="espn_comp_text">2023 NBA Draft Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-sim" target="_blank">
+            <p class="espn_comp_text">2023 NFL Draft Simulator</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/conference_over_under.html" target="_blank">
+            <p class="espn_comp_text">2023 NFL Draft Betting Tool</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/" target="_blank">
+            <p class="espn_comp_text">2023 NFL Draft Predictor</p>
+          </a>
+        </div>
         <div class="espn-company-box model-box">
           <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/bpi" target="_blank">
             <p class="espn_comp_text">Men's College Basketball Power Index</p>
           </a>
         </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/wcbb" target="_blank">
+            <p class="espn_comp_text">Women's March Madness Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/mcbb" target="_blank">
+            <p class="espn_comp_text">Men's March Madness Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35805801/champ-week-games-shape-ncaa-tournament-bubble-according-bpi" target="_blank">
+            <p class="espn_comp_text">Champ Week Games that Could Shape the Bubble</p>
+          </a>
+        </div>
+        
         <div class="espn-company-box article-box">
           <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35594002/bpi-stats-backed-strengths-weaknesses-powerhouses-texas-kansas-2022-23" target="_blank">
             <p class="espn_comp_text">Texas @ Kansas is one of the best matchups this season and here's why</p>
@@ -51,16 +98,16 @@
             <p class="espn_comp_text">2022 NBA Draft: Best prospects, most overrated, underrated</p>
           </a>
         </div>
-        <div class="espn-company-box model-box">
+        <!-- <div class="espn-company-box model-box">
           <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/draft/projections" target="_blank">
             <p class="espn_comp_text">2022 NBA Draft Projections</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/" target="_blank">
             <p class="espn_comp_text">2022 NFL Draft Predictor</p>
           </a>
-        </div>
+        </div> -->
       </div>
 
     </div>
@@ -90,7 +137,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
   text-align: center;
-  padding-left: 30px;
 }
 
 .content-title {
@@ -119,7 +165,7 @@ export default {
 }
 
 .page-key {
-  width: 200px;
+  width: 250px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: -10px;
@@ -274,8 +320,7 @@ a:active:hover {
 
 }
 /* Tablet Styles */
-@media only screen and (min-width: 451px) and (max-width: 700px) {
-
+@media only screen and (min-width: 451px) and (max-width: 850px) {
 }
 
 
