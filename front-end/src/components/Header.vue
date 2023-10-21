@@ -24,13 +24,13 @@
               <router-link class ="header-link" to="/About">About</router-link>
             </li> -->
             <li class="nav-item">
-              <a class ="header-link wreport-link" href="https://thewoodreportxc.com/" target="_blank">
-                  <img class = "normal-wreport-img" src="@/assets/wreport.png" /><p>The Wood Report</p></a>
+              <a class ="header-link wreport-link" href="https://espnanalytics.com/" target="_blank">
+                  <img class = "normal-wreport-img" src="@/assets/ESPN_ANALYTICS_1.png" /><p>ESPN Analytics</p></a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <router-link class ="header-link powder-link" to="/PowderStats">
                   <img class = "normal-powder-img" src="@/assets/powder.png" /><p>Powder League</p></router-link>
-            </li>
+            </li> -->
             
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -84,7 +84,7 @@ p {
   width: 35px;
 }
 .normal-wreport-img {
-  width: 35px;
+  width: 50px;
 }
 .powder-link,
 .powder-link:active {
@@ -95,7 +95,7 @@ p {
 }
 .wreport-link,
 .wreport-link:active {
-  color: #F3B23D !important;
+  color: rgb(0, 167, 225) !important;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -109,7 +109,7 @@ p {
 }
 .wreport-link:hover,
 .wreport-link:hover:active {
-  color: #0F4C75 !important;
+  color: rgb(195,30,50) !important;
   display: flex;
   flex-direction: row;
   align-items: center;

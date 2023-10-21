@@ -34,11 +34,10 @@
             <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
           </a>
         </div> -->
-        
         <div class="company">
-          <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
-            <img class="comp_logo" src="../assets/linkedin.png" />
-            <p class="comp_text">Sharing job tips &amp; such on LinkedIn</p>
+          <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
+            <img class="comp_logo" src="../assets/twitter.png" />
+            <p class="comp_text">Tweeting data viz &amp; interesting stats</p>
           </a>
         </div>
         <div class="company">
@@ -53,19 +52,98 @@
             <p class="comp_text">Writing about what I love + tips along the way on Substack</p>
           </a>
         </div> -->
+        
         <div class="company">
-          <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
-            <img class="comp_logo" src="../assets/twitter.png" />
-            <p class="comp_text">Tweeting data viz &amp; interesting stats</p>
+          <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
+            <img class="comp_logo" src="../assets/linkedin.png" />
+            <p class="comp_text">Hanging on LinkedIn</p>
           </a>
         </div>
       </div>
       <br>
-      <h5 class="content-subtitle">I also continue to help run the data processes for The Wood Report and the Powder League</h5>
+      <!-- <h5 class="content-subtitle">I also continue to help run the data processes for The Wood Report and the Powder League</h5> -->
 
       <div class="content-header">
         <h1 class="content-title">Graveyard:</h1>
         <!-- <h5 class="content-subtitle">Links to everything I worked on prior to starting at ESPN</h5> -->
+      </div>
+      <div class="projects">
+        <h3 class="projects-title content-page-title">Projects</h3>
+        <div class="list pottersports">
+          <h4 class="pottersports-title content-page-subtitle">Professional Stuff</h4>
+            <li class="links-list">
+              <a href="https://thewoodreportxc.com/"
+                target="_blank"><strong>The Wood Report:</strong> Ranking and Tracking Men's and Women's XC</a>
+            </li>
+            <li class="links-list">
+              <a href="http://localhost:8080/PowderStats"
+                target="_blank"><strong>The Powder League 2022:</strong> Ranking and Tracking Pro-Am Basketball League</a>
+            </li>
+            <li class="links-list">
+              <a href="http://localhost:8080/PowderStats2021"
+                target="_blank"><strong>The Powder League 2021:</strong> Ranking and Tracking Pro-Am Basketball League</a>
+            </li>
+        </div>
+        <div class="list DrSabin">
+          <h4 class="sabin-title content-page-subtitle">College Stuff</h4>
+          <li class="links-list">
+            <a href="https://nbasalary.sportsdada.net/"
+              target="_blank"><strong>Research Project:</strong> Predicting NBA Success Using Salary Data</a>
+          </li>
+          <li class="links-list">
+            <a href="https://christopher-harden.shinyapps.io/NbaSalary/"
+              target="_blank"><strong>Shiny App:</strong> Exploring NBA Salary Data</a>
+          </li>
+          <li class="links-list">
+            <a href="https://github.com/chardensoft/nbasalary/blob/main/Presentation.pdf"
+              target="_blank"><strong>Presentation:</strong> Using NBA Salary Data to Improve Success</a>
+          </li>
+          <li class="links-list">
+            <a href="https://christopher-harden.shinyapps.io/shiny1/"
+              target="_blank"><strong>Shiny App:</strong> Predicting NCAA Players in the NBA</a>
+          </li>
+          <li class="links-list">
+            <a href="https://github.com/chardensoft/potter/blob/main/PotterProject.pdf"
+              target="_blank"><strong>Presentation:</strong> Predicting NCAA Players in the NBA</a>
+          </li>
+        </div>
+        <!-- <div class="list bpl">
+          <h4 class="bpl-title content-page-subtitle">The Powder League</h4>
+          <li class="links-list">
+            <a href="https://www.sportsdada.net/PowderStats"
+              target="_blank">Project: Management of All Live Stats (see menu option "BPL")</a>
+          </li>
+        </div>
+        <div class="list wr">
+          <h4 class="wr-title content-page-subtitle">The Wood Report</h4>
+          <li class="links-list">
+            <a href="https://www.thewoodreportxc.com/"
+              target="_blank">Project: Management of All Stats (see menu option "WR")</a>
+          </li>
+        </div> -->
+        <div class="list social">
+          <h4 class="sabin-title content-page-subtitle">Social Media</h4>
+          <li class="links-list">
+            <a href="https://twitter.com/SportsDada/status/1424847608288210947?s=20"
+              target="_blank">My fav ridiculous tweet</a>
+          </li>
+          <li class="links-list">
+            <a href="https://sportsdada.substack.com/"
+              target="_blank">I tried Substack regularly once</a>
+          </li>
+          <li class="links-list">
+            <a href="https://www.twitter.com/SportsDada/"
+              target="_blank">I still dabble with Twitter sometimes</a>
+          </li>
+          <li class="links-list">
+            <a href="https://www.instagram.com/sports.dada/"
+              target="_blank">This Instagram was fire during Powder League</a>
+          </li>
+          <!-- <li class="links-list">
+            <a href="https://discord.gg/FMHTDgrjxc"
+              target="_blank">Sometimes I'm on this Discord</a>
+          </li> -->
+        </div>
       </div>
       <div class="articles">
         <h2 class="articles-title content-page-title">Articles</h2>
@@ -126,68 +204,7 @@
           </li> -->
         </div>
       </div>
-      <div class="projects">
-        <h3 class="projects-title content-page-title">Projects</h3>
-        <div class="list pottersports">
-          <h4 class="pottersports-title content-page-subtitle">Potter Sports Group</h4>
-          <li class="links-list">
-            <a href="https://christopher-harden.shinyapps.io/shiny1/"
-              target="_blank">Shiny App: Predicting NCAA Players in the NBA</a>
-          </li>
-          <li class="links-list">
-            <a href="https://github.com/chardensoft/potter/blob/main/PotterProject.pdf"
-              target="_blank">Presentation: Predicting NCAA Players in the NBA</a>
-          </li>
-        </div>
-        <div class="list DrSabin">
-          <h4 class="sabin-title content-page-subtitle">College Sports Analytics Project</h4>
-          <li class="links-list">
-            <a href="https://nbasalary.sportsdada.net/"
-              target="_blank">Research Project: Predicting NBA Success Using Salary Data</a>
-          </li>
-          <li class="links-list">
-            <a href="https://christopher-harden.shinyapps.io/NbaSalary/"
-              target="_blank">Shiny App: Exploring NBA Salary Data</a>
-          </li>
-          <li class="links-list">
-            <a href="https://github.com/chardensoft/nbasalary/blob/main/Presentation.pdf"
-              target="_blank">Presentation: Using NBA Salary Data to Improve Success</a>
-          </li>
-        </div>
-        <!-- <div class="list bpl">
-          <h4 class="bpl-title content-page-subtitle">The Powder League</h4>
-          <li class="links-list">
-            <a href="https://www.sportsdada.net/PowderStats"
-              target="_blank">Project: Management of All Live Stats (see menu option "BPL")</a>
-          </li>
-        </div>
-        <div class="list wr">
-          <h4 class="wr-title content-page-subtitle">The Wood Report</h4>
-          <li class="links-list">
-            <a href="https://www.thewoodreportxc.com/"
-              target="_blank">Project: Management of All Stats (see menu option "WR")</a>
-          </li>
-        </div> -->
-        <div class="list social">
-          <h4 class="sabin-title content-page-subtitle">Social Media</h4>
-          <li class="links-list">
-            <a href="https://sportsdada.substack.com/"
-              target="_blank">I tried Substack regularly once</a>
-          </li>
-          <li class="links-list">
-            <a href="https://www.twitter.com/SportsDada/"
-              target="_blank">I still dabble with Twitter sometimes</a>
-          </li>
-          <li class="links-list">
-            <a href="https://www.instagram.com/sports.dada/"
-              target="_blank">This Instagram was fire during Powder League</a>
-          </li>
-          <!-- <li class="links-list">
-            <a href="https://discord.gg/FMHTDgrjxc"
-              target="_blank">Sometimes I'm on this Discord</a>
-          </li> -->
-        </div>
-      </div>
+      
     </div>
     <Footer />
   </div>

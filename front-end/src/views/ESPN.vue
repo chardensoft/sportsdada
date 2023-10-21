@@ -22,9 +22,24 @@
       </div>
       <div class="espn-current-content">
         
-        <div class="espn-company-box model-box">
+        <!-- <div class="espn-company-box model-box">
           <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/statistics/rpm" target="_blank">
             <p class="espn_comp_text">NBA RPM</p>
+          </a>
+        </div> -->
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
+            <p class="espn_comp_text">NFL 4th Down Decision Analysis</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://projects.fivethirtyeight.com/nfl-receiver-rankings/" target="_blank">
+            <p class="espn_comp_text">NFL Receiver Tracking Metrics</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/mlb/story/_/id/38340689/2023-mlb-playoffs-clinching-scenarios-bracket-schedule" target="_blank">
+            <p class="espn_comp_text">MLB Playoff Probability Graphics in article</p>
           </a>
         </div>
         <div class="espn-company-box article-box">
@@ -48,7 +63,7 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/index.html" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Predictor</p>
           </a>
         </div>

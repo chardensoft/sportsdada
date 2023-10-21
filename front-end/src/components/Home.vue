@@ -23,13 +23,12 @@
             <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
           </a>
         </div> -->
-        
-        <div class="company">
-          <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
-            <img class="comp_logo" src="../assets/linkedin.png" />
-            <p class="comp_text">Sharing job tips &amp; such on LinkedIn</p>
-          </a>
-        </div>
+      <div class="company">
+        <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
+          <img class="comp_logo" src="../assets/twitter.png" />
+          <p class="comp_text">Tweeting data viz &amp; interesting stats</p>
+        </a>
+      </div>
         <div class="company">
           <a class="comp_link" href="https://letterboxd.com/charden/" target="_blank">
             <img class="comp_logo" src="../assets/letterboxd.png" />
@@ -42,12 +41,13 @@
           <p class="comp_text">Writing about what I love + tips along the way on Substack</p>
         </a>
       </div> -->
+        
       <div class="company">
-        <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
-          <img class="comp_logo" src="../assets/twitter.png" />
-          <p class="comp_text">Tweeting data viz &amp; interesting stats</p>
-        </a>
-      </div>
+          <a class="comp_link" href="https://www.linkedin.com/in/chris-harden/" target="_blank">
+            <img class="comp_logo" src="../assets/linkedin.png" />
+            <p class="comp_text">Hanging on LinkedIn</p>
+          </a>
+        </div>
     </div>
   </div>
 </template>
