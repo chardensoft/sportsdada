@@ -28,13 +28,13 @@
           </a>
         </div> -->
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
-            <p class="espn_comp_text">NFL 4th Down Decision Analysis</p>
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/rtm" target="_blank">
+            <p class="espn_comp_text">NFL Receiver Tracking Metrics</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://projects.fivethirtyeight.com/nfl-receiver-rankings/" target="_blank">
-            <p class="espn_comp_text">NFL Receiver Tracking Metrics</p>
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
+            <p class="espn_comp_text">NFL 4th Down Decision Analysis</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
