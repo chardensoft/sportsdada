@@ -27,19 +27,54 @@
             <p class="espn_comp_text">NBA RPM</p>
           </a>
         </div> -->
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/womens-college-basketball/game/_/gameId/401609730/utah-ucla" target="_blank">
+            <p class="espn_comp_text">2023 Women's College Basketball Power Index</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft" target="_blank">
+            <p class="espn_comp_text">Live 2024 NFL Draft Pick Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/nfl/story/_/id/38890147/2023-nfl-playoffs-afc-nfc-seed-projections-predictions-super-bowl" target="_blank">
+            <p class="espn_comp_text">2023 NFL Playoff Probability Graphics</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.youtube.com/watch?v=pflImydtuus" target="_blank">
+            <p class="espn_comp_text">2023 ESPN Edge Conference</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://twitter.com/SportsDada/status/1737246114191974792" target="_blank">
+            <p class="espn_comp_text">NFL RTM Player Cards</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://vimeo.com/901944245" target="_blank">
+            <p class="espn_comp_text">CFB 4th Down Recommendation Stoplight</p>
+          </a>
+        </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/rtm" target="_blank">
             <p class="espn_comp_text">NFL Receiver Tracking Metrics</p>
           </a>
         </div>
-        <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
-            <p class="espn_comp_text">NFL 4th Down Decision Analysis</p>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/bpi/_/season/2024" target="_blank">
+            <p class="espn_comp_text">2023 Men's College Basketball Power Index</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://www.espn.com/mlb/story/_/id/38340689/2023-mlb-playoffs-clinching-scenarios-bracket-schedule" target="_blank">
-            <p class="espn_comp_text">MLB Playoff Probability Graphics in article</p>
+            <p class="espn_comp_text">2023 MLB Playoff Probability Graphics</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
+            <p class="espn_comp_text">NFL 4th Down Decision Analysis</p>
           </a>
         </div>
         <div class="espn-company-box article-box">
@@ -53,33 +88,28 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-sim" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/nfl-sim" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Simulator</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/conference_over_under.html" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/nfl-draft/conference_over_under.html" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Betting Tool</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/index.html" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/nfl-draft" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Predictor</p>
           </a>
         </div>
-        <div class="espn-company-box model-box">
-          <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/bpi" target="_blank">
-            <p class="espn_comp_text">Men's College Basketball Power Index</p>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/wcbb" target="_blank">
+            <p class="espn_comp_text">2023 Women's March Madness Projections</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/wcbb" target="_blank">
-            <p class="espn_comp_text">Women's March Madness Projections</p>
-          </a>
-        </div>
-        <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/mcbb" target="_blank">
-            <p class="espn_comp_text">Men's March Madness Projections</p>
+          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/mcbb" target="_blank">
+            <p class="espn_comp_text">2023 Men's March Madness Projections</p>
           </a>
         </div>
         <div class="espn-company-box article-box">
@@ -108,9 +138,37 @@
             <p class="espn_comp_text">Phil Knight Invitational: North Carolina is worth than you think, but Alabama is better</p>
           </a>
         </div>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/bpi/_/season/2023" target="_blank">
+            <p class="espn_comp_text">2022 Men's College BPI</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://vimeo.com/901935070" target="_blank">
+            <p class="espn_comp_text">NFL 4th Down Recommendations</p>
+          </a>
+          <div class="links_two">
+            <a class="espn-page-comp-link viz-link" href="https://vimeo.com/901935070" target="_blank">
+              <p class="">Video</p>
+            </a>
+            <a class="espn-page-comp-link viz-link" href="https://twitter.com/bburkeESPN/status/1579642318671708160" target="_blank">
+              <p class="">Graphic</p>
+            </a>
+          </div>
+        </div>
         <div class="espn-company-box article-box">
           <a class="espn-page-comp-link article-link" href="https://www.espn.com/nba/insider/story/_/id/34122501/2022-nba-draft-projections-best-prospects-most-overrated-most-underrated" target="_blank">
             <p class="espn_comp_text">2022 NBA Draft: Best prospects, most overrated, underrated</p>
+          </a>
+        </div>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://web.archive.org/web/20220622164552/https://www.espn.com/nba/draft/projections" target="_blank">
+            <p class="espn_comp_text">2022 NBA Draft Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espnsportsanalytics.com">
+            <p class="espn_comp_text">2022 NFL Draft Predictor & Betting Tool</p>
           </a>
         </div>
         <!-- <div class="espn-company-box model-box">
@@ -239,7 +297,12 @@ a:active:hover {
 .key_text {
   padding-top: 10px;
 }
-
+.links_two {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .model-box {
   border: 1px solid #A32cc4; /*#fd084a #82C3E6*/
 }
