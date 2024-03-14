@@ -27,6 +27,31 @@
             <p class="espn_comp_text">NBA RPM</p>
           </a>
         </div> -->
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/womens-college-basketball/insider/story/_/id/39718515/womens-bubble-watch-2024-ncaa-tournament-march-madness-bracket-predictions" target="_blank">
+            <p class="espn_comp_text">Women's Bubble Watch Post-Conf Tournaments</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/womens-college-basketball/story/_/id/39709186/women-march-madness-ncaa-tournament-bpi-south-carolina" target="_blank">
+            <p class="espn_comp_text">Women's Top Contenders</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://web.archive.org/web/20240312154016im_/https://a.espncdn.com/photo/2024/0311/r1303384_1295x2078cc.jpg" target="_blank">
+            <p class="espn_comp_text">Graphic for Women's Top Contenders</p>
+          </a>
+        </div>
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/womens-college-basketball/insider/story/_/id/39663602/womens-bubble-watch-2024-ncaa-tournament-march-madness-bracket-predictions" target="_blank">
+            <p class="espn_comp_text">Women's Bubble Watch Pre-Conf Tournaments</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/" target="_blank">
+            <p class="espn_comp_text">ESPN Analytics website</p>
+          </a>
+        </div>
         <div class="espn-company-box model-box">
           <a class="espn-page-comp-link model-link" href="https://www.espn.com/womens-college-basketball/game/_/gameId/401609730/utah-ucla" target="_blank">
             <p class="espn_comp_text">2023 Women's College Basketball Power Index</p>
@@ -117,7 +142,6 @@
             <p class="espn_comp_text">Champ Week Games that Could Shape the Bubble</p>
           </a>
         </div>
-        
         <div class="espn-company-box article-box">
           <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35594002/bpi-stats-backed-strengths-weaknesses-powerhouses-texas-kansas-2022-23" target="_blank">
             <p class="espn_comp_text">Texas @ Kansas is one of the best matchups this season and here's why</p>
@@ -135,7 +159,7 @@
         </div>
         <div class="espn-company-box article-box">
           <a class="espn-page-comp-link article-link" href="https://www.espn.com/mens-college-basketball/story/_/id/35092437/at-phil-knight-invitational-north-carolina-worse-alabama" target="_blank">
-            <p class="espn_comp_text">Phil Knight Invitational: North Carolina is worth than you think, but Alabama is better</p>
+            <p class="espn_comp_text">Phil Knight Invitational: North Carolina is worse than you think, but Alabama is better</p>
           </a>
         </div>
         <div class="espn-company-box model-box">
@@ -167,7 +191,7 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://www.espnsportsanalytics.com">
+          <a class="espn-page-comp-link viz-link" href="https://web.archive.org/web/20220415170521/http://www.espnsportsanalytics.com/about.html" target="_blank">
             <p class="espn_comp_text">2022 NFL Draft Predictor & Betting Tool</p>
           </a>
         </div>
