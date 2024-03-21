@@ -27,6 +27,26 @@
             <p class="espn_comp_text">NBA RPM</p>
           </a>
         </div> -->
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/wcbbAll" target="_blank">
+            <p class="espn_comp_text">2024 Live March Madness Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/wcbbGames" target="_blank">
+            <p class="espn_comp_text">2024 Live March Madness Win Probability</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/espn/feature/story?id=39603240" target="_blank">
+            <p class="espn_comp_text">Live March Madness Projections Over Time</p>
+          </a>
+        </div>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/insider/story/_/id/39761076/mens-march-madness-2024-giant-killers-top-10-first-round-upset-predictions" target="_blank">
+            <p class="espn_comp_text">Men's BPI Giant Killers Model</p>
+          </a>
+        </div>
         <div class="espn-company-box article-box">
           <a class="espn-page-comp-link article-link" href="https://www.espn.com/womens-college-basketball/insider/story/_/id/39718515/womens-bubble-watch-2024-ncaa-tournament-march-madness-bracket-predictions" target="_blank">
             <p class="espn_comp_text">Women's Bubble Watch Post-Conf Tournaments</p>
@@ -38,7 +58,7 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://web.archive.org/web/20240312154016im_/https://a.espncdn.com/photo/2024/0311/r1303384_1295x2078cc.jpg" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://twitter.com/SportsDada/status/1769531648251445565?s=20" target="_blank">
             <p class="espn_comp_text">Graphic for Women's Top Contenders</p>
           </a>
         </div>
@@ -53,8 +73,8 @@
           </a>
         </div>
         <div class="espn-company-box model-box">
-          <a class="espn-page-comp-link model-link" href="https://www.espn.com/womens-college-basketball/game/_/gameId/401609730/utah-ucla" target="_blank">
-            <p class="espn_comp_text">2023 Women's College Basketball Power Index</p>
+          <a class="espn-page-comp-link model-link" href="https://web.archive.org/web/20240321142314/https://www.espn.com/womens-college-basketball/game/_/gameId/401637542/arizona-auburn" target="_blank">
+            <p class="espn_comp_text">2023-24 Women's College Basketball Power Index</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
@@ -89,7 +109,7 @@
         </div>
         <div class="espn-company-box model-box">
           <a class="espn-page-comp-link model-link" href="https://www.espn.com/mens-college-basketball/bpi/_/season/2024" target="_blank">
-            <p class="espn_comp_text">2023 Men's College Basketball Power Index</p>
+            <p class="espn_comp_text">2023-24 Men's College Basketball Power Index</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
@@ -129,12 +149,7 @@
         </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/wcbb" target="_blank">
-            <p class="espn_comp_text">2023 Women's March Madness Projections</p>
-          </a>
-        </div>
-        <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/mcbb" target="_blank">
-            <p class="espn_comp_text">2023 Men's March Madness Projections</p>
+            <p class="espn_comp_text">2023 Live March Madness Projections, Win Probability</p>
           </a>
         </div>
         <div class="espn-company-box article-box">
