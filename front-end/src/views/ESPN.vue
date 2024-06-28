@@ -27,6 +27,36 @@
             <p class="espn_comp_text">NBA RPM</p>
           </a>
         </div> -->
+        <div class="espn-company-box article-box">
+          <a class="espn-page-comp-link article-link" href="https://www.espn.com/nba/story?id=40406806&_slug_=2024-nba-draft-day-predictor-forecasting-round-1-picks-risers-fallers-fan-mock" target="_blank">
+            <p class="espn_comp_text">Forecasting the 2024 NBA Draft</p>
+          </a>
+        </div>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://espnanalytics.com/nba-draft-predictor" target="_blank">
+            <p class="espn_comp_text">2024 NBA Draft Predictor Model</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/nba-draft-sim" target="_blank">
+            <p class="espn_comp_text">2024 NBA Draft Predictor, Simulator, & Mock Draft Builder</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/mock-draft" target="_blank">
+            <p class="espn_comp_text">2024 NFL Draft Mock Draft Builder</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-sim" target="_blank">
+            <p class="espn_comp_text">2024 NFL Mock Draft Simulator</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-predictor" target="_blank">
+            <p class="espn_comp_text">2024 NFL Draft Day Predictor</p>
+          </a>
+        </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/wcbbAll" target="_blank">
             <p class="espn_comp_text">2024 Live March Madness Projections</p>
@@ -78,7 +108,7 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-order" target="_blank">
             <p class="espn_comp_text">Live 2024 NFL Draft Pick Projections</p>
           </a>
         </div>
