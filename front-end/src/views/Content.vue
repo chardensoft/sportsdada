@@ -72,15 +72,16 @@
         <div class="list pottersports">
           <h4 class="pottersports-title content-page-subtitle">Professional Stuff</h4>
             <li class="links-list">
-              <a href="https://thewoodreportxc.com/"
-                target="_blank"><strong>The Wood Report:</strong> Ranking and Tracking Men's and Women's XC</a>
+              <a href="https://www.instagram.com/p/CKl_nLhnKkj/"
+                target="_blank"><strong>The Wood Report:</strong> Ranking and Tracking Men's and Women's XC </a>
+                <span><a href="https://x.com/Wood_Report/status/1699452640357396598"> (unfortunately ended)</a></span>
             </li>
             <li class="links-list">
-              <a href="http://localhost:8080/PowderStats"
+              <a href="http://sportsdada.net/PowderStats"
                 target="_blank"><strong>The Powder League 2022:</strong> Ranking and Tracking Pro-Am Basketball League</a>
             </li>
             <li class="links-list">
-              <a href="http://localhost:8080/PowderStats2021"
+              <a href="http://sportsdada.net/PowderStats2021"
                 target="_blank"><strong>The Powder League 2021:</strong> Ranking and Tracking Pro-Am Basketball League</a>
             </li>
         </div>
