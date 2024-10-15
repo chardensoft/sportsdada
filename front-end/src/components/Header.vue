@@ -18,14 +18,17 @@
               <router-link class ="header-link header-link1" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class ="header-link" to="/Entries">Entries</router-link>
+              <router-link class ="header-link" to="/Entries">All Entries</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class ="header-link" to="/ESPN">ESPN Projects</router-link>
             </li>
             <!-- <li class="nav-item">
               <router-link class ="header-link" to="/About">About</router-link>
             </li> -->
             <li class="nav-item">
               <a class ="header-link wreport-link" href="https://espnanalytics.com/" target="_blank">
-                  <img class = "normal-wreport-img" src="@/assets/ESPN_ANALYTICS_1.png" /><p>ESPN Analytics</p></a>
+                  <!--<img class = "normal-wreport-img" src="@/assets/ESPN_ANALYTICS_1.png" />--><p>espnanalytics.com</p></a>
             </li>
             <!-- <li class="nav-item">
               <router-link class ="header-link powder-link" to="/PowderStats">

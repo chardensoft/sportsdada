@@ -9,7 +9,7 @@
           <h1 class="hi-info">Hey! I'm Chris Harden and welcome to Sports Dada!</h1>
           <br>
           <h6 class="small-info">Sports Dada was originally created so I could get noticed as I worked to get into the sports industry. I showcased projects and tried to show my worth.</h6>
-          <h6 class="small-info">Now, I'm living the dream as a Data Scientist on ESPN's Sports Analytics Team. We're responsible for key statistics produced by ESPN such as BPI in the NBA or QBR in the NFL.</h6>
+          <h6 class="small-info">Now, I'm enjoying being part of ESPN's Sports Analytics Team. We're responsible for key statistics output on ESPN such as BPI in the NBA or QBR in the NFL.</h6>
           <h6 class="small-info">I use the site to keep sharing things I've created or worked on and to try to help others along the way! I'm a lucky husband, dad of two adorable kids and a huge Boston sports fan. I love building things, hanging with my kids and watching movies with my wife.</h6>
 
 

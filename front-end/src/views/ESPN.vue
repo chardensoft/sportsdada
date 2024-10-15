@@ -21,12 +21,56 @@
         </div>
       </div>
       <div class="espn-current-content">
-        
-        <!-- <div class="espn-company-box model-box">
-          <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/statistics/rpm" target="_blank">
-            <p class="espn_comp_text">NBA RPM</p>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/espn/feature/story/_/id/40638387/2024-college-football-allstate-playoff-bracket-predictor" target="_blank">
+            <p class="espn_comp_text">2024 CFB Allstate Playoff Predictor</p>
           </a>
-        </div> -->
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/receivers" target="_blank">
+            <p class="espn_comp_text">NFL Receiver Scores</p>
+          </a>
+        </div>
+        <div class="espn-company-box model-box">
+          <a class="espn-page-comp-link model-link" href="https://espn.com/bpi/_/season/2025" target="_blank">
+            <p class="espn_comp_text">2024-25 NBA Basketball Power Index</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnedge.com/conference" target="_blank">
+            <p class="espn_comp_text">2024 ESPN Edge Conference Website</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/nfl/story/_/id/40617435/2024-nfl-playoff-picture-afc-nfc-seed-predictions-odds-super-bowl" target="_blank">
+            <p class="espn_comp_text">2024 NFL Playoff Picture</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
+            <p class="espn_comp_text">2024 NFL 4th Down Decision Analysis</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/wnba-wpa" target="_blank">
+            <p class="espn_comp_text">WNBA WPA Leaderboard</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/wnba/story/_/id/40847083/2024-wnba-playoffs-tracker-making-biggest-impact-more" target="_blank">
+            <p class="espn_comp_text">2024 WNBA Player Metrics</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/mlb/story/_/id/41041818/2024-mlb-playoffs-clinching-scenarios-bracket-postseason-schedule" target="_blank">
+            <p class="espn_comp_text">2024 MLB Playoff Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/wnba/story/_/id/40847083/2024-wnba-playoffs-tracker-making-biggest-impact-more" target="_blank">
+            <p class="espn_comp_text">2024 WNBA Playoff Projections</p>
+          </a>
+        </div>
         <div class="espn-company-box article-box">
           <a class="espn-page-comp-link article-link" href="https://www.espn.com/nba/story?id=40406806&_slug_=2024-nba-draft-day-predictor-forecasting-round-1-picks-risers-fallers-fan-mock" target="_blank">
             <p class="espn_comp_text">Forecasting the 2024 NBA Draft</p>
@@ -58,18 +102,33 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/mcbbAll" target="_blank">
+            <p class="espn_comp_text">2024 Live Men's March Madness Projections</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/mcbbGames" target="_blank">
+            <p class="espn_comp_text">2024 Live Men's March Madness Win Probability</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/wcbbAll" target="_blank">
-            <p class="espn_comp_text">2024 Live March Madness Projections</p>
+            <p class="espn_comp_text">2024 Live Women's March Madness Projections</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/wcbbGames" target="_blank">
-            <p class="espn_comp_text">2024 Live March Madness Win Probability</p>
+            <p class="espn_comp_text">2024 Live Women's March Madness Win Probability</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box">
+          <a class="espn-page-comp-link viz-link" href="https://www.espn.com/espn/feature/story?id=39609463" target="_blank">
+            <p class="espn_comp_text">2024 Live Men's March Madness Projections Over Time</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://www.espn.com/espn/feature/story?id=39603240" target="_blank">
-            <p class="espn_comp_text">Live March Madness Projections Over Time</p>
+            <p class="espn_comp_text">2024 Live Women's March Madness Projections Over Time</p>
           </a>
         </div>
         <div class="espn-company-box model-box">
@@ -109,7 +168,7 @@
         </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-order" target="_blank">
-            <p class="espn_comp_text">Live 2024 NFL Draft Pick Projections</p>
+            <p class="espn_comp_text">Live 2024 NFL Draft Team Pick Projections</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
@@ -124,7 +183,7 @@
         </div>
         <div class="espn-company-box viz-box">
           <a class="espn-page-comp-link viz-link" href="https://twitter.com/SportsDada/status/1737246114191974792" target="_blank">
-            <p class="espn_comp_text">NFL RTM Player Cards</p>
+            <p class="espn_comp_text">NFL Receiver Score Player Cards</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
@@ -132,9 +191,9 @@
             <p class="espn_comp_text">CFB 4th Down Recommendation Stoplight</p>
           </a>
         </div>
-        <div class="espn-company-box viz-box">
+        <div class="espn-company-box viz-box"><!--FIX LINK-->
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/rtm" target="_blank">
-            <p class="espn_comp_text">NFL Receiver Tracking Metrics</p>
+            <p class="espn_comp_text">2023 NFL Receiver Tracking Metrics</p>
           </a>
         </div>
         <div class="espn-company-box model-box">
@@ -147,9 +206,9 @@
             <p class="espn_comp_text">2023 MLB Playoff Probability Graphics</p>
           </a>
         </div>
-        <div class="espn-company-box viz-box">
+        <div class="espn-company-box viz-box"><!--FIX LINK-->
           <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/decision" target="_blank">
-            <p class="espn_comp_text">NFL 4th Down Decision Analysis</p>
+            <p class="espn_comp_text">2023 NFL 4th Down Decision Analysis</p>
           </a>
         </div>
         <div class="espn-company-box article-box">
@@ -163,23 +222,28 @@
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/nfl-sim" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-sim/2023/" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Simulator</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/nfl-draft/conference_over_under.html" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-predictor/2023/conference_over_under.html" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Betting Tool</p>
           </a>
         </div>
         <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/nfl-draft" target="_blank">
+          <a class="espn-page-comp-link viz-link" href="https://espnanalytics.com/draft-predictor/2023/" target="_blank">
             <p class="espn_comp_text">2023 NFL Draft Predictor</p>
           </a>
         </div>
-        <div class="espn-company-box viz-box">
+        <div class="espn-company-box viz-box"><!--FIX LINK-->
+          <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/mcbb" target="_blank">
+            <p class="espn_comp_text">2023 Live Men's March Madness Projections, Win Probability</p>
+          </a>
+        </div>
+        <div class="espn-company-box viz-box"><!--FIX LINK-->
           <a class="espn-page-comp-link viz-link" href="https://espnsportsanalytics.com/wcbb" target="_blank">
-            <p class="espn_comp_text">2023 Live March Madness Projections, Win Probability</p>
+            <p class="espn_comp_text">2023 Live Women's March Madness Projections, Win Probability</p>
           </a>
         </div>
         <div class="espn-company-box article-box">
@@ -240,16 +304,6 @@
             <p class="espn_comp_text">2022 NFL Draft Predictor & Betting Tool</p>
           </a>
         </div>
-        <!-- <div class="espn-company-box model-box">
-          <a class="espn-page-comp-link model-link" href="https://www.espn.com/nba/draft/projections" target="_blank">
-            <p class="espn_comp_text">2022 NBA Draft Projections</p>
-          </a>
-        </div>
-        <div class="espn-company-box viz-box">
-          <a class="espn-page-comp-link viz-link" href="http://espnsportsanalytics.com/nfl-draft/" target="_blank">
-            <p class="espn_comp_text">2022 NFL Draft Predictor</p>
-          </a>
-        </div> -->
       </div>
 
     </div>

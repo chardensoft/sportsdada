@@ -34,12 +34,18 @@
             <p class="comp_text">Helping aspiring sports analysts get noticed, set up a chat with me!</p>
           </a>
         </div> -->
-        <div class="company">
+        <!-- <div class="company">
+          <a class="comp_link" href="https://www.hardensoulparty.com/" target="_blank">
+            <img class="comp_logo_party" src="../assets/Hardensoul Party cropped white.png" />
+            <p class="comp_text">Managing Hardensoul Party's website</p>
+          </a>
+        </div> -->
+        <!-- <div class="company">
           <a class="comp_link" href="https://www.twitter.com/SportsDada/" target="_blank">
             <img class="comp_logo" src="../assets/twitter.png" />
             <p class="comp_text">Tweeting data viz &amp; interesting stats</p>
           </a>
-        </div>
+        </div> -->
         <div class="company">
           <a class="comp_link" href="https://letterboxd.com/charden/" target="_blank">
             <img class="comp_logo" src="../assets/letterboxd.png" />
@@ -64,7 +70,9 @@
       <!-- <h5 class="content-subtitle">I also continue to help run the data processes for The Wood Report and the Powder League</h5> -->
 
       <div class="content-header">
+        
         <h1 class="content-title">Graveyard:</h1>
+        <img class="tombstone_img" src="../assets/tombstone.png" />
         <!-- <h5 class="content-subtitle">Links to everything I worked on prior to starting at ESPN</h5> -->
       </div>
       <div class="projects">
@@ -321,6 +329,16 @@ a:active:hover {
 .comp_logo {
   width: 250px;
   height: 250px;
+}
+
+.comp_logo_party {
+  width: 250px;
+  padding-top: 46.875px;
+  padding-bottom: 46.875px;
+}
+
+.tombstone_img {
+  width: 250px;
 }
 
 /* Mobile Styles */
