@@ -47,7 +47,7 @@
           </a>
         </div> -->
         <div class="company">
-          <a class="comp_link" href="https://letterboxd.com/sirqris/" target="_blank">
+          <a class="comp_link" href="https://boxd.it/4MEid/" target="_blank">
             <img class="comp_logo" src="../assets/letterboxd.png" />
             <p class="comp_text">Watching movies :)</p>
           </a>
